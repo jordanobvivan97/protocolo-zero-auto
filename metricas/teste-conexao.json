@@ -1,12 +1,66 @@
 {
-  "em": "2026-11-07T15:01:27",
+  "em": "2026-11-07T16:37:41",
   "eu": {
-    "erro": "Invalid OAuth 2.0 Access Token",
-    "codigo": 190,
-    "subcodigo": null
+    "id": "122108084775531934",
+    "name": "pz-agente"
+  },
+  "permissoes": {
+    "data": [
+      {
+        "permission": "pages_show_list",
+        "status": "granted"
+      },
+      {
+        "permission": "instagram_basic",
+        "status": "granted"
+      },
+      {
+        "permission": "instagram_manage_insights",
+        "status": "granted"
+      },
+      {
+        "permission": "instagram_content_publish",
+        "status": "granted"
+      },
+      {
+        "permission": "pages_read_engagement",
+        "status": "granted"
+      },
+      {
+        "permission": "pages_manage_posts",
+        "status": "granted"
+      },
+      {
+        "permission": "public_profile",
+        "status": "granted"
+      }
+    ]
   },
   "conta": {
-    "erro": "IG_USER_ID vazio"
+    "id": "17841463212259253",
+    "followers_count": 3,
+    "media_count": 2,
+    "username": "sobrevivente.protocolo.zero"
   },
+  "limite_publicacao": {
+    "data": [
+      {
+        "quota_usage": 0,
+        "config": {
+          "quota_total": 100,
+          "quota_duration": 86400
+        }
+      }
+    ]
+  },
+  "pagina": {
+    "id": "1499428159909736",
+    "name": "O Sobrevivente - Protocolo Zero",
+    "instagram_business_account": {
+      "id": "17841463212259253"
+    }
+  },
+  "pagina_token_ok": true,
+  "instagram_ligado_a_pagina_confere": true,
   "jsdelivr_responde": true
 }
