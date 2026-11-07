@@ -23,10 +23,10 @@ Procure na web (busca padrão; estendida se vier pouco) comunicados das últimas
 É relevante quando muda o que uma família do Sul deveria fazer nos próximos dias, ou quando um comunicado oficial está gerando confusão (gente achando que é catástrofe). Não é relevante: aviso amarelo isolado, notícia velha requentada, boato sem órgão por trás.
 
 Se for relevante e ainda não houver post sobre ele em `fila/` ou `publicados/`:
-1. Abra a fonte primária (site ou perfil oficial). Portal de notícia não basta. Se a fonte primária não abrir, use a matéria como `imprensa_citando_oficial` com `pendencia` dizendo exatamente o que Jordano precisa conferir e onde; esse post vai obrigatoriamente por PR.
+1. Abra a fonte primária (site ou perfil oficial). Portal de notícia não basta. Se a fonte primária não abrir, use a matéria como `imprensa_citando_oficial` com `pendencia` dizendo exatamente o que Jordano precisa conferir e onde, e destaque isso no resumo.
 2. Confira a validade do alerta. Se ele já tiver acabado no horário de publicação, não escreva "alerta ativo": ou o post vira "o que esse alerta ensinou" com o período no passado, ou não sai.
 3. O Alerta explicado fura a fila: formato `alerta`, carrossel de 4 a 6 lâminas (o que é, o que não é, o que fazer agora, onde acompanhar) + `roteiro.md` do Reel de 20 a 30s. Horário `07:40` do dia seguinte quando sair do lote noturno; `19:40` do mesmo dia quando sair da vigia do meio-dia. O post que estava previsto para aquele dia é empurrado para o próximo dia do calendário.
-4. Branch `lote-AAAA-MM-DD-alerta`, sempre por PR, e avise no resumo final com a palavra ALERTA na primeira linha.
+4. Entregue conforme `modo_aprovacao` (no modo pr, branch `lote-AAAA-MM-DD-alerta`) e avise no resumo final com a palavra ALERTA na primeira linha.
 
 ## 2. Escolher os posts de amanhã (modo lote)
 
@@ -132,7 +132,7 @@ LEGENDA: igual à do carrossel.
 ## 6. Entregar
 
 - `modo_aprovacao: "pr"`: a partir da main atualizada, crie a branch `lote-AAAA-MM-DD`, grave `fila/AAAA-MM-DD/RESUMO.md` e dê `git push origin lote-AAAA-MM-DD`. O workflow abre o PR. Sem merge até o horário, nada sai.
-- `modo_aprovacao: "direto"`: commit na main, **exceto** se houver fonte com pendência ou se o formato estiver em `pr_sempre`; nesses casos, PR.
+- `modo_aprovacao: "direto"`: commit direto na main, inclusive post com fonte pendente; só formatos listados em `pr_sempre` vão por PR. Alerta explicado segue o mesmo modo. Grave o `RESUMO.md` mesmo assim: é onde Jordano vê as pendências para conferir depois que o post sair.
 - `RESUMO.md` traz: horário, formato, pauta, gancho, primeira frase da capa; a lista de fontes com o tipo de conferência; e, em forma de checklist, cada pendência que Jordano precisa conferir antes do merge.
 
 Termine com um resumo de 3 linhas para Jordano: o que vai sair e quando (um item por post); qualquer número da Fundação que a fonte não confirmou; e qualquer alerta (pendência de fonte, pauta acabando, erro que exigiu reescrita, falha de push). Português do Brasil, sem travessão.

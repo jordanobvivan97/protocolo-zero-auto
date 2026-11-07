@@ -4,7 +4,7 @@
   "fecho_fixo": "Protocolo arquivado. Sua família está um passo à frente.",
   "frase_defesa_civil": "Em emergência real, siga a Defesa Civil da sua cidade.",
   "modo_aprovacao": "direto",
-  "modo_aprovacao_nota": "Modo direto desde 07/11/2026, a pedido do Jordano: o agente commita na main e publica sem PR. Exceção que continua indo por PR: post com fonte de imprensa pendente de conferência no órgão oficial (e formatos listados em pr_sempre).",
+  "modo_aprovacao_nota": "Modo direto total desde 07/11/2026, a pedido do Jordano: o agente commita na main e publica sem PR, inclusive post com fonte de imprensa pendente (a pendência vai no RESUMO para conferência depois da publicação). Formatos listados em pr_sempre ainda iriam por PR; a lista está vazia.",
   "pr_sempre": [],
   "horario_padrao": "19:40",
   "horario_nota": "Hipótese: responsável pela casa vê o celular depois do trabalho. Testar outro horário só como teste de uma variável.",

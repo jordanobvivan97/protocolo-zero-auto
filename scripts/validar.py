@@ -265,7 +265,7 @@ def validar_post(pasta):
     if exige_pr:
         avisos.append("EXIGE PR: há fonte de imprensa aguardando conferência no órgão oficial")
         if MARCA["modo_aprovacao"] == "direto" and not p.get("pendencia_resolvida_por"):
-            erros.append("modo direto não publica post com fonte pendente; resolva a pendência ou mande por PR")
+            avisos.append("modo direto: vai publicar com fonte pendente; a pendência fica no RESUMO para conferência depois")
 
     # portão de originalidade
     port = p["portao"]
