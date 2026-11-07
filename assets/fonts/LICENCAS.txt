@@ -1,0 +1,2 @@
+Oswald, IBM Plex Mono, IBM Plex Sans e Special Elite: SIL Open Font License 1.1 (via Fontsource/Google Fonts).
+Uso em imagens publicadas é permitido; os arquivos foram convertidos de WOFF para TTF sem alteração dos desenhos.

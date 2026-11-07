@@ -1,0 +1,50 @@
+name: Publicar no Instagram
+
+# Passa a cada 20 minutos entre 07h e 21h de Brasília (repositório público: minutos ilimitados).
+# Atraso do agendador do GitHub é coberto: post do dia cujo horário já passou sai na próxima passada.
+on:
+  schedule:
+    - cron: "7,27,47 10-23,0 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Pegar a fila mais nova (evita post duplicado)
+        run: |
+          git pull --ff-only origin main
+          echo "PUB_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Tem post no horário?
+        id: checar
+        run: |
+          set +e
+          python3 scripts/publicar.py --checar
+          code=$?
+          if [ $code -eq 0 ]; then echo "tem=sim" >> "$GITHUB_OUTPUT"; elif [ $code -eq 3 ]; then echo "tem=nao" >> "$GITHUB_OUTPUT"; else exit $code; fi
+      - if: steps.checar.outputs.tem == 'sim'
+        run: pip install requests
+      - name: Publicar
+        if: steps.checar.outputs.tem == 'sim'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 scripts/publicar.py
+      - name: Registrar o que foi publicado
+        if: always() && steps.checar.outputs.tem == 'sim'
+        run: |
+          git config user.name "agente-pz"
+          git config user.email "agente-pz@users.noreply.github.com"
+          git add -A fila publicados
+          git diff --cached --quiet || (git commit -m "Publicado: $(date -u +%F' '%H:%M) UTC" && git pull --rebase origin main && git push)

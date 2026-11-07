@@ -1,0 +1,294 @@
+{
+ "_nota": "36 pautas da Fundação (07/11/2026). formato: protocolo|cenario|alerta|calculadora|saude. Pauta nova criada pelo agente entra com o próximo id e origem 'agente'.",
+ "pautas": [
+  {
+   "id": "Z01",
+   "pauta": "Protocolo 000: o manifesto",
+   "angulo": "Este perfil existe para você ter menos medo, não mais",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": 1
+  },
+  {
+   "id": "Z02",
+   "pauta": "Por que 72 horas",
+   "angulo": "O número não é sobre sobreviver, é sobre o tempo do socorro chegar",
+   "formato": "alerta",
+   "funil": "alcance",
+   "semana": 1
+  },
+  {
+   "id": "Z03",
+   "pauta": "Kit 72h item por item",
+   "angulo": "Dá para montar quase tudo com o que já existe na sua casa",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": 1
+  },
+  {
+   "id": "Z04",
+   "pauta": "Quanta água",
+   "angulo": "Cada órgão diz um número; o certo é uma faixa",
+   "formato": "calculadora",
+   "funil": "salvamento",
+   "semana": 1
+  },
+  {
+   "id": "Z05",
+   "pauta": "Mochila de fuga x kit de casa",
+   "angulo": "São dois kits diferentes, e quase todo mundo só pensa em um",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": 2
+  },
+  {
+   "id": "Z06",
+   "pauta": "Kit de R$ 0",
+   "angulo": "Os 10 itens que você já tem e só precisa juntar",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": 1
+  },
+  {
+   "id": "Z07",
+   "pauta": "Plano familiar de encontro",
+   "angulo": "O celular é o primeiro item a falhar; o plano tem que estar no papel",
+   "formato": "protocolo",
+   "funil": "conversao",
+   "semana": 2
+  },
+  {
+   "id": "Z08",
+   "pauta": "Kit para bebê",
+   "angulo": "Fralda e fórmula acabam antes da água",
+   "formato": "calculadora",
+   "funil": "salvamento",
+   "semana": 2
+  },
+  {
+   "id": "Z09",
+   "pauta": "Kit para idoso",
+   "angulo": "A receita do remédio vale mais que o remédio",
+   "formato": "calculadora",
+   "funil": "salvamento",
+   "semana": 2
+  },
+  {
+   "id": "Z10",
+   "pauta": "Kit para pet",
+   "angulo": "Animal fora do plano é o motivo de muita gente não sair a tempo",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": 2
+  },
+  {
+   "id": "Z11",
+   "pauta": "E se a rua alagar às 3h da manhã?",
+   "angulo": "As 3 decisões dos primeiros 10 minutos",
+   "formato": "cenario",
+   "funil": "alcance",
+   "semana": 3
+  },
+  {
+   "id": "Z12",
+   "pauta": "Enchente: quando sair de casa",
+   "angulo": "Esperar a água subir é o erro mais comum",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": 3
+  },
+  {
+   "id": "Z13",
+   "pauta": "Desligar a energia antes da água entrar",
+   "angulo": "Ordem certa das ações dentro de casa",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": 3
+  },
+  {
+   "id": "Z14",
+   "pauta": "Voltar para casa depois da enchente",
+   "angulo": "O perigo maior vem depois que a água baixa",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z15",
+   "pauta": "El Niño explicado para quem mora no Sul",
+   "angulo": "Não causa desastre, aumenta a chance dele",
+   "formato": "alerta",
+   "funil": "alcance",
+   "semana": 1
+  },
+  {
+   "id": "Z16",
+   "pauta": "Cadastre o celular nos alertas (SMS 40199 em SC)",
+   "angulo": "O alerta já existe; o problema é ninguém estar cadastrado",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": 1
+  },
+  {
+   "id": "Z17",
+   "pauta": "E se a energia cair por 7 dias?",
+   "angulo": "O que estraga primeiro na geladeira e o que dura",
+   "formato": "cenario",
+   "funil": "alcance",
+   "semana": 4
+  },
+  {
+   "id": "Z18",
+   "pauta": "Rádio a pilha em 2026",
+   "angulo": "O aparelho mais antigo da casa é o que funciona quando tudo cai",
+   "formato": "protocolo",
+   "funil": "conversao",
+   "semana": 4
+  },
+  {
+   "id": "Z19",
+   "pauta": "Carregar o celular sem energia",
+   "angulo": "Ordem de prioridade: bateria é recurso, não conforto",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z20",
+   "pauta": "Lanterna x vela",
+   "angulo": "Vela é a causa de incêndio mais evitável em apagão",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": null
+  },
+  {
+   "id": "Z21",
+   "pauta": "Comida sem fogão por 3 dias",
+   "angulo": "Cardápio de 72h que não precisa cozinhar",
+   "formato": "calculadora",
+   "funil": "salvamento",
+   "semana": 4
+  },
+  {
+   "id": "Z22",
+   "pauta": "Validade do kit",
+   "angulo": "Kit esquecido é kit vencido; revisão a cada 6 meses",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z23",
+   "pauta": "Kit de primeiros socorros doméstico",
+   "angulo": "O que realmente é usado em desastre (e o que é enfeite)",
+   "formato": "saude",
+   "funil": "salvamento",
+   "semana": 4
+  },
+  {
+   "id": "Z24",
+   "pauta": "Corte e sangramento sem hospital",
+   "angulo": "Pressão direta antes de qualquer coisa",
+   "formato": "saude",
+   "funil": "salvamento",
+   "semana": 4
+  },
+  {
+   "id": "Z25",
+   "pauta": "Remédio de uso contínuo em emergência",
+   "angulo": "Ter estoque e receita é parte do kit",
+   "formato": "saude",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z26",
+   "pauta": "Água contaminada depois de enchente",
+   "angulo": "Por que não beber nem a água da torneira até liberarem",
+   "formato": "saude",
+   "funil": "alcance",
+   "semana": 3
+  },
+  {
+   "id": "Z27",
+   "pauta": "Leptospirose depois da enchente",
+   "angulo": "A doença chega dias depois da água",
+   "formato": "saude",
+   "funil": "alcance",
+   "semana": 3
+  },
+  {
+   "id": "Z28",
+   "pauta": "Hipotermia em abrigo e chuva",
+   "angulo": "Roupa molhada rouba calor mais rápido que o frio",
+   "formato": "saude",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z29",
+   "pauta": "O que a Europa mandou fazer",
+   "angulo": "Mesma regra das 72h, outro motivo",
+   "formato": "alerta",
+   "funil": "alcance",
+   "semana": null
+  },
+  {
+   "id": "Z30",
+   "pauta": "Japão: o país mais preparado do mundo",
+   "angulo": "Lá o kit é rotina escolar",
+   "formato": "cenario",
+   "funil": "alcance",
+   "semana": null
+  },
+  {
+   "id": "Z31",
+   "pauta": "Pânico x preparação",
+   "angulo": "Preparação é o antídoto do medo, não a causa",
+   "formato": "protocolo",
+   "funil": "alcance",
+   "semana": null
+  },
+  {
+   "id": "Z32",
+   "pauta": "Como falar com criança sobre o kit",
+   "angulo": "Transformar em missão, não em ameaça",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z33",
+   "pauta": "Os 5 erros de quem monta kit pela primeira vez",
+   "angulo": "Comprar antes de planejar",
+   "formato": "protocolo",
+   "funil": "conversao",
+   "semana": null
+  },
+  {
+   "id": "Z34",
+   "pauta": "Kit no carro",
+   "angulo": "O que pode e o que não pode ficar no calor",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z35",
+   "pauta": "Documentos à prova d'água",
+   "angulo": "Foto na nuvem + cópia física; um sem o outro falha",
+   "formato": "protocolo",
+   "funil": "salvamento",
+   "semana": null
+  },
+  {
+   "id": "Z36",
+   "pauta": "Revisão de equipamento (afiliado)",
+   "angulo": "Testei 3 lanternas baratas: qual vale",
+   "formato": "protocolo",
+   "funil": "conversao",
+   "semana": null,
+   "afiliado": true
+  }
+ ]
+}

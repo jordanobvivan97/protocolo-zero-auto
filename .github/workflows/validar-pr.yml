@@ -1,0 +1,24 @@
+name: Conferir lote
+
+# Em cada PR com posts: roda o validador e confere se as imagens existem.
+on:
+  pull_request:
+    paths: ["fila/**"]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Validar posts
+        run: python3 scripts/validar.py fila
+      - name: Conferir imagens
+        run: |
+          for d in fila/*/*/; do
+            tipo=$(python3 -c "import json,sys;print(json.load(open('${d}post.json'))['tipo'])")
+            if [ "$tipo" = "reel" ]; then continue; fi
+            ls "${d}"slide-*.jpg >/dev/null 2>&1 || { echo "Sem imagens em $d"; exit 1; }
+          done

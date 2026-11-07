@@ -1,0 +1,72 @@
+{
+  "_nota": "Fonte de número só vale se a URL for de um destes domínios (ou subdomínio) ou de um perfil oficial listado. Órgãos estrangeiros servem para comparação, sempre nomeados como estrangeiros no post. Para incluir outro órgão oficial, edite este arquivo num PR.",
+  "dominios_oficiais_br": [
+    "gov.br",
+    "inmet.gov.br",
+    "cemaden.gov.br",
+    "defesacivil.sc.gov.br",
+    "defesacivil.pr.gov.br",
+    "defesacivil.rs.gov.br",
+    "saude.gov.br",
+    "cruzvermelha.org.br",
+    "fiocruz.br",
+    "anvisa.gov.br"
+  ],
+  "dominios_internacionais": [
+    "who.int",
+    "paho.org",
+    "ifrc.org",
+    "icrc.org",
+    "redcross.org",
+    "fema.gov",
+    "ready.gov",
+    "cdc.gov",
+    "krisinformation.se",
+    "msb.se",
+    "europa.eu",
+    "bousai.go.jp",
+    "mcf.se"
+  ],
+  "perfis_oficiais": {
+    "x.com": [
+      "defesacivilbr",
+      "defesacivilsc",
+      "defesacivilpr",
+      "defesacivilrs",
+      "inmet_",
+      "cemaden",
+      "minsaude"
+    ],
+    "twitter.com": [
+      "defesacivilbr",
+      "defesacivilsc",
+      "defesacivilpr",
+      "defesacivilrs",
+      "inmet_",
+      "cemaden",
+      "minsaude"
+    ],
+    "instagram.com": [
+      "defesacivilbr",
+      "defesacivilsc",
+      "defesacivilpr",
+      "defesacivilrs",
+      "inmet.oficial",
+      "cemaden_oficial",
+      "minsaude"
+    ],
+    "_nota": "Handles ainda não conferidos um a um. Antes de usar um perfil como fonte, o agente abre o perfil e confirma o selo/nome do órgão; se o handle real for outro, corrige aqui no mesmo PR."
+  },
+  "numeros_livres": {
+    "_nota": "Números que podem aparecer sem entrada em fontes: telefones de emergência oficiais e o carimbo do protocolo. Datas e horários de publicação também passam.",
+    "telefones": [
+      "190",
+      "192",
+      "193",
+      "199",
+      "180",
+      "188",
+      "136"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+novo_token.txt
+.env

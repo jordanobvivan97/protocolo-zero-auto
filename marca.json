@@ -1,0 +1,114 @@
+{
+  "nome": "O Sobrevivente - Protocolo Zero",
+  "rodape": "O SOBREVIVENTE · PROTOCOLO ZERO",
+  "fecho_fixo": "Protocolo arquivado. Sua família está um passo à frente.",
+  "frase_defesa_civil": "Em emergência real, siga a Defesa Civil da sua cidade.",
+  "modo_aprovacao": "pr",
+  "modo_aprovacao_nota": "Primeira semana por PR (combinado em 07/11/2026). Para trocar, mude para \"direto\". Formatos listados em pr_sempre continuam exigindo PR mesmo no modo direto.",
+  "pr_sempre": [],
+  "horario_padrao": "19:40",
+  "horario_nota": "Hipótese: responsável pela casa vê o celular depois do trabalho. Testar outro horário só como teste de uma variável.",
+  "calendario": [
+    {
+      "de": "2026-11-07",
+      "ate": "2026-11-13",
+      "foco": "Pico do alerta",
+      "posts_por_semana": 7,
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pautas": [
+        "Z01",
+        "Z02",
+        "Z03",
+        "Z04",
+        "Z06",
+        "Z16",
+        "Z15"
+      ]
+    },
+    {
+      "de": "2026-11-14",
+      "ate": "2026-11-20",
+      "foco": "Kit por perfil e família",
+      "posts_por_semana": 5,
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pautas": [
+        "Z05",
+        "Z07",
+        "Z08",
+        "Z09",
+        "Z10"
+      ]
+    },
+    {
+      "de": "2026-11-21",
+      "ate": "2026-11-27",
+      "foco": "Chuva e enchente (El Niño)",
+      "posts_por_semana": 5,
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pautas": [
+        "Z11",
+        "Z12",
+        "Z13",
+        "Z26",
+        "Z27"
+      ]
+    },
+    {
+      "de": "2026-11-28",
+      "ate": "2026-12-04",
+      "foco": "Apagão e saúde",
+      "posts_por_semana": 5,
+      "dias": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pautas": [
+        "Z17",
+        "Z18",
+        "Z21",
+        "Z23",
+        "Z24"
+      ]
+    }
+  ],
+  "calendario_nota": "dias: 0 = segunda ... 6 = domingo. Depois de 04/12 o agente segue com 5 posts por semana (seg a sex) escolhendo pautas do banco até o review mensal decidir outra cadência.",
+  "volume_padrao_depois": {
+    "posts_por_semana": 5,
+    "dias": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "isca_ativa": false,
+  "isca_palavra": "KIT",
+  "guia_ativo": false,
+  "link_bio_ativo": false,
+  "hashtags_max": 5,
+  "horario_alerta_cedo": "07:40"
+}
