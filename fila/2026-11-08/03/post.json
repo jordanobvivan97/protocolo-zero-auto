@@ -1,0 +1,191 @@
+{
+  "id": "2026-11-08-03",
+  "pauta_id": "Z04",
+  "formato": "calculadora",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "003",
+  "gancho_tipo": "divergencia",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Cada órgão diz uma quantidade de **água**. Eu fiz a conta.",
+      "subtitulo": "Quanto a sua família precisa guardar para três dias, sem exagero e sem faltar."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Quem diz o quê",
+      "contador": "Fonte oficial",
+      "titulo": "Três órgãos, três números",
+      "texto": "Defesa Civil Nacional: 2 litros por pessoa, por dia.\n\nAgência sueca de defesa civil: pelo menos 3 litros por dia, para beber e cozinhar.\n\nFEMA, agência de emergências dos EUA: pelo menos 1 galão por dia, cerca de 3,8 litros, já com higiene."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Como ler a faixa",
+      "titulo": "Piso e confortável",
+      "texto": "2 litros por pessoa, por dia, é o piso.\n\n**4 litros** é o confortável: dá para beber, cozinhar e lavar as mãos. É o galão americano arredondado para cima.\n\nCrianças, quem amamenta, quem está doente e dias muito quentes pedem mais."
+    },
+    {
+      "layout": "tabela",
+      "etiqueta": "Calculadora",
+      "contador": "3 dias",
+      "titulo": "Água para três dias",
+      "colunas": [
+        "Pessoas",
+        "Piso 2 L/dia",
+        "Confortável 4 L/dia"
+      ],
+      "larguras": [
+        1,
+        1.25,
+        1.45
+      ],
+      "colunas_destaque": [
+        2
+      ],
+      "linhas": [
+        [
+          "1",
+          "6 L",
+          "12 L"
+        ],
+        [
+          "2",
+          "12 L",
+          "24 L"
+        ],
+        [
+          "3",
+          "18 L",
+          "36 L"
+        ],
+        [
+          "4",
+          "24 L",
+          "48 L"
+        ],
+        [
+          "5",
+          "30 L",
+          "60 L"
+        ]
+      ],
+      "nota": "Conta: pessoas × litros por dia × 3 dias."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Como guardar",
+      "titulo": "Água que dura até o dia em que você precisa",
+      "itens": [
+        "Água de fábrica: lacrada, em lugar fresco e escuro.",
+        "Encheu em casa? Use recipiente próprio para alimento e troque a água a cada 6 meses.",
+        "Guarde junto do kit, num lugar que todo mundo da casa conhece."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Família de 4 pessoas, três dias:",
+      "texto": "**24 litros** no mínimo. 48 litros para viver com algum conforto.",
+      "cta": "Mande para quem mora com você."
+    }
+  ],
+  "legenda": "Quanto de água guardar para três dias? Depende de quem você pergunta, e tudo bem: a resposta certa é uma faixa.\n\n2 litros por pessoa, por dia, é o piso. 4 litros é o confortável, com higiene. A tabela já faz a conta para a sua casa.\n\nFontes: Defesa Civil Nacional, orientação do kit de 72h (06/11/2026); MSB, agência sueca de defesa civil, folheto \"Om krisen eller kriget kommer\" (2024); FEMA, Ready.gov/water.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #aguapotavel #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil Nacional",
+      "url": "https://imirante.com/noticias/brasil/2026/11/07/defesa-civil-divulga-campanha-preventiva-veja-itens",
+      "conferencia": "imprensa_citando_oficial",
+      "afirmacao": "Kit para 72 horas com reserva de pelo menos 2 litros de água por pessoa por dia, 6 litros por pessoa em 3 dias; família de 4 pessoas, 24 litros.",
+      "numeros": [
+        "2",
+        "72",
+        "3",
+        "6",
+        "24"
+      ],
+      "consultado_em": "2026-11-07",
+      "pendencia": "Post original da Defesa Civil Nacional (X @defesacivilbr, 06/11/2026) não abriu na verificação automática; conferir no perfil oficial os 2 litros por pessoa por dia."
+    },
+    {
+      "orgao": "MSB, agência sueca de defesa civil",
+      "url": "https://rib.msb.se/filer/pdf/30828.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Pelo menos três litros de água por dia, em primeiro lugar para beber e cozinhar.",
+      "numeros": [
+        "3"
+      ],
+      "consultado_em": "2026-11-07"
+    },
+    {
+      "orgao": "FEMA (Ready.gov)",
+      "url": "https://www.ready.gov/water",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Pelo menos 1 galão por pessoa por dia, incluindo higiene; mais para crianças, lactantes, doentes e calor; água não engarrafada comercialmente deve ser trocada a cada seis meses; guardar em local fresco e escuro.",
+      "numeros": [
+        "1",
+        "6"
+      ],
+      "consultado_em": "2026-11-07"
+    }
+  ],
+  "derivados": [
+    {
+      "valor": "3,8",
+      "conta": "3.785",
+      "nota": "1 galão americano = 3,785 L (conversão de unidade)"
+    },
+    {
+      "valor": "4",
+      "conta": "ceil(3.785)",
+      "nota": "galão arredondado para cima"
+    },
+    {
+      "valor": "12",
+      "conta": "1*4*3"
+    },
+    {
+      "valor": "18",
+      "conta": "3*2*3"
+    },
+    {
+      "valor": "24",
+      "conta": "4*2*3"
+    },
+    {
+      "valor": "30",
+      "conta": "5*2*3"
+    },
+    {
+      "valor": "36",
+      "conta": "3*4*3"
+    },
+    {
+      "valor": "48",
+      "conta": "4*4*3"
+    },
+    {
+      "valor": "60",
+      "conta": "5*4*3"
+    },
+    {
+      "valor": "5",
+      "conta": "5",
+      "nota": "linha da tabela: número de pessoas"
+    }
+  ],
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

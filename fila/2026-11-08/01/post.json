@@ -1,0 +1,166 @@
+{
+  "id": "2026-11-08-01",
+  "pauta_id": "Z03",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "07:50",
+  "protocolo": "001",
+  "gancho_tipo": "inventario",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "O kit que a Defesa Civil pediu, **item por item.**",
+      "subtitulo": "7 categorias. Quase tudo já está na sua casa, só precisa ser juntado."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 1 de 7",
+      "titulo": "Água potável",
+      "itens": [
+        "Pelo menos 2 litros por pessoa, por dia.",
+        "Para 3 dias: 6 litros por pessoa.",
+        "Família inteira na conta, sem esquecer ninguém."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "A conta completa da água sai no Protocolo 003."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 2 de 7",
+      "titulo": "Comida que não estraga",
+      "itens": [
+        "Enlatados, barra de cereal, fruta seca, biscoito.",
+        "De preferência, nada que precise de fogão.",
+        "Abridor de lata manual junto das latas."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 3 de 7",
+      "titulo": "Saúde e primeiros socorros",
+      "itens": [
+        "Remédios de uso contínuo de quem mora na casa.",
+        "Cópia das receitas.",
+        "Álcool em gel e material para curativo."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Usa aparelho, como medidor de glicose? Ele entra no kit."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 4 de 7",
+      "titulo": "Documentos e contatos",
+      "itens": [
+        "Cópias dos documentos em embalagem que não molha.",
+        "Lista de contatos escrita em papel.",
+        "199 Defesa Civil e 193 Bombeiros.",
+        "192 SAMU."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 5 de 7",
+      "titulo": "Dinheiro em espécie",
+      "itens": [
+        "Uma reserva em dinheiro vivo.",
+        "Sem energia e sem internet, cartão e Pix podem não funcionar."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 6 de 7",
+      "titulo": "Luz e informação",
+      "itens": [
+        "Lanterna.",
+        "Rádio AM/FM a pilha.",
+        "Pilhas extras, guardadas separadas.",
+        "Carregador portátil de celular."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Categoria 7 de 7",
+      "titulo": "Higiene e roupa",
+      "itens": [
+        "Itens de higiene pessoal.",
+        "Muda de roupa e calçado confortável.",
+        "Sacolas plásticas."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Antes de fechar a mochila",
+      "titulo": "Cada casa tem o seu kit",
+      "texto": "Tem bebê, idoso, pet ou alguém com deficiência em casa? O kit **muda**.\n\nFralda, comida infantil, ração e o que cada pessoa usa no dia a dia entram na lista. Cada caso ganha o seu protocolo nas próximas semanas."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Guarde tudo numa mochila só.",
+      "texto": "Longe da umidade, num lugar que **todo mundo da casa** sabe onde fica.",
+      "cta": "Salve para montar com a família."
+    }
+  ],
+  "legenda": "O kit de 72 horas que a Defesa Civil Nacional recomendou, separado em 7 categorias. Dá para começar hoje com o que já existe em casa.\n\nSalve e confira item por item com quem mora com você.\n\nFontes: Defesa Civil Nacional, lista do kit de emergência para 72 horas publicada nas redes oficiais do órgão (06/11/2026); FEMA, agência de emergências dos EUA, Ready.gov/kit (abridor manual e dinheiro em espécie).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #72horas #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil Nacional",
+      "url": "https://imirante.com/noticias/brasil/2026/11/07/defesa-civil-divulga-campanha-preventiva-veja-itens",
+      "conferencia": "imprensa_citando_oficial",
+      "afirmacao": "Kit para 72 horas: pelo menos 2 litros de água por pessoa por dia (6 litros em 3 dias); alimentos não perecíveis (barra de cereal, fruta seca, biscoito, enlatados); remédios de uso contínuo, cópia de receitas, álcool em gel, material para curativo, higiene e equipamentos médicos como medidor de glicose; lanterna, pilhas extras guardadas separadas, carregador portátil, rádio AM/FM; cópias de documentos em embalagem impermeável, dinheiro em espécie, lista de contatos, muda de roupa, calçado confortável, sacolas plásticas; itens para bebê, idoso, pessoa com deficiência e pet.",
+      "numeros": [
+        "2",
+        "3",
+        "6",
+        "7",
+        "72"
+      ],
+      "consultado_em": "2026-11-07",
+      "pendencia": "O post original da Defesa Civil Nacional (X @defesacivilbr e Instagram, 06/11/2026) não abriu na verificação automática. Conferir no perfil oficial a lista de itens e os 2 litros por pessoa por dia."
+    },
+    {
+      "orgao": "FEMA, agência de emergências dos EUA",
+      "url": "https://www.ready.gov/kit",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit básico inclui abridor de lata manual, lanterna, rádio a pilha, pilhas extras, sacos plásticos, cópias de documentos em recipiente impermeável e dinheiro em espécie.",
+      "numeros": [],
+      "consultado_em": "2026-11-07"
+    }
+  ],
+  "numeros_proprios": {
+    "7": "7 categorias do carrossel, contagem interna das lâminas 2 a 8",
+    "1": "numeração das categorias (1 de 7 a 7 de 7), contagem interna",
+    "4": "numeração da categoria 4 de 7, contagem interna",
+    "5": "numeração da categoria 5 de 7, contagem interna"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2026-11-08-02",
+  "pauta_id": "A01",
+  "pauta_nota": "Alerta explicado fora do banco: temporais de 07/11/2026 em SC (Inmet vermelho e balanço da Defesa Civil de SC).",
+  "formato": "alerta",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "002",
+  "gancho_tipo": "ordem",
+  "hipotetico": false,
+  "slides": [
+    {"layout": "capa", "titulo": "Temporais em SC: o que fazer **depois** da chuva.", "subtitulo": "O que foi o alerta, o que ele não é, e o que olhar em casa hoje."},
+    {"layout": "texto", "etiqueta": "O que foi", "contador": "Sábado, 07/11", "titulo": "Alerta vermelho e estragos", "texto": "O Inmet manteve **alerta vermelho** de tempestade para áreas do Sul, válido até o fim do sábado.\n\nA Defesa Civil de Santa Catarina registrou casas danificadas e famílias em abrigos, com o Alto Vale entre as regiões mais atingidas."},
+    {"layout": "texto", "etiqueta": "O que não é", "titulo": "Não é motivo de pânico no Sul inteiro", "texto": "O alerta vermelho valeu para **áreas específicas**, e o balanço oficial muda conforme as equipes chegam aos locais.\n\nO que vale para você é o aviso da Defesa Civil da sua cidade. Corrente de mensagem não é fonte."},
+    {"layout": "ficha", "etiqueta": "Passo 1", "titulo": "Olhe a casa e o terreno", "itens": ["Rachadura nova em parede, piso ou muro.", "Árvore, poste ou cerca inclinando.", "Trinca no chão ou água minando na base do barranco."], "marcados": [0], "nota": "Viu um desses sinais? Saia com a família e ligue 199 ou 193."},
+    {"layout": "ficha", "etiqueta": "Passo 2", "titulo": "Fique longe da água", "itens": ["Não atravesse rua ou área alagada, nem a pé, nem de carro.", "Precisou sair de casa? Vá ao abrigo indicado pela Defesa Civil da sua cidade.", "Criança não brinca em água de enchente."], "marcados": [0]},
+    {"layout": "texto", "etiqueta": "Passo 3", "titulo": "Receba o alerta direto no celular", "texto": "Mande o **CEP** da sua casa por SMS para 40199. É gratuito.\n\nEm alerta severo, a Defesa Civil também pode disparar aviso que toca no celular sozinho, sem cadastro."},
+    {"layout": "fechamento", "titulo": "Informação certa vale mais que boato.", "texto": "Passe adiante só o que veio da **Defesa Civil**.", "cta": "Siga para receber o Protocolo 003."}
+  ],
+  "legenda": "Os temporais de sábado deixaram estragos em Santa Catarina. A chuva passou, mas a casa e o terreno pedem atenção: rachadura nova, poste inclinado e água minando no barranco são sinais para sair e ligar 199.\n\nE cadastre o celular: CEP por SMS para 40199.\n\nFontes: Inmet, alerta vermelho de tempestade para áreas do Sul, válido até 23h59 de 07/11/2026; Defesa Civil de Santa Catarina, balanço dos temporais de 07/11/2026; Defesa Civil de Rio do Sul, orientações sobre deslizamento e abrigos; Serviço Geológico do Brasil, cartilha Comunidade mais segura (2023); Governo do Rio Grande do Sul, cadastro de alertas por SMS 40199.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#defesacivil #santacatarina #temporal #alerta #protocolozero",
+  "fontes": [
+    {"orgao": "Inmet", "url": "https://www.brasil247.com/sul/inmet-emite-alerta-vermelho-de-tempestade-para-o-sul-do-pais/", "conferencia": "imprensa_citando_oficial", "afirmacao": "Inmet emitiu alerta vermelho (grande perigo) de tempestade para áreas de RS, SC e PR, válido para sábado 07/11/2026 até 23h59; alerta laranja para todo o Sul.", "numeros": [], "consultado_em": "2026-11-07", "pendencia": "Conferir em alertas2.inmet.gov.br o aviso vermelho de tempestade de 07/11/2026 (áreas e fim da validade às 23h59) e se há aviso novo para 08/11 antes das 12:20."},
+    {"orgao": "Defesa Civil de Santa Catarina", "url": "https://ndmais.com.br/tempo/temporais-deixam-mais-de-200-pessoas-desabrigadas-e-municipios-decretam-situacao-de-emergencia-em-sc/", "conferencia": "imprensa_citando_oficial", "afirmacao": "Balanço oficial das 18h10 de 07/11/2026: temporais de sábado deixaram desabrigados e desalojados e casas danificadas em dezenas de municípios; Rio do Sul, no Alto Vale, com abrigos públicos ativados; números podem mudar com o levantamento em campo.", "numeros": [], "consultado_em": "2026-11-07", "pendencia": "Conferir em defesacivil.sc.gov.br (ou @defesacivilsc) o balanço de 07/11 e se há alerta novo para 08/11. O site não abriu na verificação automática."},
+    {"orgao": "Defesa Civil de Rio do Sul", "url": "https://www.mesorregional.com.br/rio-do-sul-mantem-cota-de-inundacao-em-850-metros-e-amplia-abrigos-para-familias/", "conferencia": "imprensa_citando_oficial", "afirmacao": "Observar rachaduras em muros e paredes, inclinação de árvores ou postes e movimentação do solo; se notar, deixar a área e ligar 199 ou 193; evitar áreas alagadas e não atravessar ruas atingidas pela água; quem precisar sair de casa vai ao abrigo indicado.", "numeros": [], "consultado_em": "2026-11-07", "pendencia": "Conferir no canal oficial da Defesa Civil de Rio do Sul as orientações de deslizamento e abrigos de 07/11."},
+    {"orgao": "Serviço Geológico do Brasil", "url": "https://rigeo.sgb.gov.br/bitstream/doc/20783/7/__CARTILHA_2023_SGB_CPRM_para%20INTERNET.pdf", "conferencia": "pagina_oficial", "afirmacao": "Sinais de deslizamento: fissuras em paredes e pisos, trincas no solo, árvores ou postes inclinados, cercas entortadas, muros com barriga ou rachadura, água minando na base do barranco; se a casa estiver em risco, retirar a família e avisar a Defesa Civil; não deixar criança brincar na água das cheias.", "numeros": [], "consultado_em": "2026-11-07"},
+    {"orgao": "Governo do Rio Grande do Sul", "url": "https://estado.rs.gov.br/como-se-cadastrar-para-receber-avisos-e-alertas-da-defesa-civil-no-celular", "conferencia": "pagina_oficial", "afirmacao": "Cadastro gratuito de alertas da Defesa Civil: SMS com o CEP para 40199; Cell Broadcast não exige cadastro e é usado em alertas severos e extremos, tocando no celular.", "numeros": ["40199"], "consultado_em": "2026-11-07"}
+  ],
+  "numeros_proprios": {"1": "Passo 1 de 3, contagem interna do roteiro", "2": "Passo 2 de 3, contagem interna do roteiro", "3": "Passo 3 de 3, contagem interna do roteiro"},
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
