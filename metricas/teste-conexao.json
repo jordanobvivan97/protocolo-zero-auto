@@ -1,0 +1,12 @@
+{
+  "em": "2026-11-07T15:01:27",
+  "eu": {
+    "erro": "Invalid OAuth 2.0 Access Token",
+    "codigo": 190,
+    "subcodigo": null
+  },
+  "conta": {
+    "erro": "IG_USER_ID vazio"
+  },
+  "jsdelivr_responde": true
+}
