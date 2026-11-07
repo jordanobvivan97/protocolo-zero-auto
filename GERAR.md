@@ -28,13 +28,15 @@ Se for relevante e ainda não houver post sobre ele em `fila/` ou `publicados/`:
 3. O Alerta explicado fura a fila: formato `alerta`, carrossel de 4 a 6 lâminas (o que é, o que não é, o que fazer agora, onde acompanhar) + `roteiro.md` do Reel de 20 a 30s. Horário `07:40` do dia seguinte quando sair do lote noturno; `19:40` do mesmo dia quando sair da vigia do meio-dia. O post que estava previsto para aquele dia é empurrado para o próximo dia do calendário.
 4. Branch `lote-AAAA-MM-DD-alerta`, sempre por PR, e avise no resumo final com a palavra ALERTA na primeira linha.
 
-## 2. Escolher o post de amanhã (modo lote)
+## 2. Escolher os posts de amanhã (modo lote)
 
 - Data de amanhã no fuso America/Sao_Paulo. Ache a semana em `marca.json` > `calendario`. Se amanhã não está em `dias`, não há post: termine dizendo isso. Depois de 04/12, use `volume_padrao_depois`.
-- Pauta: a próxima ainda não usada da lista da semana. Se a próxima repetir o formato do post anterior, pegue a seguinte da lista que não repita. Lista da semana esgotada: escolha do banco a pauta de maior aderência ao foco da semana, sem repetir 30 dias.
+- Quantidade e horários: `posts_por_dia` e `horarios` da semana (sem `horarios`, use `horario_padrao`). Na semana 1 são 3 posts por dia: 07:50, 12:20 e 19:40. Cada post vai numa pasta própria (`fila/AAAA-MM-DD/01`, `02`, `03`), todos no mesmo PR.
+- No mesmo dia, nada de formato repetido em posts seguidos (o último post de hoje conta para o primeiro de amanhã) e nada de tipo de gancho repetido entre os 2 anteriores; o validador confere pela ordem de data e horário.
+- Pauta: a próxima ainda não usada da lista da semana. Se a próxima repetir o formato do post anterior, pegue a seguinte da lista que não repita. Lista da semana esgotada e `pautas_extras_permitidas` true: escolha do banco uma pauta **sem semana definida** (as marcadas para as semanas 2 a 4 ficam reservadas); se o banco livre acabar, crie pauta nova no `pautas/banco.json` com o próximo id e `"origem": "agente"`, dentro do foco da semana, e avise no resumo. Fora desse caso, escolha do banco a pauta de maior aderência ao foco da semana, sem repetir 30 dias.
 - Semana 1 segue os 3 posts-âncora da Fundação nesta ordem: Post 1 (Alerta explicado, carimbo PROTOCOLO 000, cobre as pautas Z01 e Z02), Post 2 (Protocolo 001, kit 72h, Z03), Post 3 (Protocolo 002, quanta água, Z04). O texto-base está em `REGRAS.md`, mas **todo número dele é reconferido na fonte** antes de usar; se a fonte disser outra coisa, vale a fonte, e isso vai como alerta no resumo.
 - Número do protocolo: o maior já usado + 1, com 3 dígitos.
-- Horário: `horario_padrao`, salvo Alerta (passo 1).
+- Horário: os da semana, salvo Alerta (passo 1). Alerta que fura a fila ocupa o horário mais cedo livre e empurra o post comum daquele horário para o próximo dia.
 
 ## 3. Pesquisar e conferir (antes de escrever uma linha)
 
@@ -133,4 +135,4 @@ LEGENDA: igual à do carrossel.
 - `modo_aprovacao: "direto"`: commit na main, **exceto** se houver fonte com pendência ou se o formato estiver em `pr_sempre`; nesses casos, PR.
 - `RESUMO.md` traz: horário, formato, pauta, gancho, primeira frase da capa; a lista de fontes com o tipo de conferência; e, em forma de checklist, cada pendência que Jordano precisa conferir antes do merge.
 
-Termine com um resumo de 3 linhas para Jordano: o que vai sair e quando; qualquer número da Fundação que a fonte não confirmou; e qualquer alerta (pendência de fonte, pauta acabando, erro que exigiu reescrita, falha de push). Português do Brasil, sem travessão.
+Termine com um resumo de 3 linhas para Jordano: o que vai sair e quando (um item por post); qualquer número da Fundação que a fonte não confirmou; e qualquer alerta (pendência de fonte, pauta acabando, erro que exigiu reescrita, falha de push). Português do Brasil, sem travessão.

@@ -13,7 +13,6 @@
       "de": "2026-11-07",
       "ate": "2026-11-13",
       "foco": "Pico do alerta",
-      "posts_por_semana": 7,
       "dias": [
         0,
         1,
@@ -31,7 +30,15 @@
         "Z06",
         "Z16",
         "Z15"
-      ]
+      ],
+      "posts_por_dia": 3,
+      "horarios": [
+        "07:50",
+        "12:20",
+        "19:40"
+      ],
+      "pautas_extras_permitidas": true,
+      "nota": "3 posts por dia na semana 1, pedido do Jordano em 07/11/2026 (a Fundação previa 1 por dia). Pautas: primeiro as da semana; depois as do banco sem semana definida; nunca as reservadas para as semanas 2 a 4."
     },
     {
       "de": "2026-11-14",
@@ -51,7 +58,8 @@
         "Z08",
         "Z09",
         "Z10"
-      ]
+      ],
+      "posts_por_dia": 1
     },
     {
       "de": "2026-11-21",
@@ -71,7 +79,8 @@
         "Z13",
         "Z26",
         "Z27"
-      ]
+      ],
+      "posts_por_dia": 1
     },
     {
       "de": "2026-11-28",
@@ -91,10 +100,11 @@
         "Z21",
         "Z23",
         "Z24"
-      ]
+      ],
+      "posts_por_dia": 1
     }
   ],
-  "calendario_nota": "dias: 0 = segunda ... 6 = domingo. Depois de 04/12 o agente segue com 5 posts por semana (seg a sex) escolhendo pautas do banco até o review mensal decidir outra cadência.",
+  "calendario_nota": "dias: 0 = segunda ... 6 = domingo. posts_por_dia e horarios por semana; sem 'horarios', usa horario_padrao. Depois de 04/12 o agente segue volume_padrao_depois até o review mensal decidir outra cadência.",
   "volume_padrao_depois": {
     "posts_por_semana": 5,
     "dias": [

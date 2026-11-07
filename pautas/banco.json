@@ -287,8 +287,9 @@
    "angulo": "Testei 3 lanternas baratas: qual vale",
    "formato": "protocolo",
    "funil": "conversao",
-   "semana": null,
-   "afiliado": true
+   "semana": "reservada",
+   "afiliado": true,
+   "nota": "Exige teste real de produto e link de afiliado ativo; não usar como pauta extra."
   }
  ]
 }
