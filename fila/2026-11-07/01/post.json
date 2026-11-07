@@ -1,7 +1,10 @@
 {
   "id": "2026-11-07-01",
   "pauta_id": "Z02",
-  "pautas_cobertas": ["Z01", "Z02"],
+  "pautas_cobertas": [
+    "Z01",
+    "Z02"
+  ],
   "formato": "alerta",
   "tipo": "carrossel",
   "horario": "19:40",
@@ -9,17 +12,76 @@
   "gancho_tipo": "comunicado",
   "hipotetico": false,
   "slides": [
-    {"layout": "capa", "titulo": "A Defesa Civil pediu um kit. **Calma.**", "subtitulo": "O que o pedido é, o que ele não é, e o que fazer com ele ainda hoje."},
-    {"layout": "texto", "etiqueta": "O que é", "contador": "Comunicado oficial", "titulo": "Uma orientação de prevenção", "texto": "A Defesa Civil Nacional pediu que cada família tenha um kit para **72 horas**.\n\nÁgua, comida que não estraga, remédios, documentos, lanterna e rádio. O básico para atravessar os primeiros dias de uma emergência."},
-    {"layout": "texto", "etiqueta": "O que não é", "titulo": "Não é aviso de catástrofe", "texto": "Depois que o pedido viralizou, o próprio órgão esclareceu: a orientação **não anuncia desastre iminente**.\n\nÉ o mesmo tipo de cuidado de ter extintor em casa. Você não espera o fogo para comprar."},
-    {"layout": "texto", "etiqueta": "Por que 72 horas", "titulo": "Os primeiros 3 dias são seus", "texto": "Num desastre grande, estrada bloqueada e área alagada podem atrasar a chegada do socorro.\n\nO kit existe para a sua família atravessar os **3 primeiros dias** com o básico, até a ajuda chegar."},
-    {"layout": "ficha", "etiqueta": "O que fazer hoje", "titulo": "Comece com o que já tem", "itens": ["Veja o que já existe em casa: água, comida, lanterna, remédios.", "Separe cópias dos documentos num saco plástico fechado.", "Anote em papel: 199 Defesa Civil, 193 Bombeiros."], "marcados": [0], "nota": "Item por item, com fonte oficial, nos próximos protocolos."},
-    {"layout": "fechamento", "titulo": "A pergunta não é se é sério.", "texto": "É: a sua família aguenta **72 horas** sozinha?", "cta": "Siga para receber o Protocolo 001."}
+    {
+      "layout": "capa",
+      "titulo": "A Defesa Civil pediu um kit. **Calma.**",
+      "subtitulo": "O que o pedido é, o que ele não é, e o que fazer com ele ainda hoje."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que é",
+      "contador": "Comunicado oficial",
+      "titulo": "Uma orientação de prevenção",
+      "texto": "A Defesa Civil Nacional pediu que cada família tenha um kit para **72 horas**.\n\nÁgua, comida que não estraga, remédios, documentos, lanterna e rádio. O básico para atravessar os primeiros dias de uma emergência."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que não é",
+      "titulo": "Não é aviso de catástrofe",
+      "texto": "Depois que o pedido viralizou, o próprio órgão esclareceu: a orientação **não anuncia desastre iminente**.\n\nÉ o mesmo tipo de cuidado de ter extintor em casa. Você não espera o fogo para comprar."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Por que 72 horas",
+      "titulo": "Os primeiros 3 dias são seus",
+      "texto": "Num desastre grande, estrada bloqueada e área alagada podem atrasar a chegada do socorro.\n\nO kit existe para a sua família atravessar os **3 primeiros dias** com o básico, até a ajuda chegar."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que fazer hoje",
+      "titulo": "Comece com o que já tem",
+      "itens": [
+        "Veja o que já existe em casa: água, comida, lanterna, remédios.",
+        "Separe cópias dos documentos num saco plástico fechado.",
+        "Anote em papel: 199 Defesa Civil, 193 Bombeiros."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Item por item, com fonte oficial, nos próximos protocolos."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "A pergunta não é se é sério.",
+      "texto": "É: a sua família aguenta **72 horas** sozinha?",
+      "cta": "Siga para receber o Protocolo 001."
+    }
   ],
   "legenda": "O pedido da Defesa Civil para montar um kit de 72 horas não anuncia desastre. É orientação preventiva, e o próprio órgão esclareceu isso.\n\nNos próximos protocolos, o kit item por item, com fonte oficial em cada número.\n\nFontes: Defesa Civil Nacional, orientação sobre o kit de 72 horas e esclarecimento publicados nas redes oficiais do órgão (novembro de 2026).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#defesacivil #kitdeemergencia #preparacao #72horas #protocolozero",
   "fontes": [
-    {"orgao": "Defesa Civil Nacional", "url": "https://ndmais.com.br/tempo/defesa-civil-kit-emergencia-72-horas-alerta-vermelho-inmet/", "conferencia": "imprensa_citando_oficial", "afirmacao": "A Defesa Civil Nacional recomendou manter kit de emergência para 72 horas (água, alimentos não perecíveis, medicamentos, higiene, roupas, rádio, lanternas, documentos).", "numeros": ["72"], "consultado_em": "2026-11-07", "pendencia": "Abrir o post original no perfil oficial da Defesa Civil Nacional e confirmar a recomendação de 72 horas e a lista de itens."},
-    {"orgao": "Defesa Civil Nacional", "url": "https://patosnoticias.com.br/defesa-civil-recomenda-kit-de-sobrevivencia-mas-nega-desastre-iminente/", "conferencia": "imprensa_citando_oficial", "afirmacao": "O órgão esclareceu que a orientação é preventiva e não anuncia desastre iminente; o kit cobre os 3 primeiros dias porque, em desastres grandes, dificuldades de acesso podem atrasar o socorro.", "numeros": ["3", "72"], "consultado_em": "2026-11-07", "pendencia": "Confirmar no perfil oficial o esclarecimento de que não há desastre iminente e a justificativa dos 3 primeiros dias."}
+    {
+      "orgao": "Defesa Civil Nacional",
+      "url": "https://ndmais.com.br/tempo/defesa-civil-kit-emergencia-72-horas-alerta-vermelho-inmet/",
+      "conferencia": "imprensa_citando_oficial",
+      "afirmacao": "A Defesa Civil Nacional recomendou manter kit de emergência para 72 horas (água, alimentos não perecíveis, medicamentos, higiene, roupas, rádio, lanternas, documentos).",
+      "numeros": [
+        "72"
+      ],
+      "consultado_em": "2026-11-07",
+      "pendencia": "Abrir o post original no perfil oficial da Defesa Civil Nacional e confirmar a recomendação de 72 horas e a lista de itens."
+    },
+    {
+      "orgao": "Defesa Civil Nacional",
+      "url": "https://patosnoticias.com.br/defesa-civil-recomenda-kit-de-sobrevivencia-mas-nega-desastre-iminente/",
+      "conferencia": "imprensa_citando_oficial",
+      "afirmacao": "O órgão esclareceu que a orientação é preventiva e não anuncia desastre iminente; o kit cobre os 3 primeiros dias porque, em desastres grandes, dificuldades de acesso podem atrasar o socorro.",
+      "numeros": [
+        "3",
+        "72"
+      ],
+      "consultado_em": "2026-11-07",
+      "pendencia": "Confirmar no perfil oficial o esclarecimento de que não há desastre iminente e a justificativa dos 3 primeiros dias."
+    }
   ],
   "portao": {
     "ideia_nova": true,
@@ -31,5 +93,6 @@
     "sem_ficcao_como_fato": true,
     "assinaria_com_meu_nome": true
   },
-  "roteiro_reel": "roteiro.md"
+  "roteiro_reel": "roteiro.md",
+  "pendencia_resolvida_por": "Jordano conferiu no perfil oficial e aprovou no PR #1 (07/11/2026)"
 }
