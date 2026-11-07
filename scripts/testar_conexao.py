@@ -10,7 +10,7 @@ from pathlib import Path
 import requests
 
 RAIZ = Path(__file__).resolve().parent.parent
-API = os.environ.get("IG_API_BASE", "https://graph.instagram.com")
+API = os.environ.get("IG_API_BASE", "https://graph.facebook.com/v24.0")
 TOKEN = os.environ.get("IG_TOKEN", "")
 IG = os.environ.get("IG_USER_ID", "").strip()
 
@@ -28,14 +28,23 @@ def get(caminho, **params):
 
 
 res = {"em": datetime.now().isoformat(timespec="seconds")}
-res["eu"] = get("me", fields="user_id,username,account_type")
+res["eu"] = get("me", fields="id,name")
+res["permissoes"] = get("me/permissions")
 if IG:
     res["conta"] = get(IG, fields="username,followers_count,media_count")
     res["limite_publicacao"] = get(f"{IG}/content_publishing_limit", fields="config,quota_usage")
-    if "user_id" in res["eu"]:
-        res["ig_user_id_confere"] = str(res["eu"]["user_id"]) == IG
 else:
     res["conta"] = {"erro": "IG_USER_ID vazio"}
+
+PAGE = os.environ.get("FB_PAGE_ID", "").strip()
+if PAGE:
+    res["pagina"] = get(PAGE, fields="id,name,instagram_business_account")
+    if "erro" not in res["pagina"]:
+        res["pagina_token_ok"] = "access_token" in get(PAGE, fields="access_token")
+        iba = (res["pagina"].get("instagram_business_account") or {}).get("id")
+        res["instagram_ligado_a_pagina_confere"] = (iba == IG) if iba else "Página sem Instagram ligado"
+else:
+    res["pagina"] = {"erro": "FB_PAGE_ID vazio"}
 
 repo = os.environ.get("GITHUB_REPOSITORY", "")
 sha = os.environ.get("GITHUB_SHA", "")

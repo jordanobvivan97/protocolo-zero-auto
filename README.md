@@ -1,6 +1,6 @@
 # Agente do Protocolo Zero
 
-Pesquisa, escreve, confere e publica sozinho os carrosséis do Instagram do O Sobrevivente - Protocolo Zero, seguindo a Fundação.
+Pesquisa, escreve, confere e publica sozinho os carrosséis do O Sobrevivente - Protocolo Zero no Instagram e na Página do Facebook (sem hashtags), seguindo a Fundação.
 
 ## Como funciona
 
@@ -24,24 +24,20 @@ Repositório público (o Instagram baixa as imagens pelo jsDelivr, como no Prome
 
 O que continua visível: quem abrir o perfil do GitHub jordanobvivan97 vê os dois repositórios lado a lado. Se um dia isso pesar, a saída é mover este repositório para outra conta do GitHub.
 
-## Configuração (uma vez, cerca de 20 minutos)
+## Configuração (uma vez)
 
-### 1. Meta (API do Instagram com login do Instagram; não precisa de Página)
-1. Em developers.facebook.com, Meus apps, Criar app. Nome: "Protocolo Zero Agente". Caso de uso: "Gerenciar mensagens e conteúdo no Instagram". Se pedir portfólio empresarial, **não** use o do Promessa: crie um novo ou siga sem.
-2. Em Permissões e recursos, adicione `instagram_business_basic`, `instagram_business_content_publish` e `instagram_business_manage_insights`.
-3. Em Funções do app, Testadores do Instagram, convide a conta do Protocolo Zero e aceite no app do Instagram (Configurações, Apps e sites, Convites de testador).
-4. Em "Configuração da API com login do Instagram", Adicionar conta, entre com a conta do Protocolo Zero e clique em Gerar token. Copie na hora: começa com `IGAA` e vale 60 dias (a renovação é automática, passo 3).
-5. Descubra o IG_USER_ID abrindo no navegador, trocando SEU_TOKEN: `https://graph.instagram.com/me?fields=user_id,username&access_token=SEU_TOKEN`
+### 1. Meta
+1. App "Protocolo Zero Agente" (ID 973666135364075), criado em 07/11/2026, com o caso de uso "Gerenciar mensagens e conteúdo no Instagram" e as permissões `instagram_business_basic`, `instagram_business_content_publish` e `instagram_business_manage_insights`.
+2. Portfólio empresarial **próprio** do Protocolo Zero (nunca o do Promessa), com o app, a conta do Instagram e a Página do Facebook adicionados como ativos.
+3. No portfólio, Usuários do sistema: criar um usuário do sistema (Administrador), atribuir a ele o app, a conta do Instagram e a Página com controle total, e gerar o token com as permissões do app mais `pages_show_list`, `pages_read_engagement` e `pages_manage_posts`. Token de usuário do sistema não expira.
+4. IG_USER_ID e FB_PAGE_ID: o ID da conta do Instagram e o ID da Página, que aparecem no portfólio (Contas do Instagram e Páginas).
 
 ### 2. GitHub (repositório público `protocolo-zero-auto`)
-1. Settings, Secrets and variables, Actions, New repository secret: `IG_TOKEN` e `IG_USER_ID` (passo 1).
-2. Settings, Actions, General: em Workflow permissions marque "Read and write permissions" e "Allow GitHub Actions to create and approve pull requests".
+1. Settings, Secrets and variables, Actions, New repository secret: `IG_TOKEN`, `IG_USER_ID` e `FB_PAGE_ID`.
+2. Settings, Actions, General: "Read and write permissions" e "Allow GitHub Actions to create and approve pull requests" (feito em 07/11/2026).
 
-### 3. Renovação automática do token
-Crie um token fino em github.com/settings/personal-access-tokens: acesso só ao repositório `protocolo-zero-auto`, permissão "Secrets: Read and write", validade de 1 ano. Salve como secret `GH_PAT_SECRETS`. Sem ele, o workflow de renovação falha nos dias 1 e 15 e o GitHub te avisa por e-mail; aí é gerar o token da Meta de novo à mão.
-
-### 4. Teste só de leitura
-Actions, "Testar conexao (so leitura)", Run workflow. O resultado vai para `metricas/teste-conexao.json` (sem segredos). Precisa mostrar o username da conta, `ig_user_id_confere: true` e `jsdelivr_responde: true`.
+### 3. Teste só de leitura
+Actions, "Testar conexao (so leitura)", Run workflow. O resultado vai para `metricas/teste-conexao.json` (sem segredos). Precisa mostrar o username da conta, `pagina_token_ok: true`, `instagram_ligado_a_pagina_confere: true` e `jsdelivr_responde: true`.
 
 Você nunca precisa me passar esses tokens: eles vão direto para os Secrets do GitHub.
 
@@ -57,7 +53,7 @@ fila/AAAA-MM-DD/NN/      posts aprovados esperando o horário (post.json, slides
 publicados/              o que já foi ao ar, com link
 exemplos/                post de referência, fora da fila
 metricas/                posts.csv, conta.csv, resumo.json
-scripts/                 render, validar, publicar, metricas, testar_conexao, renovar_token
+scripts/                 render, validar, publicar, metricas, testar_conexao
 ```
 
 ## Depois da primeira semana

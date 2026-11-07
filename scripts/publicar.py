@@ -1,6 +1,8 @@
 """Publica no Instagram os posts da fila cujo horário já chegou (roda no GitHub Actions).
 
-- API do Instagram com login do Instagram (graph.instagram.com): não exige Página do Facebook.
+- API do Instagram via graph.facebook.com com token de usuário do sistema (não expira), do
+  portfólio empresarial próprio do Protocolo Zero. Publica também na Página do Facebook, sem
+  hashtags; se o Facebook falhar, o Instagram não é desfeito e o erro fica no publicado.json.
 - O Instagram baixa as imagens pelo jsDelivr, a partir do commit exato que está sendo
   publicado (repositório público, como no Promessa); se o jsDelivr falhar, tenta o
   raw.githubusercontent.com. Segredos ficam só nos Secrets do GitHub.
@@ -13,7 +15,7 @@ Uso:
   python scripts/publicar.py --checar   só diz se há algo no horário (sem dependências; sai 0 se houver, 3 se não)
   python scripts/publicar.py --simular  monta tudo e mostra o que faria, sem chamar a API
 
-Variáveis: IG_USER_ID, IG_TOKEN, GITHUB_REPOSITORY e PUB_SHA (ou GITHUB_SHA).
+Variáveis: IG_USER_ID, IG_TOKEN, FB_PAGE_ID (opcional), GITHUB_REPOSITORY e PUB_SHA (ou GITHUB_SHA).
 """
 import json
 import os
@@ -26,7 +28,8 @@ from zoneinfo import ZoneInfo
 
 RAIZ = Path(__file__).resolve().parent.parent
 TZ = ZoneInfo("America/Sao_Paulo")
-API = os.environ.get("IG_API_BASE", "https://graph.instagram.com")
+API = os.environ.get("IG_API_BASE", "https://graph.facebook.com/v24.0")
+FB_PAGE = os.environ.get("FB_PAGE_ID", "").strip()
 MAX_POR_EXECUCAO = 1
 
 
@@ -112,6 +115,41 @@ class Instagram:
         raise TimeoutError(f"container {cid} não ficou pronto em {limite}s")
 
 
+# ---------- Página do Facebook ----------
+
+def legenda_facebook(legenda):
+    """No Facebook, hashtags quase não ajudam e dão cara de post copiado: remove."""
+    linhas = [" ".join(p for p in l.split() if not p.startswith("#")) if "#" in l else l for l in legenda.split("\n")]
+    return "\n".join(linhas).strip()
+
+
+def publicar_facebook(ig, links, pasta, post):
+    if ig.simular:
+        print(f"  [simulado] Página {FB_PAGE}: {post['tipo']} sem hashtags")
+        return {"post_id": "FB_SIMULADO"}
+    import requests
+    tk = ig.chamar("GET", FB_PAGE, fields="access_token")["access_token"]
+    texto = legenda_facebook(post["legenda"])
+
+    def fb(caminho, **params):
+        params["access_token"] = tk
+        r = requests.post(f"{API}/{caminho}", data=params, timeout=120).json()
+        if "error" in r:
+            raise RuntimeError(f"facebook {caminho}: {r['error'].get('message')}")
+        return r
+
+    if post["tipo"] == "reel":
+        r = fb(f"{FB_PAGE}/videos", file_url=links.link(pasta / "video.mp4"), description=texto)
+        return {"post_id": r.get("id")}
+    imagens = sorted(pasta.glob("slide-*.jpg"))
+    if len(imagens) == 1:
+        r = fb(f"{FB_PAGE}/photos", url=links.link(imagens[0]), message=texto)
+        return {"post_id": r.get("post_id", r.get("id"))}
+    fotos = [fb(f"{FB_PAGE}/photos", url=links.link(img), published="false")["id"] for img in imagens]
+    r = fb(f"{FB_PAGE}/feed", message=texto, attached_media=json.dumps([{"media_fbid": f} for f in fotos]))
+    return {"post_id": r["id"]}
+
+
 def criar_containers(ig, links, pasta, post):
     if post["tipo"] == "reel":
         params = {"media_type": "REELS", "video_url": links.link(pasta / "video.mp4"),
@@ -149,6 +187,12 @@ def publicar(pasta, simular=False):
         cid = criar_containers(ig, Links("raw", simular), pasta, post)
     pub = ig.chamar("POST", f"{ig.ig}/media_publish", creation_id=cid)
     info = ig.chamar("GET", pub["id"], fields="id,permalink,timestamp,media_type")
+    if FB_PAGE:
+        try:
+            info["facebook"] = publicar_facebook(ig, Links("jsdelivr", simular), pasta, post)
+        except Exception as e:  # noqa: BLE001  Facebook falhar não desfaz o Instagram
+            info["facebook"] = {"erro": str(e)[:300]}
+            print(f"Facebook falhou em {post['id']}: {e}", file=sys.stderr)
     info["publicado_em_brt"] = datetime.now(TZ).isoformat(timespec="minutes")
     if simular:
         print(f"[simulado] publicaria {post['id']} ({post['tipo']}, {post['formato']}, PROTOCOLO {post['protocolo']})")
