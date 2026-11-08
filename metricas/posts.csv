@@ -1,0 +1,4 @@
+data,id,pauta_id,formato,tipo,gancho_tipo,protocolo,horario,permalink,reach,views,saved,shares,likes,comments,salv_env_por_alcance,erro
+2026-11-07,2026-11-07-01,Z02,alerta,carrossel,comunicado,000,19:40,https://www.instagram.com/p/DfdSH5EF0xg/,5,16,0,2,1,0,0.4,
+2026-11-08,2026-11-08-01,Z03,protocolo,carrossel,inventario,001,07:50,https://www.instagram.com/p/DfelznUmAsp/,3,6,0,17,2,0,5.6667,
+2026-11-08,2026-11-08-02,A01,alerta,carrossel,ordem,002,12:20,https://www.instagram.com/p/DffEjRumAJO/,4,13,0,10,1,0,2.5,
