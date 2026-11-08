@@ -1,0 +1,121 @@
+{
+  "id": "2026-11-09-01",
+  "pauta_id": "Z06",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "07:50",
+  "protocolo": "004",
+  "gancho_tipo": "inventario",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Kit de R$ 0: **10 itens** que já estão na sua casa.",
+      "subtitulo": "Nada para comprar hoje. Só juntar tudo num lugar só."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "De onde vem a lista",
+      "titulo": "A lista oficial tem 21 itens",
+      "texto": "A Defesa Civil do Paraná publica um kit de emergência com 21 itens.\n\nMuitos deles já estão na gaveta, no armário ou no fundo do guarda-roupa. Separei **10**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Itens 1 a 3",
+      "titulo": "Para dormir e ser encontrado",
+      "itens": [
+        "Cobertor ou saco de dormir, um para cada pessoa.",
+        "Lanterna com pilhas.",
+        "Apito, para pedir ajuda."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Itens 4 a 6",
+      "titulo": "Na hora de comer",
+      "itens": [
+        "Abridor de lata manual.",
+        "Pratos, copos, talheres de plástico e toalha de papel.",
+        "Fósforos guardados em embalagem à prova d'água."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Itens 7 a 9",
+      "titulo": "Higiene e proteção",
+      "itens": [
+        "Escova de dentes, creme dental e sabonete.",
+        "Sacolas.",
+        "Filme plástico."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Item 10",
+      "titulo": "O item que quase todo mundo esquece",
+      "itens": [
+        "Um par extra de óculos de grau.",
+        "Os óculos antigos, da gaveta, servem."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Sem óculos, fica difícil ler um aviso ou um papel com contatos."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que fica para depois",
+      "titulo": "Água e comida custam, e tudo bem",
+      "texto": "Os 10 itens de hoje saem de graça.\n\nÁgua, comida e remédio entram aos poucos, com a lista do Protocolo 001 e a conta do Protocolo 003. Uma tarde para juntar, uma **mochila** para guardar."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Junte hoje, num lugar só.",
+      "texto": "Todo mundo da casa precisa saber **onde fica**.",
+      "cta": "Siga para receber o Protocolo 005."
+    }
+  ],
+  "legenda": "Antes de gastar dinheiro com kit de emergência, olhe a casa. Dos 21 itens da lista da Defesa Civil do Paraná, separei 10 que quase todo mundo já tem.\n\nJunte numa mochila hoje. Água e comida entram depois, com calma.\n\nFontes: Defesa Civil do Paraná, página Kit de Emergência pessoal (defesacivil.pr.gov.br, consultada em 08/11/2026).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #preparacao #72horas #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de emergência pessoal com 21 itens, entre eles: água (2 litros por pessoa por dia), comida não perecível, cópia de documentos, kit de primeiros socorros, remédios, dinheiro, fósforos em invólucro à prova d'água, escova de dentes, creme dental e sabão, pratos de papel, utensílios e copos plásticos, toalhas de papel, rádio a pilhas, saco de dormir ou cobertor para cada pessoa, lanterna com pilhas, apito para sinalização, abridor de lata manual, mapas locais, suprimentos para pets e bebês, par extra de óculos de grau, filme plástico e sacolas.",
+      "numeros": [
+        "21"
+      ],
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "numeros_proprios": {
+    "10": "10 itens escolhidos da lista oficial, contagem interna do post",
+    "0": "custo zero do título (R$ 0): a pauta é juntar o que já existe em casa",
+    "1": "numeração interna das fichas (itens 1 a 10)",
+    "3": "numeração interna das fichas (itens 1 a 3, 4 a 6, 7 a 9)",
+    "4": "numeração interna das fichas (itens 4 a 6)",
+    "6": "numeração interna das fichas (itens 4 a 6)",
+    "7": "numeração interna das fichas (itens 7 a 9)",
+    "9": "numeração interna das fichas (itens 7 a 9)"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

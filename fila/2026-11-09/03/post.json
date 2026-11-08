@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-09-03",
+  "pauta_id": "Z16",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "006",
+  "gancho_tipo": "erro_comum",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "O alerta da Defesa Civil já existe. O erro é **não se cadastrar**.",
+      "subtitulo": "3 canais oficiais e gratuitos, para o aviso chegar antes da água."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O erro comum",
+      "titulo": "Achar que o aviso chega sozinho",
+      "texto": "O Cell Broadcast chega sem cadastro, mas é usado **só** em alertas severos e extremos.\n\nOs outros avisos da Defesa Civil chegam por SMS e WhatsApp. Esses dependem de você."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Canal 1 de 3",
+      "titulo": "SMS 40199",
+      "itens": [
+        "Mande o CEP da sua casa por SMS para 40199.",
+        "Espere a mensagem de confirmação.",
+        "É gratuito, para enviar e para receber."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Para parar de receber, mande SAIR e o CEP."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Canal 2 de 3",
+      "titulo": "WhatsApp da Defesa Civil",
+      "itens": [
+        "Salve o número (61) 2034-4611.",
+        "Mande Oi.",
+        "Compartilhe a sua localização ou escolha outra."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Esse canal manda os avisos da Defesa Civil Nacional."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Canal 3 de 3",
+      "titulo": "Cell Broadcast",
+      "itens": [
+        "Não precisa de cadastro.",
+        "Toma a tela do celular, com som e vibração.",
+        "Chega a quem está na área, com sinal 4G ou 5G."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Faça pela família",
+      "titulo": "Quantos CEPs você quiser",
+      "itens": [
+        "Casa dos seus pais.",
+        "Escola das crianças.",
+        "Seu trabalho."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Um CEP por mensagem. Cada um chega separado."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Teste hoje, não no dia da chuva.",
+      "texto": "Cadastre e confira se a **confirmação** chegou.",
+      "cta": "Siga para receber o Protocolo 007."
+    }
+  ],
+  "legenda": "Quase todo mundo espera o alerta da Defesa Civil chegar sozinho. Só o Cell Broadcast faz isso, e só em alerta severo ou extremo.\n\nOs outros avisos dependem de cadastro. Basta mandar o CEP por SMS para 40199, e dá para cadastrar a casa de quem você cuida.\n\nFontes: Defesa Civil do Paraná, dúvidas sobre o SMS 40199 (vários CEPs, SAIR, gratuidade); Governo do Paraná, cadastro por SMS; Governo do Rio Grande do Sul, SMS 40199, WhatsApp da Defesa Civil Nacional e Cell Broadcast.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#defesacivil #alerta #40199 #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Duvidas-sobre-SMS",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "É possível cadastrar quantos CEPs quiser, um a um; para cancelar, enviar SMS com SAIR e o CEP; o serviço é totalmente gratuito, no envio e no recebimento.",
+      "numeros": [
+        "40199"
+      ],
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "orgao": "Governo do Paraná",
+      "url": "https://www.parana.pr.gov.br/servicos/Seguranca/Defesa-Civil/Receber-alertas-da-Defesa-Civil-por-SMS-ERrZ4PN6",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Enviar SMS com o CEP para 40199 e aguardar a resposta com a confirmação do cadastro; gratuito.",
+      "numeros": [
+        "40199"
+      ],
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "orgao": "Governo do Rio Grande do Sul",
+      "url": "https://estado.rs.gov.br/como-se-cadastrar-para-receber-avisos-e-alertas-da-defesa-civil-no-celular",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "SMS gratuito com o CEP para 40199; WhatsApp (61) 2034-4611, enviar Oi e compartilhar a localização, com conteúdo da Defesa Civil Nacional; Cell Broadcast usado somente em alertas severos e extremos, sem cadastro, gratuito, bloqueia a tela com alerta sonoro e vibratório, para quem está na área com cobertura 4G ou 5G.",
+      "numeros": [
+        "40199",
+        "61",
+        "2034",
+        "4611",
+        "4",
+        "5"
+      ],
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "numeros_proprios": {
+    "3": "3 canais do carrossel, contagem interna",
+    "1": "numeração interna das fichas (canal 1 de 3)",
+    "2": "numeração interna das fichas (canal 2 de 3)"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

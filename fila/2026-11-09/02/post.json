@@ -1,0 +1,112 @@
+{
+  "id": "2026-11-09-02",
+  "pauta_id": "Z15",
+  "formato": "alerta",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "005",
+  "gancho_tipo": "comunicado",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "El Niño não causa desastre. **Aumenta a chance** dele.",
+      "subtitulo": "O que o Cemaden e o Inmet escreveram, de verdade, para quem mora no Sul."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que é",
+      "contador": "Inmet, boletim de outubro",
+      "titulo": "Um El Niño muito forte",
+      "texto": "O Inmet classifica o fenômeno como **muito forte** e prevê que o aquecimento do Pacífico continue pelo menos até o primeiro trimestre de 2027.\n\nPara o Sul, a previsão indica mais chance de chuva acima do normal, sobretudo de novembro a janeiro."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que não é",
+      "titulo": "Não é previsão de desastre",
+      "texto": "A nota técnica do Cemaden diz que o El Niño não causa desastres diretamente: ele aumenta a **probabilidade** de eventos extremos.\n\nO estrago depende de onde e de como a gente mora. Essa parte dá para preparar."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Onde o risco sobe",
+      "titulo": "O que o Cemaden aponta no Sul",
+      "itens": [
+        "Cheias nos rios Uruguai, Taquari-Antas e Caí, no RS.",
+        "Cheias no Itajaí-Açu e no Iguaçu.",
+        "Deslizamento na faixa leste: Grande Curitiba, Vale do Itajaí, Grande Florianópolis e Serra Gaúcha.",
+        "Alagamento rápido nas regiões metropolitanas e no litoral catarinense."
+      ],
+      "marcados": []
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que fazer agora",
+      "titulo": "3 passos antes da chuva",
+      "itens": [
+        "Pergunte à Defesa Civil da sua cidade se a sua rua fica em área de risco.",
+        "Cadastre o CEP de casa: SMS para 40199.",
+        "Deixe o kit de emergência pronto, como no Protocolo 001."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Onde acompanhar",
+      "texto": "Avisos do **Inmet** e da Defesa Civil do seu estado. Corrente de mensagem não é fonte.",
+      "cta": "Siga para receber o Protocolo 006."
+    }
+  ],
+  "legenda": "El Niño não é aviso de desastre. É uma temporada com mais chance de chuva forte no Sul, e isso muda o que vale preparar até o verão.\n\nResumo do que o Cemaden e o Inmet publicaram, sem exagero e sem minimizar.\n\nFontes: Cemaden, Nota Técnica nº 427/2026 sobre o El Niño 2026/2027; Inmet, Painel El Niño, boletim nº 5 (outubro de 2026); Governo do Rio Grande do Sul, cadastro de alertas por SMS 40199.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#elnino #defesacivil #riograndedosul #santacatarina #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Cemaden",
+      "url": "https://www.gov.br/cemaden/pt-br/assuntos/noticias-cemaden/cemaden-emite-nota-tecnica-sobre-o-el-nino-2026-2027/sei_mcti-13652591-nota-tecnica-el-nino-2026-cemaden.pdf/@@download/file",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Nota Técnica nº 427/2026: o El Niño não causa desastres diretamente, mas aumenta ou reduz a probabilidade de eventos extremos; no Sul, chuva acima da média pode causar cheias nos rios Uruguai, Taquari-Antas e Caí (RS) e Itajaí-Açu e Iguaçu; maior risco de deslizamento na faixa leste (Grande Curitiba e litoral do PR; Norte Catarinense, Vale do Itajaí, Grande Florianópolis; Serra Gaúcha e região metropolitana de Porto Alegre); enxurradas e alagamentos pontuais nas regiões metropolitanas de Porto Alegre, Florianópolis e Curitiba e no litoral leste catarinense. O desastre depende também de vulnerabilidade e exposição.",
+      "numeros": [
+        "427",
+        "2026",
+        "2027"
+      ],
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "orgao": "Inmet",
+      "url": "https://portal.inmet.gov.br/uploads/notastecnicas/Painel-El-Ni%C3%B1o-5-edi%C3%A7%C3%A3o1.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Painel El Niño, boletim mensal nº 5, outubro de 2026: evento de intensidade muito forte; aquecimento deve continuar pelo menos até o primeiro trimestre de 2027; no Sul, maior probabilidade de chuva acima da faixa normal, sobretudo de novembro a janeiro; enchentes e inundações são o principal risco na região.",
+      "numeros": [
+        "5",
+        "2026",
+        "2027"
+      ],
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "orgao": "Governo do Rio Grande do Sul",
+      "url": "https://estado.rs.gov.br/como-se-cadastrar-para-receber-avisos-e-alertas-da-defesa-civil-no-celular",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Cadastro gratuito de alertas da Defesa Civil: SMS com o CEP para 40199.",
+      "numeros": [
+        "40199"
+      ],
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "numeros_proprios": {
+    "3": "3 passos da lâmina 5, contagem interna"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
