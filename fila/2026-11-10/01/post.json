@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-10-01",
+  "pauta_id": "Z29",
+  "formato": "alerta",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "007",
+  "gancho_tipo": "dado_oficial",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "A Europa pediu o mesmo kit de **72 horas**.",
+      "subtitulo": "O que a Comissão Europeia publicou em 03/11, e por que não é sinal de perigo aqui."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que é",
+      "contador": "Comissão Europeia, 03/11",
+      "titulo": "Orientação, não lei",
+      "texto": "A Comissão Europeia pede que cada casa consiga atender às necessidades básicas nos 3 primeiros dias de uma crise, **antes de a ajuda pública chegar**.\n\nSão diretrizes para os países do bloco. Nenhum é obrigado a seguir."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que entra no plano europeu",
+      "titulo": "4 frentes",
+      "itens": [
+        "Estoque de emergência em casa e mochila pronta para sair.",
+        "Preparação nas escolas, sem criar medo nem ansiedade.",
+        "Pessoas com deficiência incluídas no planejamento.",
+        "Aviso de risco claro, antes, durante e depois."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "E um Dia Europeu da Preparação: 23 de outubro, a partir de 2027."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "E aqui?",
+      "titulo": "Mesmo número aqui",
+      "texto": "A orientação da Defesa Civil Nacional também fala em kit para **72 horas**.\n\nO Ministério da Integração esclareceu em 07/11: é medida preventiva, permanente, sem relação com alerta. O conteúdo já tinha saído em março e abril."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que fazer agora",
+      "titulo": "Sem pressa, em ordem",
+      "itens": [
+        "Kit de casa: Protocolo 001.",
+        "Água da família: Protocolo 003.",
+        "Alertas no celular: Protocolo 006."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Onde acompanhar",
+      "texto": "Defesa Civil da sua cidade e do seu estado. Notícia de outro país é **contexto**, não ordem para você.",
+      "cta": "Siga para receber o Protocolo 008."
+    }
+  ],
+  "legenda": "A Europa não descobriu um perigo novo. Chegou ao mesmo número que a Defesa Civil já usa aqui: 72 horas de autonomia, o tempo de a ajuda pública chegar.\n\nResumo do que a Comissão Europeia publicou em 03/11, lado a lado com a orientação brasileira.\n\nFontes: Comissão Europeia (braço executivo da União Europeia), comunicado IP/26/2324 de 03/11/2026;Ministério da Integração e do Desenvolvimento Regional, nota de 07/11/2026; Governo de Goiás, Defesa Civil Estadual, sobre a orientação nacional do kit para 72 horas.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #uniaoeuropeia #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Comissão Europeia",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/IP_26_2324",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Comunicado IP/26/2324, Bruxelas, 03/11/2026: diretrizes não vinculantes de preparação da população em 4 frentes (autossuficiência de 72 horas, para atender às necessidades essenciais nos 3 primeiros dias antes de a ajuda pública chegar, com estoque de emergência e mochila pronta; educação para preparação nas escolas, sem criar medo ou ansiedade; preparação inclusiva para pessoas com deficiência; comunicação de riscos antes, durante e depois). Propõe Dia Europeu da Preparação em 23 de outubro, a partir de 2027. Texto conferido pela API do press corner (ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2324).",
+      "numeros": [
+        "72",
+        "3",
+        "4",
+        "23",
+        "2027"
+      ],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional",
+      "url": "https://www.gov.br/mdr/pt-br/noticias/midr-esclarece-que-kit-de-emergencia-e-medida-preventiva-e-nao-tem-relacao-com-alerta-nacional",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Nota de 07/11/2026: a recomendação do kit de emergência é estritamente preventiva, faz parte das ações permanentes e não tem relação com alerta nacional; o conteúdo já havia sido publicado em 16 e 29 de março e 3 de abril.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Governo de Goiás",
+      "url": "https://agencia.go.gov.br/alerta-nacional-da-defesa-civil-tem-carater-preventivo/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Agência Goiás, 09/11/2026: a orientação da Defesa Civil Nacional é montar kit para atender às necessidades de uma família por até 72 horas; tem caráter preventivo e não representa alerta de risco imediato.",
+      "numeros": [
+        "72"
+      ],
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "numeros_proprios": {},
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

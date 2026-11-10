@@ -1,0 +1,150 @@
+{
+  "id": "2026-11-10-02",
+  "pauta_id": "Z22",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "008",
+  "gancho_tipo": "ordem",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Kit de novembro vence. Confira em **maio**.",
+      "subtitulo": "A Defesa Civil orienta conferir a cada 6 meses. A revisão tem ordem."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "A regra",
+      "contador": "a cada 6 meses",
+      "titulo": "Confira o kit 2 vezes por ano",
+      "texto": "A Defesa Civil de São Paulo orienta: a cada 6 meses, confira se os itens do kit não passaram da validade. O plano da família também é revisto a cada 6 meses.\n\nQuem montou agora já tem a próxima data: **maio**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 1 de 5",
+      "titulo": "Água e comida",
+      "itens": [
+        "Confira a data de cada garrafa e de cada lata.",
+        "O que vence logo vai para a despensa e é consumido.",
+        "Reponha no kit com validade mais longa.",
+        "Água: 2 L por pessoa por dia, no mínimo."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 2 de 5",
+      "titulo": "Remédios e receitas",
+      "itens": [
+        "Remédio de uso contínuo dentro da validade.",
+        "Cópia da receita atual, não a do ano passado.",
+        "Itens de primeiros socorros completos."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 3 de 5",
+      "titulo": "Luz e energia",
+      "itens": [
+        "Ligue a lanterna.",
+        "Troque pilha fraca ou vazada.",
+        "Ligue o rádio e sintonize uma estação.",
+        "Carregador portátil com carga."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 4 de 5",
+      "titulo": "Papel",
+      "itens": [
+        "Cópia dos documentos em saco plástico fechado.",
+        "Lista de contatos com os telefones de hoje.",
+        "Uma cópia da lista com cada pessoa da casa."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Na lista: 199 Defesa Civil, 193 Bombeiros, 192 SAMU."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 5 de 5",
+      "titulo": "A casa mudou?",
+      "itens": [
+        "Chegou bebê, idoso ou pet: o kit muda junto.",
+        "Roupa e calçado ainda servem em quem mora aí?",
+        "O ponto de encontro da família ainda vale?"
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Atalho",
+      "titulo": "Data fixa não se esquece",
+      "texto": "Escolha 2 datas por ano e coloque no calendário do celular, com alarme.\n\nNovembro e maio funcionam bem no Sul: uma revisão **antes** do verão de chuva, outra antes do inverno."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Kit revisado é kit que funciona.",
+      "texto": "A revisão leva menos tempo que a montagem. Só precisa **acontecer**.",
+      "cta": "Salve para a revisão de maio."
+    }
+  ],
+  "legenda": "Montar o kit é a primeira metade. A segunda é lembrar que ele vence.\n\nA revisão segue a mesma ordem da montagem: água e comida, remédios, luz, papel e quem mora na casa.\n\nFontes: Defesa Civil de São Paulo (SP Sempre Alerta), Plano Familiar de Emergência, revisão do kit e do plano a cada 6 meses; Defesa Civil do Paraná, Kit de Emergência pessoal, 2 L de água por pessoa por dia.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #preparacao #santacatarina #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência (SP Sempre Alerta, Governo de SP): 'A cada seis meses, certifique-se que os itens do kit não passaram da validade'; o plano também deve ser revisto a cada seis meses; água e alimentos não perecíveis para três dias; remédios e equipamentos médicos prescritos; lanternas, baterias extras e dispositivos de carregamento; documentos em sacos plásticos; lista de contatos com cópia para cada pessoa da família; suprimentos para animais; lugar seguro de encontro da família.",
+      "numeros": [
+        "6"
+      ],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal: água, 2 litros por pessoa por dia; cópia de documentos; remédios e cópia das prescrições de remédios controlados.",
+      "numeros": [
+        "2"
+      ],
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "derivados": [
+    {
+      "valor": "2",
+      "conta": "12/6"
+    }
+  ],
+  "numeros_proprios": {
+    "1": "Passo 1 de 5, numeração interna dos passos",
+    "3": "Passo 3 de 5, numeração interna dos passos",
+    "4": "Passo 4 de 5, numeração interna dos passos",
+    "5": "5 passos da revisão, contagem interna do post"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
