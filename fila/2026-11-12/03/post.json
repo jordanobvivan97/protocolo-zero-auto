@@ -1,0 +1,113 @@
+{
+  "id": "2026-11-12-03",
+  "pauta_id": "Z28",
+  "formato": "saude",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "011",
+  "gancho_tipo": "dado_oficial",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Hipotermia não precisa de geada. Roupa **molhada** basta.",
+      "subtitulo": "O CDC, agência de saúde dos EUA, alerta: pode acontecer acima de 4 °C."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O dado",
+      "contador": "abaixo de 35 °C",
+      "titulo": "Quando o corpo perde a conta",
+      "texto": "Para o Ministério da Saúde, hipotermia é a temperatura do corpo abaixo de 35 °C.\n\nO CDC explica: chuva, suor ou água fria tiram calor do corpo mesmo **sem frio extremo**. Por isso abrigo e enchente pedem atenção."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Sinais de alerta",
+      "titulo": "Observe quem esteve na chuva",
+      "itens": [
+        "Tremores intensos.",
+        "Palidez, mãos e pés gelados.",
+        "Confusão, fala arrastada, sonolência.",
+        "Bebê: pele vermelha e fria, pouca energia."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Mais atenção",
+      "titulo": "Quem esfria mais rápido",
+      "itens": [
+        "Idosos.",
+        "Crianças e bebês.",
+        "Pessoas com doenças crônicas.",
+        "Quem ficou muito tempo molhado."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Enquanto a ajuda chega",
+      "titulo": "Seco e aquecido",
+      "itens": [
+        "Leve a pessoa para um lugar abrigado.",
+        "Tire a roupa molhada.",
+        "Aqueça o tronco: peito, pescoço, cabeça e virilha.",
+        "Cobertor seco. Bebida quente só se ela estiver acordada."
+      ],
+      "marcados": [0],
+      "nota": "Nada de bebida alcoólica: aumenta a perda de calor."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Quando é emergência",
+      "titulo": "Ligue 192",
+      "texto": "Para o CDC, hipotermia é emergência médica. Se a pessoa não melhora, fica confusa ou desmaia, chame o SAMU no **192**.\n\nSe ela não respira, chame socorro e siga a orientação do atendente."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "No kit: roupa seca em saco fechado.",
+      "texto": "A Defesa Civil do Paraná põe cobertor para cada pessoa no kit. Guarde também uma **muda de roupa** protegida da água.",
+      "cta": "Mande para quem mora com você."
+    }
+  ],
+  "legenda": "Hipotermia não é só coisa de geada. Roupa molhada de chuva ou de enchente tira o calor do corpo mesmo em dia ameno.\n\nSinais, quem precisa de mais atenção e o que fazer até a ajuda chegar.\n\nConteúdo educativo: não substitui atendimento. Em sinal de alerta, ligue 192 (SAMU).\n\nFontes: Ministério da Saúde, Baixas temperaturas na Região Sul (hipotermia abaixo de 35 °C, sinais, grupos de risco, álcool aumenta a perda de calor); CDC, agência de saúde dos EUA, Preventing Hypothermia (pode ocorrer acima de 4 °C com a pessoa molhada; sinais; tirar roupa molhada; aquecer o tronco; emergência médica); Defesa Civil do Paraná, Kit de Emergência pessoal (cobertor para cada pessoa).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#hipotermia #enchente #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2024/julho/baixas-temperaturas-na-regiao-sul-saiba-como-se-proteger-do-frio-intenso",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Baixas temperaturas na Região Sul (publicada em 02/07/2024, atualizada em 26/10/2026): hipotermia é a temperatura corporal abaixo de 35 °C; sinais: palidez, tremores intensos, extremidades geladas; idosos, crianças e pessoas com doenças crônicas são mais vulneráveis; evitar bebida alcoólica, que aumenta a perda de calor; buscar ajuda médica se a temperatura não aumentar.",
+      "numeros": ["35"],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA",
+      "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Preventing Hypothermia: pode ocorrer mesmo acima de 40 °F (4 °C) se a pessoa estiver molhada por chuva, suor ou água fria; sinais em adultos (tremores, confusão, fala arrastada, sonolência) e em bebês (pele vermelha e fria, pouca energia); hipotermia é emergência médica, abaixo de 95 °F (35 °C) buscar atendimento; levar para local aquecido, retirar roupa molhada, aquecer o centro do corpo (peito, pescoço, cabeça, virilha) com cobertores secos; bebida quente ajuda, nada de álcool, nada para pessoa inconsciente.",
+      "numeros": ["4", "35"],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal: 'Saco de dormir ou cobertor para cada pessoa'.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {},
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

@@ -290,6 +290,15 @@
    "semana": "reservada",
    "afiliado": true,
    "nota": "Exige teste real de produto e link de afiliado ativo; não usar como pauta extra."
+  },
+  {
+   "id": "Z37",
+   "pauta": "Rio Uruguai acima da cota em São Borja",
+   "angulo": "Cheia de rio grande sobe devagar: o que o boletim diz e o que fazer com as horas que ela dá",
+   "formato": "alerta",
+   "funil": "alcance",
+   "semana": null,
+   "origem": "agente"
   }
  ]
 }

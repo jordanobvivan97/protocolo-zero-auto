@@ -1,10 +1,11 @@
-## Lote 11/11/2026 (quarta): 3 posts
+## Lote 11/11/2026 (quarta): 3 posts (19:40 trocado por Alerta explicado na vigia do meio-dia)
 
 | Horário | Formato | Pauta | Gancho | Capa |
 |---|---|---|---|---|
 | 07:50 | Saúde em emergência (carrossel, 7 lâminas) | Z25 · PROTOCOLO 009 | erro_comum | O kit tem o remédio. Falta a receita. |
 | 12:20 | Protocolo (carrossel, 9 lâminas) | Z19 · PROTOCOLO 010 | primeiros_minutos | Faltou luz. A bateria do celular virou recurso. |
-| 19:40 | Saúde em emergência (carrossel, 7 lâminas) | Z28 · PROTOCOLO 011 | dado_oficial | Hipotermia não precisa de geada. Roupa molhada basta. |
+| 19:40 | **Alerta explicado** (carrossel, 6 lâminas) | Z37 · PROTOCOLO 012 | comunicado | Rio Uruguai acima da cota em São Borja. |
+| ~~19:40~~ | Saúde (Protocolo 011, hipotermia) | Z28 | dado_oficial | empurrado para 12/11 às 19:40 (`fila/2026-11-12/03`) |
 
 **Modo pico:** nenhum alerta novo relevante para o Sul nas últimas 24h. O último aviso da Defesa Civil do RS no site é de 06/11 (tempestades, já coberto); os avisos laranja do Inmet de 10 e 11/11 são para o Centro-Oeste (MS e MT), fora do recorte.
 
@@ -37,3 +38,16 @@
 - Reescrita: na lâmina 4 do Protocolo 010, "vela... nunca sozinha" ficou ambíguo e virou "nunca acesa sem ninguém por perto".
 - Pauta acabando: banco livre (sem semana) agora tem 8 pautas: Z14, Z20, Z30, Z31, Z32, Z33, Z34, Z35. Formatos: 7 protocolo e 1 cenário (Z30), nenhum saúde, alerta ou calculadora. De 12 a 13/11 faltam 6 posts e a rotação vai exigir intercalar Z30 (cenário) ou criar pauta nova de outro formato.
 - Ganchos dos 2 últimos: primeiros_minutos e dado_oficial. Formato do último: saude.
+
+### ALERTA · vigia de 11/11, meio-dia
+- **Órgão:** Defesa Civil do Rio Grande do Sul. Alerta vermelho de risco muito alto de inundação do rio Uruguai em São Borja (10/11, 8h12), **válido até as 7h de 11/11**. O post não diz "alerta ativo": fala do alerta no passado e da situação pelo prognóstico hidrológico de 10/11, 16h (rio acima da cota em São Borja até quinta 12/11; Itaqui e Uruguaiana na faixa de alerta).
+- **Fonte primária aberta:** sim, as 3 páginas da Defesa Civil RS e a página do Governo do RS sobre o SMS 40199, todas em 11/11.
+- **Sai:** hoje, 11/11, às 19:40 (`fila/2026-11-11/03`). O Protocolo 011 (hipotermia) foi para 12/11 às 19:40 (`fila/2026-11-12/03`), sem outra mudança.
+- **Pauta nova:** Z37 criada no banco (`origem: agente`, formato alerta).
+- Não usei número da imprensa (cota de 10,37 m e 15 pessoas fora de casa, citados por portais com SGB e Correio do Povo): ficou fora do post.
+- Inmet: nenhum aviso laranja ou vermelho para o Sul achado nas buscas de hoje (os laranja de 10 e 11/11 são Centro-Oeste e Matopiba). O portal de avisos do Inmet não abriu daqui.
+- O reconhecimento federal de emergência em 7 municípios do Sul (portaria de 10/11) é ato administrativo sobre eventos já passados; não virou post.
+
+### Confira (alerta)
+- [ ] Antes das 19:40, se der: o site da Defesa Civil RS publicou boletim novo do rio Uruguai? Se o rio já tiver voltado abaixo da cota em São Borja, a lâmina 3 ("deve seguir pouco acima da cota até quinta") fica desatualizada.
+- [ ] Lote noturno: 12/11 já tem `03` às 19:40 (Protocolo 011); o lote precisa criar só 01 (07:50) e 02 (12:20) e conferir a rotação com saude às 19:40.

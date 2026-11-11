@@ -1,103 +1,112 @@
 {
   "id": "2026-11-11-03",
-  "pauta_id": "Z28",
-  "formato": "saude",
+  "pauta_id": "Z37",
+  "formato": "alerta",
   "tipo": "carrossel",
   "horario": "19:40",
-  "protocolo": "011",
-  "gancho_tipo": "dado_oficial",
+  "protocolo": "012",
+  "gancho_tipo": "comunicado",
   "hipotetico": false,
   "slides": [
     {
       "layout": "capa",
-      "titulo": "Hipotermia não precisa de geada. Roupa **molhada** basta.",
-      "subtitulo": "O CDC, agência de saúde dos EUA, alerta: pode acontecer acima de 4 °C."
+      "titulo": "Rio Uruguai acima da cota em **São Borja**.",
+      "subtitulo": "O que a Defesa Civil do RS escreveu, de verdade, e o que fazer com o tempo que um rio grande dá."
     },
     {
       "layout": "texto",
-      "etiqueta": "O dado",
-      "contador": "abaixo de 35 °C",
-      "titulo": "Quando o corpo perde a conta",
-      "texto": "Para o Ministério da Saúde, hipotermia é a temperatura do corpo abaixo de 35 °C.\n\nO CDC explica: chuva, suor ou água fria tiram calor do corpo mesmo **sem frio extremo**. Por isso abrigo e enchente pedem atenção."
-    },
-    {
-      "layout": "ficha",
-      "etiqueta": "Sinais de alerta",
-      "titulo": "Observe quem esteve na chuva",
-      "itens": [
-        "Tremores intensos.",
-        "Palidez, mãos e pés gelados.",
-        "Confusão, fala arrastada, sonolência.",
-        "Bebê: pele vermelha e fria, pouca energia."
-      ],
-      "marcados": [0]
-    },
-    {
-      "layout": "ficha",
-      "etiqueta": "Mais atenção",
-      "titulo": "Quem esfria mais rápido",
-      "itens": [
-        "Idosos.",
-        "Crianças e bebês.",
-        "Pessoas com doenças crônicas.",
-        "Quem ficou muito tempo molhado."
-      ],
-      "marcados": [0]
-    },
-    {
-      "layout": "ficha",
-      "etiqueta": "Enquanto a ajuda chega",
-      "titulo": "Seco e aquecido",
-      "itens": [
-        "Leve a pessoa para um lugar abrigado.",
-        "Tire a roupa molhada.",
-        "Aqueça o tronco: peito, pescoço, cabeça e virilha.",
-        "Cobertor seco. Bebida quente só se ela estiver acordada."
-      ],
-      "marcados": [0],
-      "nota": "Nada de bebida alcoólica: aumenta a perda de calor."
+      "etiqueta": "O que é",
+      "contador": "Defesa Civil RS, 10/11",
+      "titulo": "Alerta vermelho, risco muito alto",
+      "texto": "Na terça (10), a Defesa Civil do RS emitiu alerta de **risco muito alto** de inundação do rio Uruguai em São Borja. O alerta valeu até as 7h de quarta (11).\n\nNo boletim da tarde, o rio seguia acima da cota de inundação em São Borja, subindo devagar. Em Itaqui e Uruguaiana, na faixa de alerta."
     },
     {
       "layout": "texto",
-      "etiqueta": "Quando é emergência",
-      "titulo": "Ligue 192",
-      "texto": "Para o CDC, hipotermia é emergência médica. Se a pessoa não melhora, fica confusa ou desmaia, chame o SAMU no **192**.\n\nSe ela não respira, chame socorro e siga a orientação do atendente."
+      "etiqueta": "O que não é",
+      "titulo": "Não é o RS inteiro debaixo d'água",
+      "texto": "É a cheia de um rio grande, num trecho da Fronteira Oeste. Rio assim sobe e desce **devagar**.\n\nO boletim previa estabilidade e depois queda a partir do fim de quarta. Mesmo assim, São Borja deve seguir pouco acima da cota até quinta (12)."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que fazer agora",
+      "titulo": "Para quem mora perto do rio",
+      "itens": [
+        "Evite áreas que costumam alagar, a pé ou de carro.",
+        "Precisou sair de casa? Vá ao abrigo indicado pela Defesa Civil da sua cidade.",
+        "Pergunte à prefeitura qual é o plano de contingência do seu bairro.",
+        "Emergência: 193 (Bombeiros) ou 190 (Brigada Militar)."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "No resto do estado",
+      "contador": "Prognóstico de 10/11",
+      "titulo": "Temporais isolados até quinta",
+      "texto": "Para quarta e quinta, a Defesa Civil do RS previa temporais isolados com granizo e rajadas que podem passar de **80 km/h**, e chuva de 20 a 90 mm.\n\nRegiões: Oeste, Missões, Noroeste, Norte, Centro, Vales, Serra e Nordeste."
     },
     {
       "layout": "fechamento",
-      "titulo": "No kit: roupa seca em saco fechado.",
-      "texto": "A Defesa Civil do Paraná põe cobertor para cada pessoa no kit. Guarde também uma **muda de roupa** protegida da água.",
-      "cta": "Mande para quem mora com você."
+      "titulo": "Onde acompanhar",
+      "texto": "Site da Defesa Civil do RS e a Defesa Civil da sua cidade. No RS, mande o **CEP** de casa por SMS para 40199 e receba o alerta no celular, de graça.",
+      "cta": "Mande para quem mora na Fronteira Oeste."
     }
   ],
-  "legenda": "Hipotermia não é só coisa de geada. Roupa molhada de chuva ou de enchente tira o calor do corpo mesmo em dia ameno.\n\nSinais, quem precisa de mais atenção e o que fazer até a ajuda chegar.\n\nConteúdo educativo: não substitui atendimento. Em sinal de alerta, ligue 192 (SAMU).\n\nFontes: Ministério da Saúde, Baixas temperaturas na Região Sul (hipotermia abaixo de 35 °C, sinais, grupos de risco, álcool aumenta a perda de calor); CDC, agência de saúde dos EUA, Preventing Hypothermia (pode ocorrer acima de 4 °C com a pessoa molhada; sinais; tirar roupa molhada; aquecer o tronco; emergência médica); Defesa Civil do Paraná, Kit de Emergência pessoal (cobertor para cada pessoa).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#hipotermia #enchente #defesacivil #preparacao #protocolozero",
+  "legenda": "O rio Uruguai passou da cota de inundação em São Borja e a Defesa Civil do RS emitiu alerta de risco muito alto, válido até as 7h de hoje (11/11).\n\nCheia de rio grande sobe devagar. Isso dá horas para quem mora perto da margem se organizar com calma, seguindo a prefeitura.\n\nAqui está o que o boletim oficial de 10/11 diz, sem exagero: onde, até quando e o que fazer.\n\nFontes: Defesa Civil do Rio Grande do Sul, alerta de inundação do rio Uruguai em São Borja (10/11/2026, 8h12), prognóstico hidrológico (10/11/2026, 16h) e prognóstico meteorológico (10/11/2026, 15h59); Governo do Rio Grande do Sul, cadastro de alertas por SMS 40199.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#riouruguai #saoborja #defesacivil #riograndedosul #protocolozero",
   "fontes": [
     {
-      "orgao": "Ministério da Saúde",
-      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2024/julho/baixas-temperaturas-na-regiao-sul-saiba-como-se-proteger-do-frio-intenso",
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://www.defesacivil.rs.gov.br/defesa-civil-alerta-inundacao-do-rio-uruguai-risco-muito-alto-de-inundacao-em-sao-borja",
       "conferencia": "pagina_oficial",
-      "afirmacao": "Baixas temperaturas na Região Sul (publicada em 02/07/2024, atualizada em 26/10/2026): hipotermia é a temperatura corporal abaixo de 35 °C; sinais: palidez, tremores intensos, extremidades geladas; idosos, crianças e pessoas com doenças crônicas são mais vulneráveis; evitar bebida alcoólica, que aumenta a perda de calor; buscar ajuda médica se a temperatura não aumentar.",
-      "numeros": ["35"],
-      "consultado_em": "2026-11-10"
+      "afirmacao": "Alerta de 10/11/2026, 8h12: inundação do rio Uruguai, risco muito alto em São Borja, válido até as 7h de 11/11. Orientações: evite áreas inundáveis; procure abrigo; consulte a Defesa Civil municipal e conheça o plano de contingência do município. Emergência: 190 ou 193.",
+      "numeros": [
+        "10",
+        "11",
+        "7",
+        "190",
+        "193"
+      ],
+      "consultado_em": "2026-11-11"
     },
     {
-      "orgao": "CDC, agência de saúde dos EUA",
-      "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://www.defesacivil.rs.gov.br/centro-de-monitoramento-da-defesa-civil-atualiza-o-prognostico-hidrologico-para-os-proximos-dias",
       "conferencia": "pagina_oficial",
-      "afirmacao": "Preventing Hypothermia: pode ocorrer mesmo acima de 40 °F (4 °C) se a pessoa estiver molhada por chuva, suor ou água fria; sinais em adultos (tremores, confusão, fala arrastada, sonolência) e em bebês (pele vermelha e fria, pouca energia); hipotermia é emergência médica, abaixo de 95 °F (35 °C) buscar atendimento; levar para local aquecido, retirar roupa molhada, aquecer o centro do corpo (peito, pescoço, cabeça, virilha) com cobertores secos; bebida quente ajuda, nada de álcool, nada para pessoa inconsciente.",
-      "numeros": ["4", "35"],
-      "consultado_em": "2026-11-10"
+      "afirmacao": "Prognóstico hidrológico de 10/11/2026, 16h: rio Uruguai acima da cota de inundação em São Borja, em lenta elevação; Itaqui e Uruguaiana no limiar de alerta. Terça e quarta (10 e 11): manutenção com elevação lenta em São Borja; a partir do fim de quarta e na quinta (12): estabilidade e depois declínio, com São Borja pouco acima da cota de inundação; a jusante, estabilização acima do limiar de alerta.",
+      "numeros": [
+        "10",
+        "11",
+        "12"
+      ],
+      "consultado_em": "2026-11-11"
     },
     {
-      "orgao": "Defesa Civil do Paraná",
-      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://www.defesacivil.rs.gov.br/centro-de-monitoramento-da-defesa-civil-atualiza-o-prognostico-meteorologico-para-os-proximos-dias",
       "conferencia": "pagina_oficial",
-      "afirmacao": "Kit de Emergência pessoal: 'Saco de dormir ou cobertor para cada pessoa'.",
-      "numeros": [],
-      "consultado_em": "2026-11-10"
+      "afirmacao": "Prognóstico meteorológico de 10/11/2026, 15h59: quarta (11) e quinta (12) com risco de temporais isolados, granizo e rajadas que podem passar de 80 km/h; acumulados de 20 a 90 mm; regiões Oeste, Missões, Noroeste, Norte, Centro, Vales, Serra e Nordeste.",
+      "numeros": [
+        "11",
+        "12",
+        "80",
+        "20",
+        "90"
+      ],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Governo do Rio Grande do Sul",
+      "url": "https://estado.rs.gov.br/como-se-cadastrar-para-receber-avisos-e-alertas-da-defesa-civil-no-celular",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Cadastro gratuito de alertas da Defesa Civil: SMS com o CEP para 40199. Cell Broadcast não exige cadastro e é usado em alertas severos e extremos.",
+      "numeros": [
+        "40199"
+      ],
+      "consultado_em": "2026-11-11"
     }
   ],
-  "derivados": [],
   "numeros_proprios": {},
   "portao": {
     "ideia_nova": true,
