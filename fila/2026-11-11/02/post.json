@@ -1,0 +1,146 @@
+{
+  "id": "2026-11-11-02",
+  "pauta_id": "Z19",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "010",
+  "gancho_tipo": "primeiros_minutos",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Faltou luz. A bateria do celular virou **recurso**.",
+      "subtitulo": "O que fazer com o celular logo nos primeiros minutos sem energia."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "A lógica",
+      "titulo": "O celular é alerta e telefone",
+      "texto": "Numa falta de energia longa, é por ele que chegam os alertas e que você liga para 199 e 193.\n\nA Cruz Vermelha Americana orienta: tenha bateria reserva ou outro jeito de carregar. Bateria gasta à toa é **ligação** que pode faltar."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 1 de 5",
+      "titulo": "Tire os aparelhos da tomada",
+      "itens": [
+        "Desconecte os eletrônicos da tomada.",
+        "A energia pode voltar com picos que danificam aparelhos.",
+        "O carregador fica pronto para quando a luz voltar."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 2 de 5",
+      "titulo": "Lanterna, não o celular",
+      "itens": [
+        "Ilumine a casa com lanterna a pilha.",
+        "A lanterna do celular gasta a bateria que você vai precisar.",
+        "Vela só se não houver outro jeito, longe de cortina e nunca acesa sem ninguém por perto."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 3 de 5",
+      "titulo": "Economize desde o começo",
+      "itens": [
+        "Ative o modo de economia de bateria.",
+        "Baixe o brilho da tela.",
+        "Feche vídeos, jogos e redes sociais.",
+        "Avise a família que está bem e poupe o resto."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 4 de 5",
+      "titulo": "Notícia vem pelo rádio",
+      "itens": [
+        "Acompanhe os avisos pelo rádio a pilha.",
+        "O celular fica para alertas e ligações.",
+        "Pilhas guardadas fora do rádio, separadas."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 5 de 5",
+      "titulo": "Recarregar sem tomada",
+      "itens": [
+        "Carregador portátil com carga, guardado no kit.",
+        "Carregador de carro, com o carro ao ar livre.",
+        "Nunca com o motor ligado em garagem fechada."
+      ],
+      "marcados": [0],
+      "nota": "O gás do escapamento não tem cheiro nem cor."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Antes da próxima",
+      "titulo": "Prepare hoje, com luz",
+      "texto": "A Defesa Civil de São Paulo orienta: organize baterias e lanternas e descubra quanto tempo a bateria do seu telefone dura.\n\nCarregador portátil **carregado** entra no kit."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Bateria é recurso, não conforto.",
+      "texto": "Na falta de energia, cada carga conta. Gaste com o que **importa**.",
+      "cta": "Salve para a próxima falta de luz."
+    }
+  ],
+  "legenda": "Na falta de energia, o celular deixa de ser distração e vira o seu canal de alerta e de socorro.\n\n5 passos: tirar da tomada, iluminar com lanterna, economizar, ouvir o rádio e recarregar sem tomada com segurança.\n\nFontes: Defesa Civil de São Paulo, Queda de energia (desconectar aparelhos, organizar baterias e lanternas); Defesa Civil do Paraná, Kit de Emergência pessoal (rádio a pilhas com pilhas guardadas separadas); Cruz Vermelha Americana, checklist de falta de energia (bateria reserva, lanterna em vez de vela); CDC, agência de saúde dos EUA (carregador de carro como reserva; nunca motor ligado em espaço fechado).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#faltadeenergia #apagao #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/queda-de-energia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Queda de energia (SP Sempre Alerta): organize baterias, lanternas e outras alternativas; verifique quanto tempo durará a bateria do telefone; durante, desconecte aparelhos eletrônicos da tomada porque a energia pode retornar com picos.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal: 'Rádio a pilhas (guardar pilhas separadamente)', lanterna, baterias extras ou fonte de energia alternativa.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Cruz Vermelha Americana",
+      "url": "https://www.redcross.org/content/dam/redcross/get-help/power-outage/EN_Power-Outage-Safety-Checklist.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Power Outage Safety Checklist: 'Have a backup battery or a way to charge your cell phone'; rádio a pilha; ouvir o rádio e acompanhar alertas no celular; 'Use flashlights, not candles'.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA",
+      "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Falta de energia: nunca deixar o motor ligado em veículo parado em espaço fechado ou parcialmente fechado, como garagem; monóxido de carbono não tem cheiro nem cor; lanternas a pilha em vez de velas; vela longe de material inflamável e nunca sem supervisão. Pôster Prepare Your Health (stacks.cdc.gov/view/cdc/80956): carregador de carro como fonte reserva para o celular.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "1": "Passo 1 de 5, numeração interna dos passos",
+    "2": "Passo 2 de 5, numeração interna dos passos",
+    "3": "Passo 3 de 5, numeração interna dos passos",
+    "4": "Passo 4 de 5, numeração interna dos passos",
+    "5": "5 passos do protocolo, contagem interna do post"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

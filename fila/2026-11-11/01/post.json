@@ -1,0 +1,127 @@
+{
+  "id": "2026-11-11-01",
+  "pauta_id": "Z25",
+  "formato": "saude",
+  "tipo": "carrossel",
+  "horario": "07:50",
+  "protocolo": "009",
+  "gancho_tipo": "erro_comum",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "O kit tem o remédio. Falta a **receita**.",
+      "subtitulo": "O erro mais comum de quem usa remédio todo dia."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O erro",
+      "titulo": "Remédio acaba. Receita não se improvisa.",
+      "texto": "A Defesa Civil do Paraná põe no kit os remédios e a cópia das prescrições dos remédios controlados.\n\nO CDC, agência de saúde dos EUA, pede o mesmo: cópia das receitas atuais **dentro do kit** e uma cópia salva na nuvem."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Item 1 de 4",
+      "titulo": "Lista de remédios no papel",
+      "itens": [
+        "Nome de cada remédio de uso contínuo.",
+        "Como cada um é usado, igual está na receita.",
+        "Alergias de quem mora na casa.",
+        "Telefone do médico e da farmácia."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Item 2 de 4",
+      "titulo": "Reserva para emergência",
+      "itens": [
+        "Converse com o médico ou o farmacêutico sobre ter uma reserva.",
+        "O CDC sugere reserva de 7 a 10 dias do remédio prescrito.",
+        "Guarde em embalagem à prova d'água."
+      ],
+      "marcados": [0],
+      "nota": "Nunca mude a forma de usar por conta própria."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Item 3 de 4",
+      "titulo": "Validade e lugar certo",
+      "itens": [
+        "Confira a validade pelo menos 2 vezes por ano.",
+        "Longe de calor forte e de umidade.",
+        "Fora do alcance das crianças."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Item 4 de 4",
+      "titulo": "Remédio de geladeira",
+      "itens": [
+        "Pergunte ao médico como manter o remédio se faltar energia.",
+        "Tenha caixa térmica e gelo reutilizável.",
+        "Aparelho de saúde que depende de tomada também precisa de plano B."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Remédio sem receita no kit é meio item.",
+      "texto": "Conteúdo educativo. Não substitui consulta. Piorou, ligue **192**.",
+      "cta": "Mande para quem toma remédio todo dia."
+    }
+  ],
+  "legenda": "Quase todo kit leva o remédio de uso contínuo. Pouca gente lembra da receita.\n\nLista no papel, reserva combinada com o médico, validade conferida e plano para remédio de geladeira.\n\nConteúdo educativo: não substitui consulta nem atendimento. Em sinal de piora, ligue 192 (SAMU).\n\nFontes: Defesa Civil do Paraná, Kit de Emergência pessoal (remédios e cópia das prescrições); CDC, agência de saúde dos EUA, checklist de remédios para emergências (cópia das receitas, lista, validade 2 vezes por ano) e material Prepare Your Health (reserva de 7 a 10 dias, embalagem à prova d'água, caixa térmica); Defesa Civil de São Paulo, Queda de energia (plano para refrigerar remédios e aparelhos de saúde).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #preparacao #saude #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal: 'Remédios (e cópia das prescrições para remédios controlados)', kit de primeiros socorros, cópia de documentos.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA (checklist)",
+      "url": "https://blogs.cdc.gov/publichealthmatters/2017/10/preparing-your-medicine-cabinet-for-an-emergency/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Preparing Your Medicine Cabinet for an Emergency: conversar com médico ou farmacêutico sobre reserva de emergência; lista de todos os remédios e dosagens no kit, com telefones de médicos e farmácias; cópias das receitas atuais no kit, também digitalizadas ou na nuvem; plano para remédio refrigerado; não deixar vencer, conferir as datas pelo menos 2 vezes por ano; guardar em recipiente identificado, longe de variação de temperatura e umidade.",
+      "numeros": ["2"],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA (Prepare Your Health)",
+      "url": "https://stacks.cdc.gov/view/cdc/139899/cdc_139899_DS1.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Material do CDC Center for Preparedness and Response: reserva de 7 a 10 dias de remédios prescritos em recipiente à prova d'água, em local sem temperatura extrema nem umidade, fora do alcance de crianças; caixa térmica com gelo reutilizável para remédios refrigerados em falta de energia.",
+      "numeros": ["7", "10"],
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/queda-de-energia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Queda de energia (SP Sempre Alerta): 'Tenha planos alternativos para refrigerar medicamentos ou usar dispositivos médicos dependentes de energia'.",
+      "numeros": [],
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "1": "Item 1 de 4, numeração interna das fichas",
+    "3": "Item 3 de 4, numeração interna das fichas",
+    "4": "4 itens do protocolo, contagem interna do post"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
