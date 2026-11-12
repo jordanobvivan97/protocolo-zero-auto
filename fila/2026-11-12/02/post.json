@@ -1,0 +1,121 @@
+{
+  "id": "2026-11-12-02",
+  "pauta_id": "Z30",
+  "formato": "cenario",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "014",
+  "gancho_tipo": "cenario",
+  "hipotetico": true,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "E se a sua casa tivesse a rotina de uma **casa japonesa**?",
+      "subtitulo": "3 hábitos do país que treina para desastre todo ano, trazidos para uma família do Sul."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O ponto de partida",
+      "titulo": "Lá, preparação tem data e prazo",
+      "texto": "A agência de desastres do Japão pede água e comida para pelo menos cerca de 3 dias. Para um grande terremoto, o governo fala em **1 semana** ou mais.\n\nE todo 1º de setembro o país faz simulados de desastre."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Hábito 1 de 3",
+      "titulo": "O estoque que gira",
+      "itens": [
+        "A comida do kit entra no cardápio da casa.",
+        "Comeu, repôs logo em seguida.",
+        "Nada de pacote esquecido vencendo no fundo do armário."
+      ],
+      "marcados": [0],
+      "nota": "No Japão, isso tem nome: estoque rotativo."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Hábito 2 de 3",
+      "titulo": "O treino com data marcada",
+      "itens": [
+        "Um dia fixo no ano para treinar a saída.",
+        "Todo mundo da casa sabe onde fica o kit.",
+        "Para a criança, é missão, não susto."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Hábito 3 de 3",
+      "titulo": "O kit do seu endereço",
+      "itens": [
+        "O kit muda conforme a família, a casa e o bairro.",
+        "Mora perto de rio? O kit precisa sair com você.",
+        "Bebê, idoso ou pet em casa? O kit muda de novo."
+      ],
+      "marcados": [0],
+      "nota": "Confira a validade de tempos em tempos e troque o que vencer."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Traduzindo para cá",
+      "titulo": "O kit já foi pedido aqui",
+      "texto": "O Ministério da Integração e do Desenvolvimento Regional lembra: o kit de emergência tem caráter preventivo.\n\nA diferença do Japão não está no kit. Está no **hábito**."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "O kit é a parte fácil. A rotina é o protocolo.",
+      "texto": "Este foi um cenário hipotético. O hábito pode ser **real**.",
+      "cta": "Siga para receber o Protocolo 011 hoje à noite."
+    }
+  ],
+  "legenda": "Cenário hipotético: e se a sua casa adotasse a rotina de preparação do Japão?\n\n3 hábitos que cabem numa família do Sul: estoque que gira, treino com data marcada e kit pensado para o seu endereço.\n\nFontes: FDMA, agência de bombeiros e desastres do Japão (estoque de água e comida para pelo menos cerca de 3 dias; itens conforme família e bairro; conferir validade); Gabinete do Governo do Japão, revista Bousai nº 73 (1 semana ou mais para grande terremoto; estoque rotativo); Governo do Japão, Highlighting Japan (simulados no Dia de Prevenção de Desastres, 1º de setembro); Ministério da Integração e do Desenvolvimento Regional (kit de emergência tem caráter preventivo, 07/11/2026).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#preparacao #japao #kitdeemergencia #defesacivil #protocolozero",
+  "fontes": [
+    {
+      "orgao": "FDMA, agência de bombeiros e desastres do Japão",
+      "url": "https://www.fdma.go.jp/relocation/bousai_manual/e/pre/preparation081.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Stockpiles/emergency items: 'Store water and food for a minimum of about 3 days'; os itens variam conforme a família, o endereço e as características do bairro; verificar periodicamente a validade e substituir.",
+      "numeros": ["3"],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Gabinete do Governo do Japão",
+      "url": "https://www.bousai.go.jp/kohou/kouhoubousai/h25/73/bousaitaisaku.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Revista Bousai nº 73 (Cabinet Office, Disaster Management): para o grande terremoto da fossa de Nankai, o ideal é estoque de '1週間以上' (1 semana ou mais); antes se considerava 3 dias suficiente; recomenda o estoque rotativo (rolling stock): consumir no dia a dia e repor em seguida.",
+      "numeros": ["1", "3", "73"],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Governo do Japão",
+      "url": "https://gov-online.go.jp/eng/publicity/book/hlj/html/201303/201303_06.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Highlighting Japan (portal de comunicação do governo japonês), março de 2013: 1º de setembro, Dia de Prevenção de Desastres, em referência ao terremoto de Kanto de 1923; 'large-scale disaster prevention drills take place across Japan'; simulados em escolas e locais de trabalho.",
+      "numeros": ["1"],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional",
+      "url": "https://www.gov.br/mdr/pt-br/noticias/midr-esclarece-que-kit-de-emergencia-e-medida-preventiva-e-nao-tem-relacao-com-alerta-nacional",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Nota de 07/11/2026: a recomendação do kit de emergência 'tem caráter estritamente preventivo' e não tem relação com alerta nacional; integra as ações permanentes para emergências.",
+      "numeros": [],
+      "consultado_em": "2026-11-11"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "2": "Hábito 2 de 3, numeração interna dos hábitos",
+    "3": "3 hábitos do cenário, contagem interna do post"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

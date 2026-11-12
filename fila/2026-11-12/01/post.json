@@ -1,0 +1,194 @@
+{
+  "id": "2026-11-12-01",
+  "pauta_id": "Z14",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "07:50",
+  "protocolo": "013",
+  "gancho_tipo": "ordem",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "A água baixou. Voltar para casa tem uma **ordem**.",
+      "subtitulo": "O perigo maior vem depois que a água baixa. 6 passos, na sequência certa."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "A lógica",
+      "titulo": "Quem volta correndo pega o pior momento",
+      "texto": "Fio molhado, parede abalada, gás vazando e lama contaminada ficam para trás quando a água desce.\n\nA Defesa Civil do Paraná orienta: não volte até as águas baixarem e o caminho estar seguro. Espere a **liberação**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 1 de 6",
+      "titulo": "Olhe antes de entrar",
+      "itens": [
+        "Volte de dia, com lanterna a pilha. Vela, não.",
+        "Rachadura ou risco de desabamento: não entre.",
+        "Na dúvida, chame a Defesa Civil (199) ou os Bombeiros (193)."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 2 de 6",
+      "titulo": "Cheiro de gás: saia",
+      "itens": [
+        "Feche o registro do gás.",
+        "Abra as janelas e saia de casa.",
+        "Não acenda luz nem faça nada que dê faísca.",
+        "Volte só quando disserem que é seguro."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 3 de 6",
+      "titulo": "Energia só depois do eletricista",
+      "itens": [
+        "Desligue o disjuntor geral só se der para chegar nele pisando no seco.",
+        "Precisa entrar na água para alcançar? Chame um eletricista.",
+        "Religue só depois que um eletricista revisar a instalação."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Aparelho molhado só volta para a tomada depois de totalmente seco."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 4 de 6",
+      "titulo": "Ventile e proteja o corpo",
+      "itens": [
+        "Abra portas e janelas e deixe o ar circular por pelo menos 30 minutos.",
+        "Botas e luvas de borracha antes de mexer na lama.",
+        "Nada de andar descalço."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Machucou na limpeza? Lave com água e sabão e procure atendimento."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 5 de 6",
+      "titulo": "O que vai para o lixo",
+      "itens": [
+        "Alimento que encostou na água da enchente, mesmo lacrado e na validade.",
+        "Comida que ficou mais de 2 horas sem geladeira na falta de luz.",
+        "Água da enchente não serve para beber, cozinhar nem escovar os dentes."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Passo 6 de 6",
+      "titulo": "Lave com sabão. Depois, desinfete.",
+      "itens": [
+        "Piso, parede e quintal: 200 mililitros de água sanitária num balde de 20 L de água. Deixe agir 30 minutos.",
+        "Louça e panela: 1 copo de água sanitária para 4 copos de água. 1 hora de molho.",
+        "Caixa d'água: 1 L para cada 1.000 L. Deixe 2 horas e esvazie de novo."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Água sanitária a 2,5%. Lave antes com água e sabão."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "A água baixa rápido. A casa volta devagar.",
+      "texto": "Um passo de cada vez, na **ordem**.",
+      "cta": "Salve para o dia em que a água baixar."
+    }
+  ],
+  "legenda": "Quando a água baixa, a vontade é entrar e limpar tudo. Mas é aí que aparecem fio molhado, gás, parede abalada e lama contaminada.\n\n6 passos, na ordem: olhar a estrutura, checar o gás, energia só com eletricista, ventilar com botas e luvas, descartar o que estragou, lavar e desinfetar.\n\nFontes: Defesa Civil do Paraná, Inundação (não voltar até as águas baixarem e o caminho estar seguro); Secretaria da Saúde do RS, cuidados após enchente (estrutura, alimentos, água, botas e luvas, ferimentos) e guia de limpeza da casa (caixa d'água); Defesa Civil do Rio Grande do Sul, guia de cuidados com a saúde em enchentes (proporções de água sanitária); Cemaden, cartilha de desastres hidrológicos (lama contaminada); CDC, agência de saúde dos EUA, volta para casa inundada (gás, energia, ventilação).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#enchente #defesacivil #riograndedosul #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Inundacao",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Página Inundação: 'não volte para casa até as águas baixarem e o caminho estiver seguro'; telefones 193 e 199.",
+      "numeros": [],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Secretaria da Saúde do RS",
+      "url": "https://www.estado.rs.gov.br/apos-enchente-populacao-deve-redobrar-cuidados-para-evitar-doencas-e-acidentes",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Após enchente (SES-RS, 29/07/2026): antes de entrar, verificar rachaduras, risco de desabamento, problemas elétricos e vazamento de gás, e na dúvida acionar Defesa Civil ou Bombeiros; botas e luvas de borracha; não andar descalço; descartar alimentos que tiveram contato com a água da enchente, mesmo lacrados e na validade, e os que ficaram mais de 2 horas sem refrigeração adequada; não usar água contaminada para beber, cozinhar ou escovar os dentes; ferimentos: lavar com água e sabão e buscar avaliação.",
+      "numeros": [
+        "2"
+      ],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Secretaria da Saúde do RS",
+      "url": "https://saude.rs.gov.br/guia-orienta-populacao-sobre-limpeza-das-casas-apos-enchentes",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Guia de limpeza da casa após enchente: caixa d'água com '1 litro de água sanitária para cada 1.000 litros de água', agir por 2 horas e esvaziar de novo.",
+      "numeros": [
+        "1",
+        "1.000",
+        "2"
+      ],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://www.defesacivil.rs.gov.br/guia-aponta-riscos-e-cuidados-com-a-saude-em-situacoes-de-enchentes",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Guia de cuidados com a saúde em enchentes: água sanitária (hipoclorito de sódio a 2,5%); pisos, paredes, bancadas e quintal: 200 ml para um balde com 20 litros de água limpa, agir 30 minutos; utensílios: 1 copo (200 ml) para 4 copos de água, imersos por pelo menos 1 hora; lavar antes com água e sabão.",
+      "numeros": [
+        "2,5",
+        "200",
+        "20",
+        "30",
+        "1",
+        "4"
+      ],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "Cemaden",
+      "url": "https://educacao.cemaden.gov.br/wp-content/uploads/cemaden-educacao/Cartilha_Desastres_3%C2%B0versao_fundo_branco-1.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Cartilha Desastres Hidrológicos: depois da inundação, limpar e desinfetar tudo que teve contato com a água; 'a lama residual tem alto poder contaminante'.",
+      "numeros": [],
+      "consultado_em": "2026-11-11"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA",
+      "url": "https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Reentering your flooded home: voltar de dia, lanterna a pilha e não vela; dano estrutural, não entrar; cheiro de gás: fechar o registro, abrir janelas, sair e não fazer faísca, voltar só quando disserem que é seguro; desligar a energia principal só de um local seco, senão chamar eletricista; eletricista revisa antes de religar; aparelhos só funcionam totalmente secos; casa fechada: ventilar por pelo menos 30 minutos antes de ficar.",
+      "numeros": [
+        "30"
+      ],
+      "consultado_em": "2026-11-11"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "3": "Passo 3 de 6, numeração interna dos passos",
+    "5": "Passo 5 de 6, numeração interna dos passos",
+    "6": "6 passos do protocolo, contagem interna do post"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
