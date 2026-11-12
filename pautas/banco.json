@@ -299,6 +299,15 @@
    "funil": "alcance",
    "semana": null,
    "origem": "agente"
+  },
+  {
+   "id": "Z38",
+   "pauta": "E se chegar um áudio alarmante no grupo da família?",
+   "angulo": "Boato corre mais rápido que a chuva; confirmar no canal oficial antes de repassar",
+   "formato": "cenario",
+   "funil": "alcance",
+   "semana": null,
+   "origem": "agente"
   }
  ]
 }

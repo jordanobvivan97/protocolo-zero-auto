@@ -1,0 +1,162 @@
+{
+  "id": "2026-11-13-03",
+  "pauta_id": "Z35",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "017",
+  "gancho_tipo": "inventario",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Os documentos da família, **item por item**, em 2 versões.",
+      "subtitulo": "Papel e digital. Um sem o outro falha."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Por que importa",
+      "titulo": "Depois do desastre, vem a fila do papel",
+      "texto": "A Defesa Civil do Paraná conta: depois de uma tragédia, a principal demanda costuma ser regularizar CPF, CNH e RG.\n\nSão eles que dão acesso aos **auxílios**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Inventário",
+      "titulo": "O que copiar",
+      "itens": [
+        "Identidade e CPF de cada pessoa da casa.",
+        "CNH de quem dirige.",
+        "Certidões de nascimento e de casamento.",
+        "Comprovante de endereço e documento da casa.",
+        "Apólice de seguro, se houver.",
+        "Receitas dos remédios controlados."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Versão 1 de 2",
+      "titulo": "A cópia de papel",
+      "itens": [
+        "Cópias em saco plástico bem fechado.",
+        "Dentro do kit de emergência.",
+        "Originais num lugar de fácil acesso, para levar junto."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Saco plástico fechado: orientação do Ministério da Integração."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Versão 2 de 2",
+      "titulo": "A cópia digital",
+      "itens": [
+        "Foto nítida, frente e verso, de cada documento.",
+        "Guardada num lugar protegido por senha.",
+        "Que você consiga abrir de outro aparelho."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "A FEMA, agência de emergências dos EUA, também pede cópia eletrônica."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Um sem o outro",
+      "titulo": "Por que as 2 versões",
+      "texto": "O papel molha. O celular descarrega, cai na água ou fica para trás.\n\nA cópia de papel funciona sem bateria. A digital sobrevive se o papel **for embora**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Junto dos documentos",
+      "titulo": "Contatos no papel",
+      "itens": [
+        "Telefones da família, da escola e do médico.",
+        "199, Defesa Civil.",
+        "193, Bombeiros."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Uma cópia da lista para cada pessoa da casa."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Uma tarde resolve.",
+      "texto": "Uma pasta no kit. Uma pasta no **celular**.",
+      "cta": "Salve para fazer neste fim de semana."
+    }
+  ],
+  "legenda": "Documento molhado vira fila de cartório. Cópia guardada vira tempo ganho.\n\nO inventário: o que copiar, como guardar a versão de papel, como guardar a versão digital e a lista de contatos que vai junto.\n\nFontes: Defesa Civil do Paraná (cópia de documentos no kit; originais de fácil acesso; CPF, CNH e RG como principal demanda depois do desastre; 199 e 193); Ministério da Integração e do Desenvolvimento Regional, Cenad (documentos em sacos plásticos bem fechados); Defesa Civil de São Paulo (lista de contatos com cópia para todos); FEMA, agência de emergências dos EUA (documentos guardados eletronicamente ou em recipiente impermeável).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#documentos #kitdeemergencia #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Noticia/O-que-fazer-em-desastres-Defesa-Civil-orienta-populacao-sobre-antes-durante-e-depois",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Notícia de 23/07/2024: ter um plano de emergência familiar, combinar comunicação e ponto de encontro, conhecer os riscos da região; mochila em local de fácil acesso; cópias de documentos, com os originais de fácil acesso para também serem levados; depois do desastre, a principal demanda costuma ser regularizar CPF, CNH e RG, necessários para acessar auxílios; ao receber um alerta, confirmar o conteúdo e verificar se a fonte é segura e confiável, pois pode haver desinformação intencional ou não; 199 Defesa Civil e 193 Bombeiros.",
+      "numeros": [
+        "199",
+        "193"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal com 21 itens: água, 2 litros por pessoa por dia; comida não perecível (frutas secas, barras de cereais, biscoitos); cópia de documentos; remédios e cópia das prescrições dos controlados; rádio a pilhas (guardar pilhas separadamente); lanterna; abridor de lata manual.",
+      "numeros": [
+        "2",
+        "21"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional (Cenad)",
+      "url": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/informacoes-uteis/centro-nacional-de-gerenciamento-de-riscos-e-desastres-cenad/chuvasintensas.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Chuvas intensas, seção Antes: proteja documentos e objetos de valor em sacos plásticos bem fechados e em local protegido.",
+      "numeros": [],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência (SP Sempre Alerta): a cada seis meses, conferir se os itens do kit não passaram da validade; kit com água e alimentos não perecíveis para três dias; documentos em sacos plásticos; lista de contatos importantes com cópia para todos da família; alertas gratuitos pelo número 40199.",
+      "numeros": [
+        "6",
+        "3",
+        "40199"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "FEMA, agência de emergências dos EUA (Ready.gov)",
+      "url": "https://www.ready.gov/kit",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit básico: documentos familiares importantes (cópias de apólices de seguro, identificação, registros bancários) guardados eletronicamente ou em recipiente portátil e impermeável.",
+      "numeros": [],
+      "consultado_em": "2026-11-12"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "2": "2 versões dos documentos (papel e digital), contagem interna",
+    "1": "Versão 1 de 2, numeração interna"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

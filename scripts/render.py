@@ -241,12 +241,12 @@ def l_capa(s, post, i, n):
     topo = 260 + ch / 2 + 50
     area = H - 120 - topo - 60
     tit_alt_max = area * (0.68 if s.get("subtitulo") else 0.95)
-    alt_t = altura_bloco(d, s["titulo"].upper(), TITULO, W - 2 * M, tit_alt_max, 124, 54, 1.08)
+    alt_t = altura_bloco(d, s["titulo"].upper(), TITULO, W - 2 * M, tit_alt_max, 124, 54, 1.22)
     alt_s = 0
     if s.get("subtitulo"):
         alt_s = 70 + altura_bloco(d, s["subtitulo"], CORPO, W - 2 * M - 40, area - alt_t - 70, 46, 28, 1.18)
     y = topo + max(0, (area - alt_t - alt_s) * 0.42)
-    fim, _ = bloco(d, (M, y), s["titulo"].upper(), TITULO, W - 2 * M, tit_alt_max, 124, 54, OFF, 1.08)
+    fim, _ = bloco(d, (M, y), s["titulo"].upper(), TITULO, W - 2 * M, tit_alt_max, 124, 54, OFF, 1.22)
     if s.get("subtitulo"):
         d.rectangle([M, fim + 34, M + 90, fim + 42], fill=LARANJA)
         bloco(d, (M, fim + 70), s["subtitulo"], CORPO, W - 2 * M - 40, area - alt_t - 70, 46, 28, OFF)
@@ -267,7 +267,7 @@ def l_ficha(s, post, i, n):
     cabecalho_ficha(d, x0, y0, x1, s.get("etiqueta", f"Protocolo {post['protocolo']}"), s.get("contador", ""))
     tx, larg = x0 + 80, x1 - x0 - 128
     y = y0 + 120
-    y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 230, 76, 44, TINTA, 1.06)
+    y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 230, 76, 44, TINTA, 1.22)
     y += 64
     itens = s.get("itens", [])
     nota_alt = 0
@@ -308,7 +308,7 @@ def l_texto(s, post, i, n):
     tx, larg = x0 + 80, x1 - x0 - 128
     y = y0 + 120
     if s.get("titulo"):
-        y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 260, 76, 44, TINTA, 1.06)
+        y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 260, 76, 44, TINTA, 1.22)
         y += 76
     bloco(d, (tx, y), s["texto"], CORPO, larg, y1 - 70 - y, 50, 28, TINTA, 1.32)
     if post.get("hipotetico"):
@@ -324,7 +324,7 @@ def l_tabela(s, post, i, n):
     cabecalho_ficha(d, x0, y0, x1, s.get("etiqueta", f"Protocolo {post['protocolo']}"), s.get("contador", ""))
     tx, larg = x0 + 80, x1 - x0 - 128
     y = y0 + 120
-    y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 200, 66, 40, TINTA, 1.06)
+    y, _ = bloco(d, (tx, y), s["titulo"].upper(), TITULO, larg, 200, 66, 40, TINTA, 1.22)
     y += 30
     cols, linhas = s["colunas"], s["linhas"]
     nc = len(cols)

@@ -1,0 +1,129 @@
+{
+  "id": "2026-11-13-02",
+  "pauta_id": "Z38",
+  "formato": "cenario",
+  "tipo": "carrossel",
+  "horario": "12:20",
+  "protocolo": "016",
+  "gancho_tipo": "cenario",
+  "hipotetico": true,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "E se chegasse agora um **áudio** no grupo da família dizendo que a cidade vai alagar hoje?",
+      "subtitulo": "3 decisões certas antes de apertar encaminhar."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que a Defesa Civil diz",
+      "titulo": "Desinformação também chega com a chuva",
+      "texto": "A Defesa Civil do Paraná avisa: em desastre circula desinformação, intencional ou não.\n\nAo receber um alerta, confirme o conteúdo e veja se a fonte é **confiável**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 1 de 3",
+      "titulo": "Não repassar ainda",
+      "itens": [
+        "Áudio sem órgão, sem data e sem lugar não é alerta.",
+        "Encaminhar por via das dúvidas espalha a dúvida.",
+        "O Governo do RS pede: verifique antes de compartilhar."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 2 de 3",
+      "titulo": "Confirmar no canal oficial",
+      "itens": [
+        "Site ou perfil da Defesa Civil do seu estado e da sua cidade.",
+        "Alerta oficial também chega por SMS 40199, para quem se cadastrou.",
+        "Dúvida sobre risco na sua rua: 199, Defesa Civil."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 3 de 3",
+      "titulo": "Quem manda é o plano",
+      "itens": [
+        "Alerta confirmado: siga a orientação do órgão.",
+        "Não confirmado: a rotina segue e o kit continua pronto.",
+        "Responda no grupo com o link oficial."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Quem confere primeiro acalma a família inteira."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Boato corre. Protocolo confere.",
+      "texto": "Este foi um cenário hipotético. A **checagem** é real.",
+      "cta": "Siga para receber o Protocolo 017 hoje à noite."
+    }
+  ],
+  "legenda": "Cenário hipotético: um áudio no grupo da família diz que a cidade vai alagar hoje.\n\nAntes de repassar: não encaminhe, confirme no canal oficial da Defesa Civil e aja pelo plano da casa, não pelo áudio.\n\nFontes: Defesa Civil do Paraná, orientação Antes, durante e depois (confirmar o alerta e checar se a fonte é confiável; desinformação intencional ou não; 199); Governo do Rio Grande do Sul (verificar antes de compartilhar e seguir canais oficiais da Defesa Civil estadual e municipal); Defesa Civil de São Paulo (alertas gratuitos pelo 40199).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#defesacivil #fakenews #preparacao #alerta #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Noticia/O-que-fazer-em-desastres-Defesa-Civil-orienta-populacao-sobre-antes-durante-e-depois",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Notícia de 23/07/2024: ter um plano de emergência familiar, combinar comunicação e ponto de encontro, conhecer os riscos da região; mochila em local de fácil acesso; cópias de documentos, com os originais de fácil acesso para também serem levados; depois do desastre, a principal demanda costuma ser regularizar CPF, CNH e RG, necessários para acessar auxílios; ao receber um alerta, confirmar o conteúdo e verificar se a fonte é segura e confiável, pois pode haver desinformação intencional ou não; 199 Defesa Civil e 193 Bombeiros.",
+      "numeros": [
+        "199",
+        "193"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Governo do Rio Grande do Sul",
+      "url": "https://www.estado.rs.gov.br/estado-articula-acoes-para-combater-disseminacao-de-noticias-falsas",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicação de 08/05/2024: verifique a veracidade das informações antes de compartilhar; siga os canais oficiais para informações confiáveis; não encaminhe mensagens que não possam ser confirmadas.",
+      "numeros": [],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Governo do Rio Grande do Sul",
+      "url": "https://estado.rs.gov.br/saiba-como-agir-em-caso-de-inundacoes",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicação de 15/07/2026: acompanhar as informações nos canais oficiais da Defesa Civil estadual e municipal; em alerta laranja, preparar kit com documentos, água, roupas e medicamentos.",
+      "numeros": [],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência (SP Sempre Alerta): a cada seis meses, conferir se os itens do kit não passaram da validade; kit com água e alimentos não perecíveis para três dias; documentos em sacos plásticos; lista de contatos importantes com cópia para todos da família; alertas gratuitos pelo número 40199.",
+      "numeros": [
+        "6",
+        "3",
+        "40199"
+      ],
+      "consultado_em": "2026-11-12"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "3": "3 decisões do cenário, contagem interna",
+    "1": "Decisão 1 de 3, numeração interna",
+    "2": "Decisão 2 de 3, numeração interna",
+    "017": "referência ao próximo Protocolo 017, numeração do perfil"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}

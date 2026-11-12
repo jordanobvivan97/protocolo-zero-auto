@@ -1,0 +1,158 @@
+{
+  "id": "2026-11-13-01",
+  "pauta_id": "Z33",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "07:50",
+  "protocolo": "015",
+  "gancho_tipo": "erro_comum",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Os **5 erros** de quem monta o kit pela primeira vez.",
+      "subtitulo": "O primeiro acontece antes de sair de casa: comprar antes de planejar."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Erro 1 de 5",
+      "titulo": "Comprar antes de planejar",
+      "texto": "Antes da lista de compras, vem o plano: quem mora na casa, quais os riscos da sua região, onde a família se encontra.\n\nA Defesa Civil do Paraná começa por aí. E **muito** do kit já está na sua casa."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Erro 2 de 5",
+      "titulo": "Água de menos",
+      "itens": [
+        "A conta é por pessoa e por dia.",
+        "2 litros por pessoa, por dia: é o que a Defesa Civil do Paraná pede.",
+        "Família de 4, por 3 dias: 24 litros."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Há órgãos que pedem mais, contando higiene. A comparação está no Protocolo 003."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Erro 3 de 5",
+      "titulo": "Comida que pede fogão",
+      "itens": [
+        "Prefira o que não precisa cozinhar: fruta seca, barra de cereal, biscoito.",
+        "Enlatado sem abridor manual pode não abrir.",
+        "Abridor de lata manual dentro do kit."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Erro 4 de 5",
+      "titulo": "Pilha guardada no aparelho",
+      "itens": [
+        "A Defesa Civil do Paraná pede: pilhas guardadas separadas do rádio.",
+        "Teste o rádio e a lanterna antes de guardar.",
+        "Pilhas extras no kit."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Erro 5 de 5",
+      "titulo": "Montar e esquecer",
+      "itens": [
+        "Kit no fundo do armário que ninguém da casa conhece.",
+        "Guarde num lugar de fácil acesso e mostre para todos.",
+        "A cada 6 meses, confira a validade."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Prazo de revisão da Defesa Civil de São Paulo."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "A ordem certa",
+      "titulo": "Plano, casa, mercado",
+      "itens": [
+        "Primeiro o plano da família e os riscos da região.",
+        "Depois, separar o que já existe em casa.",
+        "Por último, completar o que falta, aos poucos."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Kit não se compra numa ida ao mercado. Kit se monta."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Errar no papel é de graça.",
+      "texto": "Corrigir no dia da chuva sai **caro**.",
+      "cta": "Salve para conferir o seu kit neste fim de semana."
+    }
+  ],
+  "legenda": "Quase todo erro de quem monta o primeiro kit acontece antes da compra.\n\nOs 5 mais comuns: comprar sem plano, água de menos, comida que precisa de fogão, pilha guardada no aparelho e kit esquecido no armário. Confira o seu.\n\nFontes: Defesa Civil do Paraná, Kit de Emergência pessoal (2 litros de água por pessoa por dia; comida não perecível; abridor manual; pilhas guardadas separadas) e orientação Antes, durante e depois (plano familiar, riscos da região, kit em local de fácil acesso); Defesa Civil de São Paulo, Plano Familiar de Emergência (conferir a validade a cada 6 meses).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #defesacivil #preparacao #kit72h #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal com 21 itens: água, 2 litros por pessoa por dia; comida não perecível (frutas secas, barras de cereais, biscoitos); cópia de documentos; remédios e cópia das prescrições dos controlados; rádio a pilhas (guardar pilhas separadamente); lanterna; abridor de lata manual.",
+      "numeros": [
+        "2",
+        "21"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Noticia/O-que-fazer-em-desastres-Defesa-Civil-orienta-populacao-sobre-antes-durante-e-depois",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Notícia de 23/07/2024: ter um plano de emergência familiar, combinar comunicação e ponto de encontro, conhecer os riscos da região; mochila em local de fácil acesso; cópias de documentos, com os originais de fácil acesso para também serem levados; depois do desastre, a principal demanda costuma ser regularizar CPF, CNH e RG, necessários para acessar auxílios; ao receber um alerta, confirmar o conteúdo e verificar se a fonte é segura e confiável, pois pode haver desinformação intencional ou não; 199 Defesa Civil e 193 Bombeiros.",
+      "numeros": [
+        "199",
+        "193"
+      ],
+      "consultado_em": "2026-11-12"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência (SP Sempre Alerta): a cada seis meses, conferir se os itens do kit não passaram da validade; kit com água e alimentos não perecíveis para três dias; documentos em sacos plásticos; lista de contatos importantes com cópia para todos da família; alertas gratuitos pelo número 40199.",
+      "numeros": [
+        "6",
+        "3",
+        "40199"
+      ],
+      "consultado_em": "2026-11-12"
+    }
+  ],
+  "derivados": [
+    {
+      "valor": "24",
+      "conta": "2*4*3"
+    }
+  ],
+  "numeros_proprios": {
+    "5": "5 erros, contagem interna do post",
+    "1": "Erro 1 de 5, numeração interna",
+    "4": "exemplo de família de 4 pessoas; também 'Erro 4 de 5'",
+    "003": "referência ao Protocolo 003 (água), numeração do perfil",
+    "3": "3 dias do kit 72h (também na fonte de SP); referência ao Protocolo 003"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
