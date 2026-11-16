@@ -1,0 +1,171 @@
+{
+  "id": "2026-11-16-01",
+  "pauta_id": "Z08",
+  "formato": "calculadora",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "018",
+  "gancho_tipo": "erro_comum",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Kit do bebê não se monta no olho. Se monta **na conta**.",
+      "subtitulo": "Uma folha para preencher com a rotina do seu bebê."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que a lista oficial diz",
+      "contador": "Fonte oficial",
+      "titulo": "A Defesa Civil lembra do bebê. Mas não diz quanto.",
+      "texto": "A lista de kit da Defesa Civil do Paraná tem 21 itens. Um deles: suprimentos para bebês, como fraldas.\n\nA lista não traz quantidade. O número que falta é a rotina do bebê, e quem tem esse número é **você**."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "A regra",
+      "titulo": "Conte 1 dia. Multiplique por 3.",
+      "texto": "Anote tudo o que o bebê usa num dia comum: trocas de fralda, mamadeiras, roupinhas, papinhas.\n\nDepois, **multiplique por 3**: os dias de água e comida que a Defesa Civil de São Paulo pede no kit."
+    },
+    {
+      "layout": "tabela",
+      "etiqueta": "Calculadora",
+      "contador": "Preencha",
+      "titulo": "A conta do seu bebê",
+      "colunas": [
+        "Item",
+        "Em 1 dia",
+        "Para 3 dias"
+      ],
+      "larguras": [
+        1.6,
+        1,
+        1
+      ],
+      "colunas_destaque": [
+        2
+      ],
+      "linhas": [
+        [
+          "Fraldas",
+          "____",
+          "____"
+        ],
+        [
+          "Mamadeiras",
+          "____",
+          "____"
+        ],
+        [
+          "Roupinhas",
+          "____",
+          "____"
+        ],
+        [
+          "Papinhas",
+          "____",
+          "____"
+        ]
+      ],
+      "nota": "Mamadeiras: só se o bebê usa fórmula. Tire print, preencha e guarde junto do kit."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Alimentação",
+      "titulo": "Leite: o que o CDC orienta",
+      "itens": [
+        "Mama no peito? Planeje continuar. É a forma mais segura em emergência.",
+        "Usa fórmula? A pronta para uso não precisa de água para preparar.",
+        "Fórmula em pó só com água segura: engarrafada ou liberada pela autoridade local.",
+        "Confira estoque e validade da fórmula todo mês."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "CDC, agência de saúde dos EUA. Dúvida sobre a alimentação do bebê: fale com o pediatra."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Inventário",
+      "titulo": "O que entra além da conta",
+      "itens": [
+        "Lenços umedecidos e pomada para assadura.",
+        "Sacos plásticos com fecho para fralda suja e roupa.",
+        "Cobertor extra e pano de boca.",
+        "Carteira de vacinação do bebê.",
+        "Mamadeira e bicos, só se der para lavar com água segura."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Lista baseada no CDC, agência de saúde dos EUA."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Revisão",
+      "titulo": "Bebê cresce. O kit também.",
+      "texto": "Fralda e roupa mudam de tamanho. A Defesa Civil de São Paulo pede revisar o kit a cada 6 meses.\n\nNo kit do bebê, refaça a conta **sempre que o tamanho mudar**."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "1 dia anotado.",
+      "texto": "3 dias **cobertos**.",
+      "cta": "Salve para preencher amanhã."
+    }
+  ],
+  "legenda": "A lista oficial lembra do bebê, mas não diz quantas fraldas. Esse número é o da rotina da sua casa.\n\nA regra: anote 1 dia comum e multiplique por 3. A tabela para preencher está no carrossel.\n\nConteúdo educativo: dúvida sobre a alimentação do bebê, fale com o pediatra.\n\nFontes: Defesa Civil do Paraná (lista do kit com 21 itens, incluindo suprimentos para bebês, como fraldas); Defesa Civil de São Paulo (água e alimentos para 3 dias; revisão do kit a cada 6 meses); CDC, agência de saúde dos EUA (lista para famílias com bebês; aleitamento como forma mais segura em emergência; fórmula pronta para uso dispensa água; conferir o estoque de fórmula todo mês).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #bebe #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Kit de Emergência pessoal com 21 itens, entre eles água (2 litros por pessoa por dia), suprimentos para animais de estimação e 'Suprimentos para bebês (suprimentos, fraldas, etc.)'. A lista não fixa quantidade de itens para bebês.",
+      "numeros": [
+        "21",
+        "2"
+      ],
+      "consultado_em": "2026-11-16"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência (SP Sempre Alerta): armazenar água potável e alimentos não perecíveis para três dias; verificar a validade dos itens do kit a cada seis meses; revisar o plano a cada seis meses.",
+      "numeros": [
+        "3",
+        "6"
+      ],
+      "consultado_em": "2026-11-16"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA",
+      "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/checklist.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Lista de emergência para famílias com bebês: fórmula pronta para uso; conferir a fórmula mensalmente para ter o suficiente para vários dias; fraldas, lenços umedecidos, pomada para assadura, sacos plásticos para fralda suja e roupa, cobertores extras, pano de boca, registro médico com carteira de vacinação; itens como mamadeira e bicos só se puderem ser limpos com água segura e sabão. Não fixa quantidade de fraldas por dia.",
+      "numeros": [],
+      "consultado_em": "2026-11-16"
+    },
+    {
+      "orgao": "CDC, agência de saúde dos EUA",
+      "url": "https://cdc.gov/infant-feeding-emergencies-toolkit/php/special-considerations.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Planejar continuar o aleitamento materno em emergências, a forma mais segura de alimentar a criança; fórmula pronta para uso é a mais segura porque não precisa ser misturada com água; fórmula em pó só com água segura (engarrafada ou da torneira liberada pelas autoridades locais).",
+      "numeros": [],
+      "consultado_em": "2026-11-16"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "1": "1 dia comum de rotina que o leitor anota; unidade da conta da calculadora"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
