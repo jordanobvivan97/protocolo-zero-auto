@@ -1,33 +1,33 @@
 {
-  "atualizado_em": "2026-11-15T17:16",
+  "atualizado_em": "2026-11-16T20:34",
   "formatos": {
     "alerta": {
       "posts": 5,
-      "mediana_alcance": 17,
-      "mediana_salv_env_por_alcance": 0.1053,
+      "mediana_alcance": 18,
+      "mediana_salv_env_por_alcance": 0.1,
       "amostra": "pequena (5 de 15)"
     },
     "protocolo": {
       "posts": 8,
-      "mediana_alcance": 12.0,
-      "mediana_salv_env_por_alcance": 0.0384,
+      "mediana_alcance": 13.0,
+      "mediana_salv_env_por_alcance": 0.0333,
       "amostra": "pequena (8 de 15)"
     },
     "calculadora": {
       "posts": 1,
-      "mediana_alcance": 25,
+      "mediana_alcance": 26,
       "mediana_salv_env_por_alcance": 0.0,
       "amostra": "pequena (1 de 15)"
     },
     "saude": {
       "posts": 2,
-      "mediana_alcance": 11.5,
+      "mediana_alcance": 12.5,
       "mediana_salv_env_por_alcance": 0.0,
       "amostra": "pequena (2 de 15)"
     },
     "cenario": {
       "posts": 2,
-      "mediana_alcance": 12.5,
+      "mediana_alcance": 14.5,
       "mediana_salv_env_por_alcance": 0.0,
       "amostra": "pequena (2 de 15)"
     }
