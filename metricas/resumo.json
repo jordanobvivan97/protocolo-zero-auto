@@ -1,23 +1,23 @@
 {
-  "atualizado_em": "2026-11-16T20:34",
+  "atualizado_em": "2026-11-17T19:14",
   "formatos": {
     "alerta": {
-      "posts": 5,
-      "mediana_alcance": 18,
-      "mediana_salv_env_por_alcance": 0.1,
-      "amostra": "pequena (5 de 15)"
+      "posts": 6,
+      "mediana_alcance": 18.0,
+      "mediana_salv_env_por_alcance": 0.05,
+      "amostra": "pequena (6 de 15)"
     },
     "protocolo": {
       "posts": 8,
       "mediana_alcance": 13.0,
-      "mediana_salv_env_por_alcance": 0.0333,
+      "mediana_salv_env_por_alcance": 0.0312,
       "amostra": "pequena (8 de 15)"
     },
     "calculadora": {
-      "posts": 1,
-      "mediana_alcance": 26,
+      "posts": 2,
+      "mediana_alcance": 14.5,
       "mediana_salv_env_por_alcance": 0.0,
-      "amostra": "pequena (1 de 15)"
+      "amostra": "pequena (2 de 15)"
     },
     "saude": {
       "posts": 2,
