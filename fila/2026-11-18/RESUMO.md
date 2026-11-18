@@ -6,7 +6,7 @@
 
 **Modo pico:** nenhum alerta novo fura a fila. O aviso laranja de tempestade do Inmet para hoje (18/11) já foi coberto pelo Protocolo 019 (publicado 17/11, 07:40). Na busca de 17/11 à noite: nenhum aviso vermelho no Sul para 18/11 (Inmet, notícia de 16/11, e imprensa de 17/11 até 18h57); o Inmet tem aviso amarelo (perigo potencial) de tempestade para o RS também na quinta (19/11), via imprensa. Os alertas vermelhos que aparecem nas buscas são de 04/11 (antigos).
 
-**Atenção sobre o Protocolo 019 (já publicado):** pela imprensa de 17/11 (Revista Fórum, 18h57), o aviso laranja de 18/11 foi ampliado para 1066 municípios de SC, RS, PR, MS e SP, incluindo Porto Alegre, Florianópolis, Joinville, Curitiba não citada. A lâmina 3 do 019 dizia "Não é o Sul inteiro" e citava só oeste, centro e serras. Não é erro de quando saiu, mas a área cresceu.
+**Atenção sobre o Protocolo 019 (já publicado):** pela imprensa de 17/11 (Revista Fórum, 18h57), o aviso laranja de 18/11 foi ampliado para 1066 municípios de SC, RS, PR, MS e SP, incluindo Porto Alegre, Florianópolis e Joinville. A lâmina 3 do 019 dizia "Não é o Sul inteiro" e citava só oeste, centro e serras. Não é erro de quando saiu, mas a área cresceu.
 
 **Pauta:** Z05, a pauta empurrada pelo alerta de ontem. Formato `protocolo` (último foi `alerta`). Gancho `dado_oficial` (os 2 últimos foram comunicado e erro_comum). CTA de salvamento (isca inativa).
 
