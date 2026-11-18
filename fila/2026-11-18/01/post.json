@@ -1,0 +1,163 @@
+{
+  "id": "2026-11-18-01",
+  "pauta_id": "Z05",
+  "formato": "protocolo",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "020",
+  "gancho_tipo": "dado_oficial",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Existem 2 kits. Quase todo mundo só monta **um**.",
+      "subtitulo": "A mochila que sai com você e o estoque que fica em casa."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O dado",
+      "contador": "Sair x ficar",
+      "titulo": "Sair: 3 dias.\nFicar: 2 semanas.",
+      "texto": "A Cruz Vermelha Americana separa a reserva de água e comida em 2 tamanhos: 3 dias se você precisar sair, 2 semanas se der para ficar em casa.\n\nAqui, a Defesa Civil de São Paulo pede água e comida para **3 dias**."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Kit 1 de 2",
+      "titulo": "A mochila de saída",
+      "texto": "A Defesa Civil do Paraná pede uma mochila pronta, num lugar de fácil acesso, para o caso de precisar deixar a casa **imediatamente**.\n\nEla tem que dar para carregar. Você pode passar alguns dias fora."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Mochila de saída",
+      "titulo": "O que vai nas costas",
+      "itens": [
+        "Água e comida que não estraga.",
+        "Cópia dos documentos. Originais à mão.",
+        "Remédios de uso contínuo e cópia das receitas.",
+        "Dinheiro em notas pequenas.",
+        "Lanterna, rádio a pilha, celular e carregador portátil.",
+        "Apito, capa de chuva e as chaves de casa."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Kit 2 de 2",
+      "titulo": "O estoque de casa",
+      "texto": "Nem toda emergência manda sair. Numa tempestade, a orientação da Defesa Civil do Paraná é ficar em casa e sair só se for **absolutamente necessário**.\n\nPara isso serve o segundo kit: o que fica no armário."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Estoque de casa",
+      "titulo": "O que fica no armário",
+      "itens": [
+        "Água: 2 litros por pessoa, por dia.",
+        "Comida que não estraga e abridor de lata manual.",
+        "Pratos, copos e talheres descartáveis.",
+        "Cobertor ou saco de dormir para cada pessoa.",
+        "Pilhas extras e fósforos em embalagem à prova d'água.",
+        "Sacolas e filme plástico."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Lista da Defesa Civil do Paraná."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Na hora de sair",
+      "titulo": "A ordem antes da porta",
+      "itens": [
+        "Pegue a mochila e os documentos.",
+        "Desligue o gás e a energia elétrica.",
+        "Leve os animais, quando for possível.",
+        "Vá para um local seguro sem perder tempo.",
+        "Encontre a família no ponto combinado."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Quem diz se é hora de sair é a Defesa Civil da sua cidade."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Sem gastar 2 vezes",
+      "titulo": "Comece pela mochila",
+      "texto": "A mochila é o que precisa estar pronto primeiro. O estoque de casa cresce aos poucos, com o que você já compra no mercado.\n\nA cada 6 meses, confira a **validade** dos 2."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Um sai com você. O outro te espera.",
+      "texto": "Mesma lógica, 2 **lugares**.",
+      "cta": "Salve para montar os 2 neste fim de semana."
+    }
+  ],
+  "legenda": "Mochila de saída e estoque de casa não são o mesmo kit. Um vai nas costas quando a ordem é sair. O outro segura a família quando a ordem é ficar.\n\nNo carrossel: o que vai em cada um, a ordem antes de sair pela porta e como montar os 2 sem gastar 2 vezes.\n\nFontes: Defesa Civil do Paraná (mochila pronta em lugar de fácil acesso; itens do kit; 2 litros de água por pessoa por dia; desligar gás e energia; em tempestade, ficar em casa); Defesa Civil de São Paulo (água e comida para 3 dias; validade a cada 6 meses); Cruz Vermelha Americana, entidade dos EUA (reserva de 3 dias para evacuação e 2 semanas para casa).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #mochiladeemergencia #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Noticia/O-que-fazer-em-desastres-Defesa-Civil-orienta-populacao-sobre-antes-durante-e-depois",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "O que fazer em desastres: 'uma mochila equipada com itens importantes, localizada em um lugar de fácil acesso', 'caso seja necessário deixar a residência imediatamente'; 'poderá ser necessário ficar alguns dias fora de casa'; itens: água, alimentos não perecíveis, cópias de documentos com originais de fácil acesso, dinheiro, remédios com receitas, primeiros socorros, higiene, roupas, lanterna, rádio a pilha, celular com carregador portátil, apito, capa de chuva, chaves, mapas; deixar o local o mais breve possível com kit e documentos e buscar local seguro; desligar gás e energia elétrica; levar os animais quando possível; ponto de encontro do plano familiar; 199 e 193. Página consultada em 17/11/2026.",
+      "numeros": [],
+      "consultado_em": "2026-11-17"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná (Kit de Emergência pessoal)",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Lista do kit: água, 2 litros por pessoa por dia; alimentos não perecíveis; abridor de lata manual; pratos, talheres e copos descartáveis e papel-toalha; saco de dormir ou cobertor para cada pessoa; pilhas extras; fósforos em embalagem à prova d'água; filme plástico; sacolas; rádio a pilha; lanterna; apito.",
+      "numeros": [
+        "2"
+      ],
+      "consultado_em": "2026-11-17"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná (orientações por tipo de alerta)",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Veja-como-proceder-ao-receber-um-SMS-para-os-eventos-metereologicos-abaixo",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Tempestade de raios: 'Durante as tempestades fique em casa e saia somente se for absolutamente necessário.' Inundação: se a água se infiltrar com rachaduras, sair imediatamente.",
+      "numeros": [],
+      "consultado_em": "2026-11-17"
+    },
+    {
+      "orgao": "Defesa Civil de São Paulo",
+      "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Plano Familiar de Emergência: 'armazene água potável e alimentos não perecíveis para três dias'; 'A cada seis meses, certifique-se que os itens do kit não passaram da validade.'",
+      "numeros": [
+        "3",
+        "6"
+      ],
+      "consultado_em": "2026-11-17"
+    },
+    {
+      "orgao": "Cruz Vermelha Americana, entidade dos EUA",
+      "url": "https://redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Survival Kit Supplies: água 'one gallon per person, per day (3-day supply for evacuation, 2-week supply for home)'; comida não perecível com as mesmas durações; kit fácil de carregar, para usar em casa ou levar se precisar evacuar.",
+      "numeros": [
+        "3",
+        "2"
+      ],
+      "consultado_em": "2026-11-17"
+    }
+  ],
+  "numeros_proprios": {
+    "2": "os 2 kits do post (mochila de saída e estoque de casa), contagem interna",
+    "1": "Kit 1 de 2, numeração interna das lâminas"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
