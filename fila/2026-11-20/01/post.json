@@ -1,0 +1,155 @@
+{
+  "id": "2026-11-20-01",
+  "pauta_id": "A03",
+  "pauta_nota": "Alerta explicado fora do banco: risco alto de temporais em todas as regiões de SC na sexta, 20/11/2026 (feriado), e condição de alerta (laranja) para tempestades severas no RS. Furou a fila; Z09 (kit para idoso) foi para o próximo dia do calendário (segunda, 23/11).",
+  "formato": "alerta",
+  "tipo": "carrossel",
+  "horario": "07:40",
+  "protocolo": "021",
+  "gancho_tipo": "ordem",
+  "hipotetico": false,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "Feriado com tempestade no Sul. A **ordem** certa até domingo.",
+      "subtitulo": "O que é, o que não é e o que fazer de sexta a domingo."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que é",
+      "contador": "Sexta, feriado",
+      "titulo": "Risco alto de temporal",
+      "texto": "A Defesa Civil de Santa Catarina fala em risco **alto** em todas as regiões: chuva intensa em pouco tempo, vendaval e granizo.\n\nNo Rio Grande do Sul, a Defesa Civil está em alerta para tempestades severas, com granizo que pode ser grande e rajadas acima de 90 km/h."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que não é",
+      "titulo": "Não é chuva o dia todo, em todo lugar",
+      "texto": "Os avisos falam em temporais **isolados**: muita chuva em pouco tempo, em pontos diferentes. No norte e no noroeste do RS, o acumulado pode passar de 120 mm em alguns pontos.\n\nEm SC, o risco cai para baixo no sábado e volta a ser alto no domingo, da tarde para a noite."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "1. Sexta cedo",
+      "titulo": "Antes de sair de casa",
+      "itens": [
+        "Vai pegar estrada? Olhe o aviso da sua região antes.",
+        "Carro longe de árvore, torre de transmissão e placa de propaganda.",
+        "Celular e lanterna carregados. Quintal sem nada que o vento leve.",
+        "Rio ou córrego subindo: não atravesse, nem a pé, nem de carro."
+      ],
+      "marcados": [
+        0
+      ]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "2. Durante o temporal",
+      "titulo": "Abrigo longe da janela",
+      "itens": [
+        "Fique num lugar seguro, longe de janelas.",
+        "Nunca se abrigue debaixo de árvore.",
+        "Se possível, desligue aparelhos e o quadro geral de energia.",
+        "Não passe por rua alagada."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Risco para você ou para a casa? Ligue 199 ou 193."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "3. Sábado",
+      "titulo": "Use a pausa antes de domingo",
+      "texto": "Com o risco baixo no sábado em SC, confira telhas, calhas e o kit de casa antes da nova rodada.\n\nE receba o próximo aviso no celular: mande o **CEP** por SMS para 40199 ou pelo WhatsApp (61) 2034-4611."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Sexta, sábado, domingo. Nessa ordem.",
+      "texto": "Aviso não é pânico. É **prazo**.",
+      "cta": "Siga para receber o Protocolo 022."
+    }
+  ],
+  "legenda": "O feriado de sexta (20/11) tem risco alto de temporal em todas as regiões de Santa Catarina, e o Rio Grande do Sul está em alerta para tempestades severas, com granizo e rajadas acima de 90 km/h.\n\nNão é motivo de pânico. É ordem: sexta cedo, olhe o aviso antes de sair; no temporal, abrigo longe da janela; sábado, risco baixo em SC, confira a casa antes de domingo.\n\nFontes: Defesa Civil de Santa Catarina, previsão para o feriadão (19/11/2026); Defesa Civil do Rio Grande do Sul, Aviso Hidrometeorológico de 18/11/2026; Inmet, previsão para 19 e 20/11/2026 e instruções do aviso de tempestade; Defesa Civil do Paraná, cadastro de alertas por SMS e WhatsApp.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#alerta #tempestade #defesacivil #feriado #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Defesa Civil de Santa Catarina",
+      "url": "https://noticias.sc.gov.br/previsao-indica-chuvas-intensas-e-temporais-durante-o-feriadao-em-santa-catarina/",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 19/11/2026 (17h41): na sexta (20), feriado, risco alto em todas as regiões para ocorrências associadas a chuva intensa em curto intervalo, vendavais e granizo; sábado (21) com risco baixo; domingo (22) risco volta a ser alto em todas as regiões, principalmente da tarde para a noite. Orientações: abrigo em local seguro longe de janelas; evitar ruas alagadas; não atravessar rios ou córregos com correnteza. Telefones: 199; CEP por SMS para 40199; CEP pelo WhatsApp (61) 2034-4611.",
+      "numeros": [
+        "40199",
+        "61",
+        "2034",
+        "4611"
+      ],
+      "consultado_em": "2026-11-19"
+    },
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://www.defesacivil.rs.gov.br/o-centro-de-monitoramento-da-defesa-civil-do-estado-atualiza-as-condicoes-meteorologicas-para-os-proximos-dias-no-rs",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 18/11/2026 (13h59): na sexta (20), risco de tempestades severas com granizo (que pode ser grande) e rajadas de vento superiores a 90 km/h no Oeste, Missões, Noroeste, Centro, Norte, Vales, Serra e Nordeste; temporais isolados na Região Metropolitana e no Litoral Norte; acumulados até o fim do aviso podem superar pontualmente 120 mm no Noroeste, Norte, Centro, Vales e Nordeste.",
+      "numeros": [
+        "90",
+        "120"
+      ],
+      "consultado_em": "2026-11-19"
+    },
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul (Aviso Hidrometeorológico no portal do Estado)",
+      "url": "https://estado.rs.gov.br/tempestades-voltam-a-atingir-o-rio-grande-do-sul-a-partir-da-quarta-feira-18",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 18/11/2026 (14h59): condição de alerta (laranja) para tempestades isoladas e de atenção (amarelo) para temporais isolados; na sexta (20), possibilidade de tempestades severas com granizo e rajadas acima de 90 km/h; acumulados entre 18 e 20/11 podem superar pontualmente 120 mm.",
+      "numeros": [
+        "90",
+        "120"
+      ],
+      "consultado_em": "2026-11-19"
+    },
+    {
+      "orgao": "Inmet",
+      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-quinta-feira-19-e-sexta-feira-20",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 18/11/2026 (13h26): na sexta (20), chuva e trovoadas no oeste, centro, leste e sul do PR, em todo o estado de SC e no noroeste e norte do RS, áreas sob aviso de tempestade (amarelo nessa notícia). O post não cita cor do Inmet nem números do Inmet.",
+      "numeros": [],
+      "consultado_em": "2026-11-19"
+    },
+    {
+      "orgao": "Inmet (texto padrão do aviso de tempestade, republicado pela Prefeitura de Poços de Caldas)",
+      "url": "https://servicos.pocosdecaldas.mg.gov.br/alertas/meteorologicos/26-01-18-08-23/26-01-19-09-00/mapa/aviso-de-tempestade-com-grau-de-perigo",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Instruções padrão do Inmet no aviso de tempestade com grau de perigo: não se abrigar debaixo de árvores; não estacionar perto de torres de transmissão e placas de propaganda; se possível, desligar aparelhos elétricos e quadro geral de energia; Defesa Civil 199 e Bombeiros 193. (Aviso antigo, de janeiro de 2026: usado só pelo texto das instruções.)",
+      "numeros": [],
+      "consultado_em": "2026-11-19"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná (cadastro de alertas)",
+      "url": "https://www.defesacivil.pr.gov.br/Noticia/SMS-e-WhatsApp-veja-como-se-cadastrar-para-receber-os-alertas-da-Defesa-Civil-Estadual",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "SMS com o CEP da residência para 40199; WhatsApp (61) 2034-4611; Cell Broadcast sem cadastro no estágio vermelho.",
+      "numeros": [
+        "40199",
+        "61",
+        "2034",
+        "4611"
+      ],
+      "consultado_em": "2026-11-19"
+    }
+  ],
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md",
+  "numeros_proprios": {
+    "1": "etapa 1 de 3 da ordem do post (sexta cedo), contagem interna",
+    "2": "etapa 2 de 3 da ordem do post (durante o temporal), contagem interna",
+    "3": "etapa 3 de 3 da ordem do post (sábado), contagem interna"
+  }
+}
