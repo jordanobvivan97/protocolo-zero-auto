@@ -18,4 +18,5 @@ data,id,pauta_id,formato,tipo,gancho_tipo,protocolo,horario,permalink,reach,view
 2026-11-13,2026-11-13-02,Z38,cenario,carrossel,cenario,016,12:20,https://www.instagram.com/p/DfsA12hoHws/,21,40,0,0,5,0,0.0,
 2026-11-13,2026-11-13-03,Z35,protocolo,carrossel,inventario,017,19:40,https://www.instagram.com/p/Dfsu4ZCDxcH/,21,40,1,0,4,0,0.0476,
 2026-11-16,2026-11-16-01,Z08,calculadora,carrossel,erro_comum,018,19:40,https://www.instagram.com/p/Df0dMYuF7M3/,10,22,0,0,0,0,0.0,
-2026-11-17,2026-11-17-01,A02,alerta,carrossel,comunicado,019,07:40,https://www.instagram.com/p/Df1wyMmj0Gi/,11,14,0,0,2,0,0.0,
+2026-11-17,2026-11-17-01,A02,alerta,carrossel,comunicado,019,07:40,https://www.instagram.com/p/Df1wyMmj0Gi/,12,15,0,0,2,0,0.0,
+2026-11-18,2026-11-18-01,Z05,protocolo,carrossel,dado_oficial,020,19:40,https://www.instagram.com/p/Df5m1E3Gujx/,4,20,0,0,0,0,0.0,
