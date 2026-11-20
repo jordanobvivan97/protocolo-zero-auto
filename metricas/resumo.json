@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "2026-11-19T19:04",
+  "atualizado_em": "2026-11-20T18:39",
   "formatos": {
     "alerta": {
-      "posts": 6,
-      "mediana_alcance": 18.0,
-      "mediana_salv_env_por_alcance": 0.05,
-      "amostra": "pequena (6 de 15)"
+      "posts": 7,
+      "mediana_alcance": 18,
+      "mediana_salv_env_por_alcance": 0.0,
+      "amostra": "pequena (7 de 15)"
     },
     "protocolo": {
       "posts": 9,
@@ -21,7 +21,7 @@
     },
     "saude": {
       "posts": 2,
-      "mediana_alcance": 13.5,
+      "mediana_alcance": 14.0,
       "mediana_salv_env_por_alcance": 0.0,
       "amostra": "pequena (2 de 15)"
     },
