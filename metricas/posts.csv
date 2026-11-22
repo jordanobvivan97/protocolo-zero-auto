@@ -21,4 +21,4 @@ data,id,pauta_id,formato,tipo,gancho_tipo,protocolo,horario,permalink,reach,view
 2026-11-17,2026-11-17-01,A02,alerta,carrossel,comunicado,019,07:40,https://www.instagram.com/p/Df1wyMmj0Gi/,18,21,0,0,5,0,0.0,
 2026-11-18,2026-11-18-01,Z05,protocolo,carrossel,dado_oficial,020,19:40,https://www.instagram.com/p/Df5m1E3Gujx/,14,31,1,0,3,0,0.0714,
 2026-11-20,2026-11-20-01,A03,alerta,carrossel,ordem,021,07:40,https://www.instagram.com/p/Df9fOo_oNsR/,12,21,0,0,3,0,0.0,
-2026-11-21,2026-11-21-01,Z12,protocolo,carrossel,erro_comum,022,07:40,https://www.instagram.com/p/DgAD9UqG-Nf/,3,4,0,0,0,0,0.0,
+2026-11-21,2026-11-21-01,Z12,protocolo,carrossel,erro_comum,022,07:40,https://www.instagram.com/p/DgAD9UqG-Nf/,4,14,0,0,0,0,0.0,
