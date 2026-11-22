@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-23-01",
+  "pauta_id": "Z09",
+  "formato": "calculadora",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "023",
+  "gancho_tipo": "inventario",
+  "hipotetico": false,
+  "slides": [
+    {"layout": "capa", "titulo": "No kit do idoso, a **receita** vale mais que o remédio.", "subtitulo": "Uma ficha para preencher com quem você cuida."},
+    {"layout": "texto", "etiqueta": "O que a lista oficial diz", "contador": "Fonte oficial", "titulo": "Remédio acaba. O papel da receita fica.", "texto": "A lista de kit da Defesa Civil do Paraná pede os remédios e a cópia das prescrições dos remédios controlados.\n\nA caixa de remédio esvazia. A cópia da receita é o que ajuda a **repor longe de casa**."},
+    {"layout": "ficha", "etiqueta": "Inventário 1", "titulo": "O papel que entra no kit", "itens": ["Cópia das receitas, principalmente dos remédios controlados.", "Lista de contatos: médico, hospital e família.", "Cópia dos documentos, em saco plástico fechado.", "Par extra de óculos de grau."], "marcados": [0], "nota": "Defesa Civil do Paraná e Defesa Civil de São Paulo."},
+    {"layout": "texto", "etiqueta": "A regra", "titulo": "Copie da receita. Multiplique por 3.", "texto": "Para cada remédio de uso contínuo, anote quantas vezes por dia ele é usado, **exatamente como está na receita**.\n\nDepois, multiplique por 3: os dias de água e comida que a Defesa Civil de São Paulo pede no kit."},
+    {"layout": "tabela", "etiqueta": "Calculadora", "contador": "Preencha", "titulo": "A ficha de quem você cuida", "colunas": ["Remédio", "Vezes por dia", "Para 3 dias"], "larguras": [1.6, 1, 1], "colunas_destaque": [2], "linhas": [["____", "____", "____"], ["____", "____", "____"], ["____", "____", "____"], ["____", "____", "____"]], "nota": "Copie da receita. Não mude nada sem falar com o médico. Tire print e guarde junto do kit."},
+    {"layout": "ficha", "etiqueta": "Inventário 2", "titulo": "O que depende de energia ou de ajuda", "itens": ["Usa equipamento médico que precisa de tomada? Combine com o médico o que fazer se a luz cair.", "Pilhas, baterias extras e carregadores.", "Bengala, andador ou aparelho auditivo: planeje como levar na hora de sair."], "marcados": [0], "nota": "Defesa Civil de São Paulo; Ready.gov, programa do governo dos EUA."},
+    {"layout": "texto", "etiqueta": "Rede de apoio", "titulo": "Pelo menos 1 pessoa sabe onde está tudo.", "texto": "O guia dos EUA para idosos (Ready.gov) pede uma rede de apoio. Pelo menos 1 pessoa dela tem a chave da casa, sabe onde fica o kit e sabe como ajudar com o remédio.\n\nCombine também **quem leva** o idoso se for preciso sair."},
+    {"layout": "texto", "etiqueta": "Revisão", "titulo": "Receita muda. A ficha também.", "texto": "A Defesa Civil de São Paulo pede conferir a validade do kit a cada 6 meses.\n\nNo kit do idoso, refaça a ficha também **a cada consulta** em que o médico mudar algum remédio."},
+    {"layout": "fechamento", "titulo": "Remédio na caixa.", "texto": "Receita **no papel**.", "cta": "Salve e preencha junto com quem você cuida."}
+  ],
+  "legenda": "No kit de quem é idoso, o item que mais falta não é o remédio. É a cópia da receita.\n\nA ficha para preencher está no carrossel: copie da receita quantas vezes por dia cada remédio é usado e multiplique por 3.\n\nConteúdo educativo: não substitui o médico. Não mude nenhum remédio por conta própria. Em caso de urgência, ligue 192 (SAMU).\n\nFontes: Defesa Civil do Paraná (lista do kit: remédios e cópia das prescrições dos controlados, cópia de documentos, óculos de grau extra, baterias); Defesa Civil de São Paulo (água e alimentos para 3 dias; lista de contatos; equipamento médico que usa eletricidade; validade do kit a cada 6 meses); Ready.gov, programa de preparação do governo dos EUA (rede de apoio com pelo menos 1 pessoa que sabe onde está o kit; plano para levar aparelhos de apoio na saída).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #idosos #defesacivil #preparacao #protocolozero",
+  "fontes": [
+    {"orgao": "Defesa Civil do Paraná", "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal", "conferencia": "pagina_oficial", "afirmacao": "Kit de Emergência pessoal: 'Remédios (e cópia das. Prescrições para remédios controlados)', 'Cópia de documentos', 'Par extra de óculos de grau', 'Baterias extras ou fonte de energia alternativa'. Não fixa número de dias para remédios.", "numeros": [], "consultado_em": "2026-11-22"},
+    {"orgao": "Defesa Civil de São Paulo", "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/", "conferencia": "pagina_oficial", "afirmacao": "Plano familiar de emergência (SP Sempre Alerta): 'armazene água potável e alimentos não perecíveis para três dias'; lista de contatos (hospitais, médicos); 'Se alguém fizer uso de equipamento médico que exija eletricidade, converse com o médico'; baterias extras e carregadores; documentos em sacos plásticos; 'A cada seis meses, certifique-se que os itens do kit não passaram da validade'.", "numeros": ["3", "6"], "consultado_em": "2026-11-22"},
+    {"orgao": "Ready.gov", "url": "https://www.ready.gov/older-adults", "conferencia": "pagina_oficial", "afirmacao": "Programa de preparação do governo dos EUA, página Older Adults: criar rede de apoio; 'at least one person in your support network has an extra key to your home, knows where you keep your emergency supplies, and knows how to use lifesaving equipment or administer medicine'; planejar como levar os dispositivos de apoio na evacuação; planejar transporte se precisar de ajuda para sair.", "numeros": ["1"], "consultado_em": "2026-11-22"}
+  ],
+  "derivados": [],
+  "numeros_proprios": {"2": "contagem interna das lâminas de inventário (Inventário 1 e 2)"},
+  "portao": {"ideia_nova": true, "formato_diferente_do_ultimo": true, "gancho_diferente_dos_2_ultimos": true, "concreto_ate_lamina_2": true, "especifico_do_tema": true, "numeros_com_fonte": true, "sem_ficcao_como_fato": true, "assinaria_com_meu_nome": true},
+  "roteiro_reel": "roteiro.md"
+}
