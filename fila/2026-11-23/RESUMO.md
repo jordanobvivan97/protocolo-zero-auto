@@ -1,24 +1,26 @@
-## Lote 23/11/2026 (segunda): 1 post
+## Vigia 23/11/2026 (segunda, meio-dia): ALERTA, 1 post
 
 | Horário | Formato | Pauta | Gancho | Capa |
 |---|---|---|---|---|
-| 19:40 | Calculadora (carrossel, 9 lâminas) | Z09 · PROTOCOLO 023 | inventario | No kit do idoso, a receita vale mais que o remédio. |
+| 19:40 | Alerta explicado (carrossel, 6 lâminas) | A04 · PROTOCOLO 023 | comunicado | Terça com temporal no norte do RS. O que a Defesa Civil disse. |
 
-**Alerta (passo 1):** nenhum alerta novo furou a fila. O que saiu nas últimas 24h foi o aviso **amarelo** do Inmet para domingo (22/11, válido até 23h59) e o risco moderado a alto de temporal da Defesa Civil de SC para domingo, já coberto pelo Protocolo 021 (feriado até domingo). Para segunda, a imprensa (Agora Litoral, 22/11) fala em trégua parcial e novo ciclo de tempestades entre terça (24) e quarta (25) em SC e RS, sem aviso oficial aberto ainda. A vigia do meio-dia deve olhar isso.
+**Modo pico: ALERTA.** A Defesa Civil do RS publicou em 22/11 (12h10 e 12h13) os avisos meteorológico e hidrológico ("Aviso 25") para terça, 24/11: tempestades isoladas com granizo que pode ser grande e rajadas acima de 80 km/h em Missões, Centro, Noroeste, Norte, Vales, Serra e Nordeste; 40 a 80 mm no dia, pontualmente mais de 150 mm até o fim do aviso; solo saturado, risco de cheia em arroios e rios menores e Taquari e Uruguai podendo chegar ao limiar de alerta (níveis ATENÇÃO e ALERTA). Era o novo ciclo que o lote de 22/11 pediu para a vigia olhar. Não estava coberto: o 021 tratou do temporal do feriado e o 022 do alerta do Taquari de 20 e 21/11, já encerrado.
 
-**Pauta:** Z09 (kit para idoso), que o lote de 20/11 empurrou para hoje pela regra do alerta que fura a fila. Formato calculadora não repete o anterior (protocolo, 022); gancho `inventario` não repete os 2 últimos (ordem, erro_comum). CTA de salvamento (isca inativa). Com Z09 hoje e Z12 já usada no sábado, a semana 3 fecha certinho: Z11, Z13, Z26 e Z27 de terça a sexta.
+**Validade:** o aviso vale para terça, 24/11. O post sai segunda às 19:40, antes do evento, então fala em previsão para terça, sem "alerta ativo". As páginas não trazem hora de início e fim do aviso (só a imagem "Aviso 25", que não foi lida), por isso o post não cita horário.
 
-### Fontes (abertas nesta execução, 22/11/2026)
-- Defesa Civil do Paraná, Kit de Emergência pessoal (remédios e cópia das prescrições dos controlados, cópia de documentos, óculos de grau extra, baterias): https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal . pagina_oficial
-- Defesa Civil de São Paulo, Plano familiar de emergência (água e alimentos para 3 dias, lista de contatos, equipamento médico que usa eletricidade, validade do kit a cada 6 meses): https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/ . pagina_oficial
-- Ready.gov, programa do governo dos EUA, página Older Adults (rede de apoio com pelo menos 1 pessoa que sabe onde está o kit; levar aparelhos de apoio na saída): https://www.ready.gov/older-adults . pagina_oficial (estrangeira, nomeada como tal)
+**Fila:** o Z09 (kit do idoso, calculadora) que estava aqui às 19:40 foi para terça, 24/11, 19:40, renumerado para Protocolo 024 (ver `fila/2026-11-24/RESUMO.md`). Formatos seguem sem repetir: protocolo (022), alerta (023), calculadora (024). Ganchos: erro_comum, comunicado, inventario.
+
+### Fontes (abertas nesta execução, 23/11/2026)
+- Defesa Civil do RS, atualização meteorológica de 22/11, 12h13: https://defesacivil.rs.gov.br/o-centro-de-monitoramento-da-defesa-civil-do-estado-atualiza-as-condicoes-meteorologicas-para-os-proximos-dias-no--6b0306ab2fb2c . pagina_oficial
+- Defesa Civil do RS, atualização hidrológica de 22/11, 12h10: https://defesacivil.rs.gov.br/o-centro-de-monitoramento-da-defesa-civil-do-estado-atualiza-as-condicoes-hidrologicas-para-os-proximos-dias-no-rs-6b0305f4cd47d . pagina_oficial
+- Defesa Civil do RS, alerta de tempestade de Palmeira das Missões (22/11, já encerrado), usado só pelas orientações (abrigo, portas e janelas fechadas, aparelhos fora da tomada, animais abrigados, 190/193): https://defesacivil.rs.gov.br/defesa-civil-alerta-severo-para-tempestade-com-granizo-grande-e-vendaval-que-atua-nas-proximidades-de-palmeira-das-missoes . pagina_oficial
 
 ### Confira (modo direto: o post sai mesmo assim)
-- [ ] Nenhuma pendência de fonte. Todo número do post (3, 6, 1, e o 192 do SAMU) vem de página oficial aberta hoje.
-- [ ] Opcional: se a Defesa Civil de SC ou do RS emitir alerta para terça (24) antes das 19:40, considere um story apontando para o Protocolo 021.
+- [ ] Antes das 19:40, olhar se a Defesa Civil do RS publicou atualização em 23/11 (até o meio-dia não havia nenhum item com data de 23/11 no site). Se o aviso mudou de região ou de intensidade, ajuste ou comente fixado.
+- [ ] O site da Defesa Civil de SC e o portal de avisos do Inmet não abriram daqui. Se SC ou o Inmet tiverem aviso laranja ou vermelho para terça, vale um story apontando para este post.
+- [ ] Pela imprensa (O Bem Dito, 23/11, 09h34, sem link da fonte primária): Inmet com alerta laranja de tempestade para Umuarama e Oeste e Noroeste do PR, válido até 23h59 de hoje. Ficou fora do post (não conferido na fonte e acaba 4h depois do horário de publicação).
 
 ### Notas
-- Saúde: o post não cita nome de remédio nem dose. A tabela é para copiar o que está na receita, com aviso "não mude nada sem falar com o médico"; a legenda diz que o conteúdo é educativo e indica o 192.
-- Nenhuma fonte oficial aberta hoje traz número de dias de estoque de remédio (as páginas do CDC e o PDF do Ready.gov para idosos não abriram daqui). Por isso o post usa os 3 dias do kit de SP e não fala em "1 semana".
-- Nenhum número da Fundação usado.
-- Renderização conferida lâmina por lâmina: sem texto cortado. Sem reescrita.
+- Números do post: 80 km/h, 40 a 80 mm, 150 mm (aviso meteorológico) e 193/199. Nenhum número da Fundação usado.
+- Item "combine hoje para onde ir se precisar sair" é preparo geral (mesma linha do Protocolo 022), sem número.
+- Renderização conferida lâmina por lâmina, nos dois posts: sem texto cortado. Sem reescrita.

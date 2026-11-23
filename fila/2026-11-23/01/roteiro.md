@@ -1,19 +1,20 @@
-PROTOCOLO 023 · Kit do idoso: a receita vale mais que o remédio
-Formato: Reel 30 a 45s · Funil: salvamento
+PROTOCOLO 023 · Terça com temporal no norte do RS
+Formato: Reel 25 a 30s · Funil: alcance
 
-TEXTO NA TELA (0 a 3s): NO KIT DO IDOSO, A RECEITA VALE MAIS QUE O REMÉDIO.
+TEXTO NA TELA (0 a 3s): TERÇA COM TEMPORAL NO NORTE DO RS. O QUE A DEFESA CIVIL DISSE.
 
-DIREÇÃO VISUAL: carimbo PROTOCOLO 023 sobre uma pasta de dossiê. Mão separando cópias de receita num saco plástico fechado. Ficha em off-white com a tabela "Remédio / Vezes por dia / Para 3 dias" sendo preenchida a caneta (nomes de remédio borrados, nenhum nome legível). Óculos sobre a ficha, pilhas e um carregador ao lado. Fecha na mochila com a pasta dentro. Nada de rosto de idoso real, nada de foto de desastre.
+DIREÇÃO VISUAL: carimbo PROTOCOLO 023 batendo na ficha; mapa do RS em traço de dossiê com Missões, Centro, Noroeste, Norte, Vales, Serra e Nordeste hachurados em laranja; linha fina marcando o Taquari e o Uruguai; calendário de papel com segunda em grafite e terça em laranja; checklist riscado à mão (lanterna, celular, kit perto da porta). Nada de imagem real de tempestade, de enchente, de vítima ou de estrago.
 
 NARRAÇÃO:
-No kit de quem é idoso, o item que mais falta não é o remédio. É a receita.
-A Defesa Civil do Paraná pede os remédios e a cópia das prescrições dos controlados. A caixa esvazia. O papel é o que ajuda a repor longe de casa.
-Junto: lista de contatos do médico e da família, cópia dos documentos e um óculos extra.
-Agora a conta. Para cada remédio de uso contínuo, copie da receita quantas vezes por dia ele é usado. Multiplique por 3, os dias que a Defesa Civil de São Paulo pede no kit. Não mude nada sem o médico.
-Usa equipamento que precisa de tomada? Combine com o médico o que fazer se a luz cair.
-E pelo menos 1 pessoa da família precisa saber onde está tudo.
-Revise a cada 6 meses, e sempre que a receita mudar.
+Terça com risco de temporal no norte do Rio Grande do Sul.
+A Defesa Civil fala em tempestades isoladas, granizo que pode ser grande e rajadas acima de 80 quilômetros por hora.
+Chuva de 40 a 80 milímetros no dia.
+E o solo já está encharcado. Por isso, arroios podem encher rápido, e o Taquari e o Uruguai podem chegar ao nível de alerta.
+Não é chuva no estado inteiro. Mas esta noite é a janela.
+Mora perto de rio? Combine hoje para onde ir.
+Kit perto da porta. No temporal, fique abrigado e tire os aparelhos da tomada.
+Rua alagada: não atravesse.
 
 FECHO: Protocolo arquivado. Sua família está um passo à frente.
-CTA: Salve e preencha junto com quem você cuida.
+CTA: Mande para quem mora no norte do RS ou nos Vales.
 LEGENDA: igual à do carrossel.

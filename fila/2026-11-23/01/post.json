@@ -1,31 +1,104 @@
 {
   "id": "2026-11-23-01",
-  "pauta_id": "Z09",
-  "formato": "calculadora",
+  "pauta_id": "A04",
+  "pauta_nota": "Alerta explicado fora do banco, saído da vigia do meio-dia de 23/11: avisos meteorológico e hidrológico da Defesa Civil do RS para terça (24/11), com tempestades com granizo grande, rajadas acima de 80 km/h, chuva volumosa sobre solo saturado e Taquari e Uruguai podendo chegar ao nível de alerta. Furou a fila das 19:40; Z09 (kit do idoso) foi para terça, 24/11, como Protocolo 024.",
+  "formato": "alerta",
   "tipo": "carrossel",
   "horario": "19:40",
   "protocolo": "023",
-  "gancho_tipo": "inventario",
+  "gancho_tipo": "comunicado",
   "hipotetico": false,
   "slides": [
-    {"layout": "capa", "titulo": "No kit do idoso, a **receita** vale mais que o remédio.", "subtitulo": "Uma ficha para preencher com quem você cuida."},
-    {"layout": "texto", "etiqueta": "O que a lista oficial diz", "contador": "Fonte oficial", "titulo": "Remédio acaba. O papel da receita fica.", "texto": "A lista de kit da Defesa Civil do Paraná pede os remédios e a cópia das prescrições dos remédios controlados.\n\nA caixa de remédio esvazia. A cópia da receita é o que ajuda a **repor longe de casa**."},
-    {"layout": "ficha", "etiqueta": "Inventário 1", "titulo": "O papel que entra no kit", "itens": ["Cópia das receitas, principalmente dos remédios controlados.", "Lista de contatos: médico, hospital e família.", "Cópia dos documentos, em saco plástico fechado.", "Par extra de óculos de grau."], "marcados": [0], "nota": "Defesa Civil do Paraná e Defesa Civil de São Paulo."},
-    {"layout": "texto", "etiqueta": "A regra", "titulo": "Copie da receita. Multiplique por 3.", "texto": "Para cada remédio de uso contínuo, anote quantas vezes por dia ele é usado, **exatamente como está na receita**.\n\nDepois, multiplique por 3: os dias de água e comida que a Defesa Civil de São Paulo pede no kit."},
-    {"layout": "tabela", "etiqueta": "Calculadora", "contador": "Preencha", "titulo": "A ficha de quem você cuida", "colunas": ["Remédio", "Vezes por dia", "Para 3 dias"], "larguras": [1.6, 1, 1], "colunas_destaque": [2], "linhas": [["____", "____", "____"], ["____", "____", "____"], ["____", "____", "____"], ["____", "____", "____"]], "nota": "Copie da receita. Não mude nada sem falar com o médico. Tire print e guarde junto do kit."},
-    {"layout": "ficha", "etiqueta": "Inventário 2", "titulo": "O que depende de energia ou de ajuda", "itens": ["Usa equipamento médico que precisa de tomada? Combine com o médico o que fazer se a luz cair.", "Pilhas, baterias extras e carregadores.", "Bengala, andador ou aparelho auditivo: planeje como levar na hora de sair."], "marcados": [0], "nota": "Defesa Civil de São Paulo; Ready.gov, programa do governo dos EUA."},
-    {"layout": "texto", "etiqueta": "Rede de apoio", "titulo": "Pelo menos 1 pessoa sabe onde está tudo.", "texto": "O guia dos EUA para idosos (Ready.gov) pede uma rede de apoio. Pelo menos 1 pessoa dela tem a chave da casa, sabe onde fica o kit e sabe como ajudar com o remédio.\n\nCombine também **quem leva** o idoso se for preciso sair."},
-    {"layout": "texto", "etiqueta": "Revisão", "titulo": "Receita muda. A ficha também.", "texto": "A Defesa Civil de São Paulo pede conferir a validade do kit a cada 6 meses.\n\nNo kit do idoso, refaça a ficha também **a cada consulta** em que o médico mudar algum remédio."},
-    {"layout": "fechamento", "titulo": "Remédio na caixa.", "texto": "Receita **no papel**.", "cta": "Salve e preencha junto com quem você cuida."}
+    {
+      "layout": "capa",
+      "titulo": "Terça com temporal no norte do RS. O que a **Defesa Civil** disse.",
+      "subtitulo": "O que é, o que não é e o que fazer ainda hoje à noite."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que é",
+      "contador": "Terça, 24/11",
+      "titulo": "Tempestades com granizo",
+      "texto": "Risco de tempestades isoladas com granizo, que pode ser grande, e rajadas acima de **80 km/h**.\n\nMissões, Centro, Noroeste, Norte, Vales, Serra e Nordeste. Chuva de 40 a 80 mm no dia; em alguns pontos do Noroeste, Norte, Vales e Serra, mais de 150 mm até o fim do aviso."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "Rios",
+      "titulo": "O solo já está encharcado",
+      "texto": "Com a chuva dos últimos dias, o solo está saturado. A Defesa Civil indica risco de cheia em arroios e rios menores.\n\nO **Taquari** e o Uruguai podem voltar a subir e chegar ao nível de alerta. Também há risco de alagamento em área urbana."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que não é",
+      "titulo": "Não é chuva no estado inteiro",
+      "texto": "São temporais isolados: muita chuva em pouco tempo, em pontos diferentes. Não é enchente garantida na sua rua.\n\nNesta segunda, o tempo é estável na maior parte do RS. A janela para se preparar é **hoje à noite**."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "O que fazer agora",
+      "titulo": "Hoje à noite e na terça",
+      "itens": [
+        "Mora perto de arroio ou rio? Combine hoje para onde ir se precisar sair.",
+        "Celular e lanterna carregados. Kit perto da porta.",
+        "No temporal: fique abrigado, portas e janelas fechadas, aparelhos fora da tomada.",
+        "Abrigue os animais. Rua alagada ou rio subindo: não atravesse."
+      ],
+      "marcados": [
+        0
+      ],
+      "nota": "Emergência: 193. Defesa Civil: 199."
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "Onde acompanhar",
+      "texto": "Site e perfis da **Defesa Civil do RS**. O aviso pode mudar até terça.",
+      "cta": "Mande para quem mora no norte do RS ou nos Vales."
+    }
   ],
-  "legenda": "No kit de quem é idoso, o item que mais falta não é o remédio. É a cópia da receita.\n\nA ficha para preencher está no carrossel: copie da receita quantas vezes por dia cada remédio é usado e multiplique por 3.\n\nConteúdo educativo: não substitui o médico. Não mude nenhum remédio por conta própria. Em caso de urgência, ligue 192 (SAMU).\n\nFontes: Defesa Civil do Paraná (lista do kit: remédios e cópia das prescrições dos controlados, cópia de documentos, óculos de grau extra, baterias); Defesa Civil de São Paulo (água e alimentos para 3 dias; lista de contatos; equipamento médico que usa eletricidade; validade do kit a cada 6 meses); Ready.gov, programa de preparação do governo dos EUA (rede de apoio com pelo menos 1 pessoa que sabe onde está o kit; plano para levar aparelhos de apoio na saída).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#kitdeemergencia #idosos #defesacivil #preparacao #protocolozero",
+  "legenda": "A Defesa Civil do Rio Grande do Sul prevê tempestades isoladas para terça (24/11) na metade norte do estado, com granizo que pode ser grande, rajadas acima de 80 km/h e chuva de 40 a 80 mm no dia.\n\nCom o solo encharcado, arroios e rios menores podem encher rápido, e o Taquari e o Uruguai podem chegar ao nível de alerta.\n\nNão é motivo de pânico. É prazo: esta segunda à noite é a janela para se preparar.\n\nFontes: Defesa Civil do Rio Grande do Sul, atualização meteorológica e atualização hidrológica para os próximos dias (22/11/2026); Defesa Civil do Rio Grande do Sul, orientações do alerta de tempestade de 22/11/2026.\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#alerta #riograndedosul #defesacivil #chuva #protocolozero",
   "fontes": [
-    {"orgao": "Defesa Civil do Paraná", "url": "https://www.defesacivil.pr.gov.br/Pagina/Kit-de-Emergencia-pessoal", "conferencia": "pagina_oficial", "afirmacao": "Kit de Emergência pessoal: 'Remédios (e cópia das. Prescrições para remédios controlados)', 'Cópia de documentos', 'Par extra de óculos de grau', 'Baterias extras ou fonte de energia alternativa'. Não fixa número de dias para remédios.", "numeros": [], "consultado_em": "2026-11-22"},
-    {"orgao": "Defesa Civil de São Paulo", "url": "https://www.spsemprealerta.sp.gov.br/orientacoes/plano-familiar-de-emergencia/", "conferencia": "pagina_oficial", "afirmacao": "Plano familiar de emergência (SP Sempre Alerta): 'armazene água potável e alimentos não perecíveis para três dias'; lista de contatos (hospitais, médicos); 'Se alguém fizer uso de equipamento médico que exija eletricidade, converse com o médico'; baterias extras e carregadores; documentos em sacos plásticos; 'A cada seis meses, certifique-se que os itens do kit não passaram da validade'.", "numeros": ["3", "6"], "consultado_em": "2026-11-22"},
-    {"orgao": "Ready.gov", "url": "https://www.ready.gov/older-adults", "conferencia": "pagina_oficial", "afirmacao": "Programa de preparação do governo dos EUA, página Older Adults: criar rede de apoio; 'at least one person in your support network has an extra key to your home, knows where you keep your emergency supplies, and knows how to use lifesaving equipment or administer medicine'; planejar como levar os dispositivos de apoio na evacuação; planejar transporte se precisar de ajuda para sair.", "numeros": ["1"], "consultado_em": "2026-11-22"}
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://defesacivil.rs.gov.br/o-centro-de-monitoramento-da-defesa-civil-do-estado-atualiza-as-condicoes-meteorologicas-para-os-proximos-dias-no--6b0306ab2fb2c",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 22/11/2026 (12h13), imagem 'Aviso 25 met': segunda (23) com tempo estável em grande parte do estado; terça (24) com risco de tempestades isoladas com granizo (que pode ser grande) e rajadas que podem superar 80 km/h em Missões, Centro, Noroeste, Norte, Vales, Serra e Nordeste; chuva intensa com acumulados entre 40 e 80 mm/dia, podendo superar 120 mm/12h; acumulados até o final do aviso podem superar pontualmente 150 mm no Noroeste, Norte, Vales e Serra. A página não traz hora de início e fim do aviso.",
+      "numeros": [
+        "80",
+        "40",
+        "120",
+        "150"
+      ],
+      "consultado_em": "2026-11-23"
+    },
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul",
+      "url": "https://defesacivil.rs.gov.br/o-centro-de-monitoramento-da-defesa-civil-do-estado-atualiza-as-condicoes-hidrologicas-para-os-proximos-dias-no-rs-6b0305f4cd47d",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Publicado em 22/11/2026 (12h10), imagem 'Aviso 25 hidro': segunda (23) nível de ATENÇÃO; terça (24) chuvas volumosas na metade norte com solos já saturados, risco de cheias em arroios e rios menores e novas elevações significativas em rios maiores que podem atingir o limiar de alerta, com destaque para Taquari e Uruguai; risco de alagamentos em áreas urbanas; níveis de ATENÇÃO e ALERTA.",
+      "numeros": [],
+      "consultado_em": "2026-11-23"
+    },
+    {
+      "orgao": "Defesa Civil do Rio Grande do Sul (alerta de tempestade, Palmeira das Missões)",
+      "url": "https://defesacivil.rs.gov.br/defesa-civil-alerta-severo-para-tempestade-com-granizo-grande-e-vendaval-que-atua-nas-proximidades-de-palmeira-das-missoes",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Alerta de 22/11/2026 (07h15), já encerrado; usado só pelas orientações: manter-se abrigado durante os temporais, retirar eletroeletrônicos da tomada, manter portas e janelas bem fechadas, abrigar os animais domésticos; emergência 190/193; procurar informações junto à Defesa Civil da sua cidade.",
+      "numeros": [
+        "193"
+      ],
+      "consultado_em": "2026-11-23"
+    }
   ],
-  "derivados": [],
-  "numeros_proprios": {"2": "contagem interna das lâminas de inventário (Inventário 1 e 2)"},
-  "portao": {"ideia_nova": true, "formato_diferente_do_ultimo": true, "gancho_diferente_dos_2_ultimos": true, "concreto_ate_lamina_2": true, "especifico_do_tema": true, "numeros_com_fonte": true, "sem_ficcao_como_fato": true, "assinaria_com_meu_nome": true},
+  "numeros_proprios": {},
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
   "roteiro_reel": "roteiro.md"
 }
