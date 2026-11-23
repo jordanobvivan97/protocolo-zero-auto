@@ -27,3 +27,21 @@
 - Nenhuma fonte oficial aberta hoje traz número de dias de estoque de remédio (as páginas do CDC e o PDF do Ready.gov para idosos não abriram daqui). Por isso o post usa os 3 dias do kit de SP e não fala em "1 semana".
 - Nenhum número da Fundação usado.
 - Renderização conferida lâmina por lâmina: sem texto cortado. Sem reescrita.
+
+## Lote noturno 23/11 (20h50): post mantido, ALERTA sem novo post
+
+**Post de amanhã:** sem mudança. Protocolo 024 (Z09, kit do idoso, calculadora) às 19:40 de terça. Validador ok; as 9 lâminas foram abertas uma a uma de novo: nada cortado, destaque laranja no lugar.
+
+**ALERTA detectado, não virou post.** Pela imprensa de 23/11 (O Tempo 12h09, Metrópoles 11h36, DGABC 14h41), o Inmet emitiu aviso **vermelho** ("grande perigo") de tempestade para terça, 24/11, das 0h às 23h59: chuva acima de 60 mm/h ou 100 mm/dia, ventos acima de 100 km/h e granizo, na maior parte do PR, oeste de SC e norte do RS (O Tempo fala em 642 municípios e inclui o sudoeste do MS). Aviso citado pelas matérias: https://avisos.inmet.gov.br/56492 . É o mesmo sistema do Protocolo 023 (aviso da Defesa Civil do RS para terça), agora com nível vermelho e alcance no PR e em SC.
+
+Por que não furou a fila:
+1. A fonte primária (aviso do Inmet) não abriu nesta execução; só a imprensa. Alerta vermelho é exatamente o caso em que o número tem que vir da fonte.
+2. Seria o segundo `alerta` seguido (023 saiu hoje às 19:40); a Fundação e o validador pedem rotação de formato.
+3. O evento já foi coberto pelo 023 na véspera. Na dúvida, não publica.
+
+### Confira
+- [ ] **Hoje à noite ou cedo na terça:** abrir https://avisos.inmet.gov.br/56492 e, se confirmar o vermelho para PR e SC, fazer um story ou comentário fixado no Protocolo 023: "O Inmet subiu o aviso para vermelho em parte do PR, oeste de SC e norte do RS para terça. Siga a Defesa Civil da sua cidade. Bombeiros 193, Defesa Civil 199." A imprensa diverge no nível em SC (Administradores fala em laranja) e na inclusão do MS: vale o que o aviso disser.
+- [ ] As fontes do Protocolo 024 (Defesa Civil do PR, Defesa Civil de SP, Ready.gov) foram abertas em 22/11; nesta execução os pedidos de página expiraram sem resposta e elas não foram reabertas. Conteúdo é preparo geral, sem número que mude com o tempo.
+- [ ] Opcional: se o temporal de terça estiver forte perto das 19:40, avalie adiar o 024 em 1 dia ou deixar sair (é preparo e não contradiz o alerta).
+
+**Semana 3:** sobram quarta a sexta (3 vagas) para Z11, Z13, Z26 e Z27; uma fica de fora.
