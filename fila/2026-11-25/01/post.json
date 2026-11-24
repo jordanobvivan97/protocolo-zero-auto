@@ -1,0 +1,129 @@
+{
+  "id": "2026-11-25-01",
+  "pauta_id": "Z11",
+  "formato": "cenario",
+  "tipo": "carrossel",
+  "horario": "19:40",
+  "protocolo": "025",
+  "gancho_tipo": "cenario",
+  "hipotetico": true,
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "E se a rua **alagasse** às 3h da manhã?",
+      "subtitulo": "3 decisões certas, na ordem, com a casa ainda no escuro."
+    },
+    {
+      "layout": "texto",
+      "etiqueta": "O que a Defesa Civil diz",
+      "titulo": "A água não espera o dia clarear",
+      "texto": "A orientação federal da Defesa Civil para alagamentos pede atenção ao nível da água **mesmo à noite**.\n\nDe madrugada ninguém está olhando. Por isso as decisões precisam estar prontas antes."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 1 de 3",
+      "titulo": "Lanterna, não vela",
+      "itens": [
+        "Lanterna e pilhas ao alcance da cama.",
+        "Vela e lamparina, não: risco de incêndio.",
+        "Acorde todos e olhe o nível da água.",
+        "Primeiro crianças, idosos e quem anda com dificuldade."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 2 de 3",
+      "titulo": "Sair enquanto dá",
+      "itens": [
+        "Água subindo: saia antes que as rotas de fuga fechem.",
+        "Antes de sair, se for seguro: energia desligada, registros de água e gás fechados.",
+        "Sem saída segura: vá para um local alto e espere a água baixar."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Decisão 3 de 3",
+      "titulo": "Não entrar na água",
+      "itens": [
+        "Não atravesse rua alagada, nem com o nível baixo.",
+        "Nem de carro, moto ou bicicleta: a força da água arrasta.",
+        "Evite contato com a água: pode estar contaminada."
+      ],
+      "marcados": [0],
+      "nota": "Na dúvida, ligue 193 Bombeiros ou 199 Defesa Civil."
+    },
+    {
+      "layout": "ficha",
+      "etiqueta": "Deixe pronto hoje",
+      "titulo": "Antes de dormir",
+      "itens": [
+        "Lanterna com pilha perto da cama.",
+        "Documentos e remédios em saco plástico bem fechado.",
+        "Kit com água, roupa e remédios perto da porta.",
+        "Contatos em papel: 193, 199 e 192 SAMU."
+      ],
+      "marcados": [0]
+    },
+    {
+      "layout": "fechamento",
+      "titulo": "A decisão de madrugada se toma de dia.",
+      "texto": "Este foi um cenário hipotético. As **orientações** são reais.",
+      "cta": "Siga para receber o Protocolo 026."
+    }
+  ],
+  "legenda": "Cenário hipotético: a rua alaga às 3h da manhã e a casa está dormindo.\n\nAs 3 decisões, na ordem: lanterna em vez de vela, sair enquanto as rotas estão abertas (ou ir para um local alto) e não entrar na água.\n\nO que deixar pronto hoje está na última lâmina.\n\nFontes: Ministério da Integração e do Desenvolvimento Regional, Defesa Civil Nacional, cartilhas Como agir em alagamentos e inundações (nível da água mesmo à noite; lanterna, não vela; local alto; não atravessar rua alagada; 199, 193, 192); Defesa Civil do Paraná, Dicas (sair antes que as rotas de fuga fiquem interditadas; desligar energia e fechar registros de água e gás se for seguro; documentos e remédios em saco plástico); Defesa Civil do RS (kit com lanterna, água e remédios).\n\nEm emergência real, siga a Defesa Civil da sua cidade.\n\n#defesacivil #alagamento #enchente #preparacao #protocolozero",
+  "fontes": [
+    {
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional, Defesa Civil Nacional",
+      "url": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/copy2_of_ComoagirAlagamentosMDR.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Cartilha Como agir? Alagamentos (MDR-08/2021): ficar atento ao nível da subida das águas, mesmo à noite; desligar aparelhos elétricos e o quadro geral de energia e fechar o registro de água; lanternas e pilhas em condições de uso, não usar velas ou lamparinas pelo risco de incêndio; kit com água potável, roupas e remédios caso tenha que sair rápido; auxiliar crianças, idosos e pessoas com dificuldade de locomoção; evitar contato com a água, que pode estar contaminada; nunca atravessar pontes, ruas ou avenidas alagadas, mesmo de carro, moto ou bicicleta, pois a força da água pode arrastar; procurar um local alto e esperar o nível baixar; Defesa Civil 199, Bombeiros 193, Polícia Militar 190, SAMU 192.",
+      "numeros": ["199", "193", "190", "192"],
+      "consultado_em": "2026-11-24"
+    },
+    {
+      "orgao": "Ministério da Integração e do Desenvolvimento Regional, Defesa Civil Nacional",
+      "url": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/ComoagirInundaesMDR.pdf",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Cartilha Inundações, Como agir? (MDR-08/2021): durante, fechar portas e janelas, procurar um local alto e esperar a água baixar, auxiliar crianças, idosos e pessoas com dificuldade de locomoção, evitar contato com a água, nunca atravessar ruas inundadas; antes, documentos em sacos plásticos bem fechados e lanternas em vez de velas; 199, 193, 190, 192.",
+      "numeros": ["199", "193", "190", "192"],
+      "consultado_em": "2026-11-24"
+    },
+    {
+      "orgao": "Defesa Civil do Paraná",
+      "url": "https://www.defesacivil.pr.gov.br/Pagina/Dicas",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Seção Alagamento e Inundação: não atravessar ruas alagadas, mesmo que o nível da água esteja baixo; guardar documentos e remédios em sacos plásticos bem fechados; acompanhar o nível da água e sair antes que as rotas de fuga fiquem interditadas; antes de sair, se for seguro, desligar a energia elétrica e fechar o registro da água e do gás; Bombeiros 193 e Defesa Civil 199.",
+      "numeros": ["193", "199"],
+      "consultado_em": "2026-11-24"
+    },
+    {
+      "orgao": "Defesa Civil do RS",
+      "url": "https://defesacivil.rs.gov.br/saiba-como-se-prevenir-em-situacoes-de-risco",
+      "conferencia": "pagina_oficial",
+      "afirmacao": "Saiba como se prevenir em situações de risco (29/06/2026): em inundações, acompanhar o nível de rios, fechar portas e janelas, montar kit de emergência, não atravessar ruas inundadas; em áreas de risco, desligar energia e fechar registro de água, kit com lanterna, água e remédios; 193 Bombeiros.",
+      "numeros": ["193"],
+      "consultado_em": "2026-11-24"
+    }
+  ],
+  "derivados": [],
+  "numeros_proprios": {
+    "3": "3 decisões do cenário, contagem interna; e 3h, horário fictício do cenário hipotético",
+    "1": "Decisão 1 de 3, numeração interna",
+    "2": "Decisão 2 de 3, numeração interna",
+    "026": "referência ao próximo Protocolo 026, numeração do perfil"
+  },
+  "portao": {
+    "ideia_nova": true,
+    "formato_diferente_do_ultimo": true,
+    "gancho_diferente_dos_2_ultimos": true,
+    "concreto_ate_lamina_2": true,
+    "especifico_do_tema": true,
+    "numeros_com_fonte": true,
+    "sem_ficcao_como_fato": true,
+    "assinaria_com_meu_nome": true
+  },
+  "roteiro_reel": "roteiro.md"
+}
