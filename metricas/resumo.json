@@ -1,15 +1,15 @@
 {
-  "atualizado_em": "2026-11-23T22:06",
+  "atualizado_em": "2026-11-24T20:43",
   "formatos": {
     "alerta": {
-      "posts": 7,
-      "mediana_alcance": 21,
+      "posts": 8,
+      "mediana_alcance": 21.5,
       "mediana_salv_env_por_alcance": 0.0,
-      "amostra": "pequena (7 de 15)"
+      "amostra": "pequena (8 de 15)"
     },
     "protocolo": {
       "posts": 10,
-      "mediana_alcance": 17.5,
+      "mediana_alcance": 18.0,
       "mediana_salv_env_por_alcance": 0.0185,
       "amostra": "pequena (10 de 15)"
     },
