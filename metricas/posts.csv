@@ -13,7 +13,7 @@ data,id,pauta_id,formato,tipo,gancho_tipo,protocolo,horario,permalink,reach,view
 2026-11-11,2026-11-11-03,Z37,alerta,carrossel,comunicado,012,19:40,https://www.instagram.com/p/DfnltBSF6JE/,15,34,0,0,6,0,0.0,
 2026-11-12,2026-11-12-01,Z14,protocolo,carrossel,ordem,013,07:50,https://www.instagram.com/p/Dfo5XIhoBZM/,18,27,0,0,8,0,0.0,
 2026-11-12,2026-11-12-02,Z30,cenario,carrossel,cenario,014,12:20,https://www.instagram.com/p/DfpqjR5o4u3/,20,36,0,0,7,0,0.0,
-2026-11-12,2026-11-12-03,Z28,saude,carrossel,dado_oficial,011,19:40,https://www.instagram.com/p/DfqKCpxjMT-/,22,38,0,0,8,0,0.0,
+2026-11-12,2026-11-12-03,Z28,saude,carrossel,dado_oficial,011,19:40,https://www.instagram.com/p/DfqKCpxjMT-/,22,40,0,0,8,0,0.0,
 2026-11-13,2026-11-13-01,Z33,protocolo,carrossel,erro_comum,015,07:50,https://www.instagram.com/p/DfreFoOE0ZC/,23,37,1,0,9,0,0.0435,
 2026-11-13,2026-11-13-02,Z38,cenario,carrossel,cenario,016,12:20,https://www.instagram.com/p/DfsA12hoHws/,27,46,0,0,8,0,0.0,
 2026-11-13,2026-11-13-03,Z35,protocolo,carrossel,inventario,017,19:40,https://www.instagram.com/p/Dfsu4ZCDxcH/,28,48,1,0,7,0,0.0357,
