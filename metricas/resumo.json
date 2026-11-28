@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-27T19:31",
+  "atualizado_em": "2026-11-28T18:18",
   "formatos": {
     "alerta": {
       "posts": 8,
@@ -9,13 +9,13 @@
     },
     "protocolo": {
       "posts": 10,
-      "mediana_alcance": 19.5,
+      "mediana_alcance": 20.0,
       "mediana_salv_env_por_alcance": 0.0179,
       "amostra": "pequena (10 de 15)"
     },
     "calculadora": {
       "posts": 3,
-      "mediana_alcance": 18,
+      "mediana_alcance": 20,
       "mediana_salv_env_por_alcance": 0.0,
       "amostra": "pequena (3 de 15)"
     },
